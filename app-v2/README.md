@@ -5,14 +5,9 @@
 This document has been prepared for the end user of the DiSARM application once it has been set up and ready to use. It covers the general information of the application including how to download it, what to do if it is not working well and how to use the data collection, planner, and dashboard sections of the DiSARM application.
 
 
+## General
 
- 
-
-**General**
-===========
-
-**What is DiSARM?**
--------------------
+### What is DiSARM?
 
 The Disease Surveillance and Risk Monitoring platform (DiSARM) is a spatial intelligence tool, built to enable disease control programs to deliver more effective field campaigns. The platform combines an interface used to pull together, collect and visualize data with a powerful back-end analytics engine to convert raw data into actionable information. The DiSARM platform consists of four modules: data collector, planner, dashboard and administration. The platform can be used for any activity that involves spatial data/heat maps, data collection and data analysing and reformatting into charts and graphs. While the internet is needed to sync your data with the online tools, data input can continue to occur while offline.
 
@@ -22,8 +17,7 @@ More information on the DiSARM platform can be found at [[www.disarm.io]{.underl
 
  
 
-**How to download DiSARM**
---------------------------
+### How to download DiSARM
 
 1.  To access the DiSARM application your application administrator should give you a web address (URL) where your application can be accessed. DiSARM is most compatible with Google Chrome browser
 
@@ -31,15 +25,15 @@ More information on the DiSARM platform can be found at [[www.disarm.io]{.underl
 
 2.  The application will pop up a message; "offline ready" once it is finished loading. At the bottom there will also be a message: "ADD TO HOME SCREEN". To download the application to your mobile phone click the message.
 
-> ![](./media/app-image49.png)
+![](./media/app-image49.png)
 
 3.  A confirmation message will pop up and you should click "ADD" to download the application, or cancel if you want to keep using the Google Chrome whenever you are using DiSARM.
 
-> ![](./media/app-image103.png)
->
-> 3.When the application has been added to your homescreen, you will receive a notification saying "DiSARM added on home screen". You may get a different name, depending on what name your application administrator gave the application when they deployed it for your organisation.
->
-> ![](./media/app-image47.png)
+![](./media/app-image103.png)
+
+3.When the application has been added to your homescreen, you will receive a notification saying "DiSARM added on home screen". You may get a different name, depending on what name your application administrator gave the application when they deployed it for your organisation.
+
+![](./media/app-image47.png)
 
 4.  If you do not get the pop "ADD TO HOMESCREEN", you can add the application to your home screen manually by selecting the "Options" button on the top right of your browser.
 
@@ -93,19 +87,19 @@ Browser must be Google Chrome from version from version 40 upwards
 
 2.  Enter the URL for your DiSARM application. This will be provided by the person who sets up the DiSARM application for your organisation.
 
-> ![](./media/app-image115.png)
+![](./media/app-image115.png)
 
 3.  Enter your username and password in the login page and click "Login." If you do not have a username and password, contact your superiors.
 
-> ![](./media/app-image64.png)
+![](./media/app-image64.png)
 
 1.  The login button becomes red (activated) which means it can be used to log in once login details have been entered in the text fields.
 
-> ![](./media/app-image95.png)
+![](./media/app-image95.png)
 
 1.  If the login details are wrong you will be shown a message in red saying "User with this login or password is not found".
 
-> ![](./media/app-image18.png)
+![](./media/app-image18.png)
 
 Once you are logged in you will see a menu of the parts or modules of the application that you are allowed to access as shown below:
 
@@ -130,7 +124,7 @@ In other words you add /reset.html. The first character there is a forward slash
 
 3.  You see a message saying stating "offline mode was reset successfully". Click "Restart Application" button to start using the application.
 
-> ![](./media/app-image9.png)
+![](./media/app-image9.png)
 
 **NOTE**: The "restart application" button will bring you back to the Login page.
 
@@ -177,7 +171,7 @@ Below the list of modules the text text shows your the version number of your ap
 
 1.  After logging into the DiSARM application, you can view your modules in the sidebar. These modules are the same as those listed on the User Page and are pre-selected by your application administrator. To open the Sidebar, click the sandwich icon (three small horizontal lines icon) on the top left corner of the screen.
 
-> ![](./media/app-image46.png)
+![](./media/app-image46.png)
 >
 > The Side Bar will display the following information:
 
@@ -195,7 +189,7 @@ Below the list of modules the text text shows your the version number of your ap
 
 -   Logout option
 
-> ![](./media/app-image110.png)
+![](./media/app-image110.png)
 >
 > 2\. Close the Sidebar by clicking anywhere outside of the Side
 
@@ -214,11 +208,11 @@ The DiSARM application has a built in "form builder" that tailors itself based o
 
 2.  To add a new record, click the + sign in the top left corner.
 
-> ![](./media/app-image99.png)
+![](./media/app-image99.png)
 
 3.  The meta data page might be configured to be displayed or not displayed by your application administrator, but if it is shown it has fields that are optional. Some of them can be changed and some cannot be changed, this depends on the settings applied by your application administrator. The one shown below displays the username of the logged in user, their user ID, a time stamp or record collection and the team name the user belongs to.
 
-> ![](./media/app-image12.png)
+![](./media/app-image12.png)
 
 4.  Enter your data into the form as prompted. This form has been configured by your application administrator. Generally the first part of collecting a record is the location selection. The standard location selection page is shown below:
 
@@ -226,19 +220,19 @@ The DiSARM application has a built in "form builder" that tailors itself based o
 
 5.  To collect the GPS coordinates of your location you click on the "GET/UPDATE POINT LOCATION"
 
-> ![](./media/app-image70.png)
+![](./media/app-image70.png)
 
 6.  To set the name of the admin location as provided in the geodata you click on the "locality dropdown". As shown in the image below, the higher level (first location selection) is optional in this case because the lower level locality is the part of the higher level level one (it is an area inside the region).
 
-> ![](./media/app-image41.png)
+![](./media/app-image41.png)
 
 7.  If the location you are looking for is not shown in the locality dropdown you can add a custom by clicking on the "Enter custom location" checkbox
 
-> ![](./media/app-image54.png)
+![](./media/app-image54.png)
 
 8.  A pop up message will ask you to confirm that you want to add a custom location and if you are sure you nac click on "USE CUSTOM LOCATION". The downside with adding a custom location is that it will not be shown on the dashboard.
 
-> ![](./media/app-image69.png)
+![](./media/app-image69.png)
 
 9.  To continue adding the custom location select the text field labeled "custom location' and type the name of the location that you want to add if you did not find it on the location dropdown shown on step 6 of this section.
 
@@ -250,11 +244,11 @@ The DiSARM application has a built in "form builder" that tailors itself based o
 
 11. When you click on the button you will be shown where the errors are. In the example shown below the user forgot to get the GPS coordinates of the location. Clicking on the red text in the same line as the error message will make the erratic part be displayed below the error messages for the user to fix them instantly.
 
-> ![](./media/app-image44.png)
+![](./media/app-image44.png)
 
 12. To continue filling in the form use the buttons at the bottom to navigate through the pages of the form until you rich the last page which will have the navigation buttons labeled previous and complete. Once the form is filled in with required data standards the "complete" button will be activated. All it does is save the complete form to your device only.
 
-> ![](./media/app-image52.png)
+![](./media/app-image52.png)
 
 13. When you click it you will be brought back to the main page of the data Data Collection/IRS Record that is shown on the first step of this section. The difference is that it will display the list of records that you have collected. If you have not synced them yet it will look like the image shown below. The user has collected 148 records and has not synced any of them. Syncing in our context means sending the records to the main database so that they can be downloaded by users who have access to the dashboard to view spray campaign progress, for this reason you have to be connected to the internet to be able to sync.
 
@@ -264,19 +258,19 @@ The DiSARM application has a built in "form builder" that tailors itself based o
 
 > Otherwise the next step is to either sync the records or export the so you can have them on your device as a json file. These two options can be displayed by clicking on the three vertical dots button
 >
-> ![](./media/app-image34.png)
+![](./media/app-image34.png)
 
 15. The option to sync or export the data is not available unless you have records that need to be synced or exported. You can filter through the records using one of the values from form fields from the data collector form. This field is selected configured by your application administrator.
 
-> ![](./media/app-image85.png)
+![](./media/app-image85.png)
 
 16. If the user wishes to have this records saved on an external json file on the mobile device; "export unsynced " should be clicked. The app will instantly compile the json file and start the download. A notification will be shown in the notifications area at the top and a pop up at the bottom.
 
-> ![](./media/app-image32.png)
+![](./media/app-image32.png)
 
 17. To sync the records the user should select the first option that is shown on step 15 of this section. The image below was taken after the records had been synced. You can see the ticks on the left of each record and the notification at the top stating the number of records that were synced
 
-> ![](./media/app-image58.png)
+![](./media/app-image58.png)
 >
 > **NOTE:** After synching you will not be able to not be edit the records and you will not be able to export a json file of the records. If you want to get records you will be able to download them from the dashboard/monitor if you have permissions to access it. It is still possible to view records by clicking on them.
 
@@ -349,65 +343,65 @@ The image below shows how the controls section looks like when you open it by cl
 
 1.  SEASON → The first item on this tab is a selector marked "select season start date". When clicked it pops up a list of season start dates and when the user selects one of these it sets a filter that will make the dashboard display records that were recorded on that date and later on till the date before another season starts. Season start dates are added by the administrator in the configuration file.
 
-> ![](./media/app-image28.png)
+![](./media/app-image28.png)
 >
 > Clicking on the dropdown in the red rectangle above will get the seasons start dates and you can choose one as shown in the image below:
 >
-> ![](./media/app-image80.png)
+![](./media/app-image80.png)
 
 2.  PLAN → the plan is a list of areas selected in planner module and set aside as areas where spraying will be done. If there is a plan that has been created in the planner module the user will click on the load plan selector and will be presented with the list of plans. Selecting one will make the dashboard display and aggregate records that are inside the areas selected when creating the plan. Plans are automatically retrieved from the planner module when opening the dashboard, the user only needs to click on the one they would like to load on the map. If there is no plan created the selector will display the text; "No plans loaded - create a Plan and then click 'Load plans' in the menu above'" and it will be in inactive (not functional).
 
-> ![](./media/app-image30.png)
+![](./media/app-image30.png)
 >
 > When plans have been created the selector will have the text "select plan" and once clicked on it will display the plan names so the user can choose one as shown below;![](./media/app-image112.png)
 
 3.  FORM FIELDS → The second tab in the Controls is used for filtering according to a type of identifiable piece of information collected. For example, the form field allows you to sort your data by field name, username, recorded\_at and etc. theses form fields come from your records. The application checks all the properties or fields you records include and then lists them in this part to use for filtering. Select how you would like to sort your date by clicking on the drop down menu, select either "equals" or "not equals to", then put the value you want to compare with and lastly click the add filter button.
 
-> ![](./media/app-image104.png)
+![](./media/app-image104.png)
 >
 > In the example below once the "ADD FILTER" button is clicked only records with the value 3 for the number of bendnets field will be shown.
 >
-> ![](./media/app-image107.png)
+![](./media/app-image107.png)
 >
 > The results are shown in the image below. There are three areas marked in red where the application shows that there are filters that have been applied. This means that the data that is shown is missing as only records where there were three bed nets are showing. If the user decides to download all records with the filters applied they will get the number of records that were left after applying filters ( in this case only records with where the number of bednets was 3)
 >
-> ![](./media/app-image40.png)
+![](./media/app-image40.png)
 
 4.  TEMPORAL FILTER → the temporal filter has two text fields which you can tailor to display records that lie in a specific range of dates.
 
-> ![](./media/app-image36.png)
+![](./media/app-image36.png)
 >
 > To navigate around the calender the user can use the arrows to go forward or backwards in the level of what is presented at the top center of the calendar, by default it is by month. If you click on it it goes to years and displays months below, when clicked again it will go to year displaying a decade in each page. Once you select a year it will show you the months and when you chose one it will show you the days and you can choose one.
 >
-> ![](./media/app-image98.png)
+![](./media/app-image98.png)
 >
 > The text fields are labeled "from" and "to". Once there are dates in both from and two the "add filter" button will be activated and when clicked it will make dashboard show records that are in between those dates. The date in the "from" field should be earlier than the "to" filed, so if one of the calendars becomes inactive the user must ensure the dates are arranged well.
 >
-> ![](./media/app-image33.png)
+![](./media/app-image33.png)
 >
 > This time as shown in the picture above the application will say that there are two filters active because there are the two dates, one filter is restricting to show records later than the selected date and the other filter is restring to show records recorded before the selected date. The user can select one date if they want and then click on "add filter" and there will be only one filter showing records before or after the selected date depending on which date field was used. The reset button removes the dates that were previously selected to filter by.
 
 5.  SPATIAL FILTER → the spatial filter is used for showing records that are in a certain geographical area. The application can filter to whichever level your geographic data was collected (e.g. country, region, district, village/community).
 
-> ![](./media/app-image87.png)
+![](./media/app-image87.png)
 >
 > The spatial filter, as shown above, is found on the fourth tab of the controls section. The user needs to click on the drop downs there(labelled "select area" and "select sub-area") and click on each one to show the list of areas there are.
 >
-> ![](./media/app-image25.png)
+![](./media/app-image25.png)
 >
 > Once clicked the drop down will show a list of areas for the user to choose the one which they want to filter with. There may be more than one drop down in other cases, it depends on how many levels the geodata has and in our example there are only two with the higher level being a region. The image below shows what is displayed after clicking the top drop down to see the regions.
 >
-> ![](./media/app-image42.png)
+![](./media/app-image42.png)
 >
 > The image shown below is what is displayed after choosing an area. The options inside the red rectangle ("Select sub-are" and "ADD FILTER") are not active/functional unless the user has selected an area on the top drop down for the higher level areas of the geodata. The "Select subarea" is not active because it shows sub-areas that are inside the area or region which should be selected above. The "ADD FILTER"is only active after selecting an area on top drop down to give the user an option to filter with only that area/region (by doing so showing all the records in the sub-areas that are in that area).
 >
-> ![](./media/app-image65.png)
+![](./media/app-image65.png)
 
 6.  AGGREGATIONS → The fifth tab on the controls is used to change the way the records are displayed by grouping them inside time ranges and location. When you open the tab you will be presented with two sections:spatial aggregation and temporal aggregation.
 
 > Under spatial aggregation depending on your instance setup you will be able to aggregate according to the list of levels your geodata has. In other instances there might be more options. The change will be effected on the table that is below the map on the dashboard. The records are displayed in a grouped format (aggregated) according to the button that has been selected among the ones in the spatial aggregation. In our example the option we have are the small areas which in our instance are called sub-areas. The name "locality" comes from the geodata name given by the administrator when setting up the DiSARM application.
 >
-> ![](./media/app-image37.png)
+![](./media/app-image37.png)
 >
 > The table that is being referred to above is shown below and as mentioned it is found below the map on IRS monitor module:
 >
@@ -419,19 +413,19 @@ The image below shows how the controls section looks like when you open it by cl
 >
 > Graph visualizations aggregated by week are implemented by selecting "week" on temporal aggregation as shown below:
 >
-> ![](./media/app-image14.png)
+![](./media/app-image14.png)
 >
 > And graphs will be displayed in the format shown below:
 >
-> ![](./media/app-image62.png)
+![](./media/app-image62.png)
 >
 > Graph visualizations aggregated by months of the year are implemented by selecting monthly on temporal aggregation as shown below:
 >
-> ![](./media/app-image84.png)
+![](./media/app-image84.png)
 >
 > Graph visualizations aggregated by month:
 >
-> ![](./media/app-image81.png)
+![](./media/app-image81.png)
 >
 > If the user desires the graphs can be aggregated to display progress further aggregated quarterly or yearly.
 
@@ -447,11 +441,11 @@ The image below shows how the controls section looks like when you open it by cl
 >
 > Before showing records outside of the plan:
 >
-> ![](./media/app-image116.png)
+![](./media/app-image116.png)
 >
 > After including records that are outside of the plan
 >
-> ![](./media/app-image83.png)
+![](./media/app-image83.png)
 >
 > The option to select "guess locations" is used to add GPS coordinates for records that are missing the GPS coordinates. Sometimes the application administrator will set the collection of GPS coordinates optional so that if the device does not manage to collect GPS coordinates when offline the user still manages to record that they sprayed somewhere.![](./media/app-image31.png)height="2.0416666666666665in"}
 
@@ -550,15 +544,15 @@ The disarm application is capable of displaying the graphs that are shown below 
 
 3.  Once clicked on it will change color to orange and the user will be able to click on areas on the map to add them to the plan.
 
-> ![](./media/app-image53.png)
+![](./media/app-image53.png)
 
 4.  When areas are selected/clicked they also change color to indicate to the user they are in the plan being created. The user can select as many areas as they want
 
-> ![](./media/app-image108.png)
+![](./media/app-image108.png)
 
 5.  The user can also create a plan by drawing a polygon around the area they want to be to in the plan. This can be don by clicking on the small square icon on the right of the map area. If you hover over the icone a tooltip is displayed showing its name (Polygon too(p))
 
-> ![](./media/app-image78.png)
+![](./media/app-image78.png)
 
 6.  Once you have clicked it the mouse pointer changes to a small + sign, signifying that you can start drawing your polygon. As you click to make corners of your polygon you will notice that it is always a closed shape. To finish just go to click on the first point you made when drawing the polygon and you will see by having a dot while like the previous corner you made, while all other corners will not not have dots
 
@@ -568,17 +562,17 @@ The disarm application is capable of displaying the graphs that are shown below 
 
 8.  If the user wants to zoom in or zoom out on the map they can use the + and - icons show on the right of the map. The third icon with up and down icon in the same area of the zoom in and out icons is used for changing the elevation view of the map.
 
-> ![](./media/app-image111.png)
+![](./media/app-image111.png)
 
 9.  Another way to create a plan is by using the risk slider that is shown below the map. When providing your geodata you can specify the risk of catching malaria of each admin unit/area which will be then used by the DiSARM application to help you select only areas that have a risk with minimum being the point of your choosing on the scale to put in your plan.
 
-> ![](./media/app-image5.png)
+![](./media/app-image5.png)
 
 NOTE: the risk slider will not be displayed unless the pencil icon at the top right has been click putting the plan editing mode on.
 
 10. To save you plan you must go on the three vertical dots button at the top right ot see the options
 
-> ![](./media/app-image105.png)
+![](./media/app-image105.png)
 
 11. The options shown when the button is clicked are
 
@@ -594,17 +588,17 @@ c)  Clear plan → unselects all the areas that you had selected on the map so y
 
 12. Once you have finished selecting the areas that you want to include in your plan you can choose the save plan option. If it is your first time saving a plan, a pop up message will be shown with a text field to put in the name of your plan.
 
-> ![](./media/app-image10.png)
+![](./media/app-image10.png)
 
 13. It will pop up a list of the plans you have if you have plans saved already for you click on the "update" button to replace them with whatever edits you made. ![](./media/app-image61.png)height="6.286458880139983in"}
 
 14. If the user wants to view existing plans, the way to go is to start on the three dotted button on the top left part of the screen.
 
-> ![](./media/app-image97.png)
+![](./media/app-image97.png)
 
 15. The next step will be a list of the plans that have been created in the application before. The user has to select the one that they want to view by clicking on the name of the pla. Looking closely to the names of the plans, the user will notice that dates of when the plans were last edited are shown underneath each plan name to make differentiation between the plans easier.
 
-> ![](./media/app-image4.png)
+![](./media/app-image4.png)
 
 16. Once a plan has been selected to be viewed, the top shows a campaign summary. The DiSARM platform has algorithms that calculate how long a team will take to complete spraying the selected areas that make up the plan. This is facilitated by other algorithms that get information from the Malaria Atlas Program of how many structures there are in the area and the estimated number of rooms.
 
@@ -612,7 +606,7 @@ c)  Clear plan → unselects all the areas that you had selected on the map so y
 
 17. The user has the option to download a geojson file for the plan. The geojson is a format designed for representing simple geographical features, along with their non-spatial attributes. The "DOWNLOAD PLAN GEOJSON" button instantly downloads the a geojson file of the plan that was being viewed (selected after load plan on step 15)
 
-> ![](./media/app-image39.png)
+![](./media/app-image39.png)
 
 18. While viewing the plan you will also be shown a table which displays the areas names, number of structures in them and the risk in each of the areas that are included in the plan.
 
