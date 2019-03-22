@@ -1,7 +1,5 @@
 # App manual \(v2\)
 
-## App manual \(v2\)
-
 ## Introduction
 
 This document has been prepared for the end user of the DiSARM application once it has been set up and ready to use. It covers the general information of the application including how to download it, what to do if it is not working well and how to use the data collection, planner, and dashboard sections of the DiSARM application.
