@@ -1,6 +1,6 @@
 # DiSARM App manuals
 
-This page is for manuals. 
+{% page-ref page="./" %}
 
-And other docs.
+
 
