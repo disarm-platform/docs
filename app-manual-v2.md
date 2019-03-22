@@ -1,23 +1,8 @@
-# App manual \(v2\)
-
-[Introduction](#introduction)
-[Requirements](#requirements)
-[Technical Resources](#required-resources)
-[Skills](#required-skills)
-[Cloning DiSARM](#_iyzqzjfh2ss7)
-[Adding Links/Domains](#_3ytjicihno5d)
-[Execute Deploy Command](#_ohttmyulcpeo)
-[Log Into your DiSARM app editor](#section-3)
-[Create your DiSARM instance](#create-your-disarm-instance)
-[Create users and give them permissions](#create-users)
-
-Introduction 
-=============
+# Introduction 
 
 This document is written for the user of the DiSARM application who has the authority to make changes to the application that has been deployed. It details how to create a DiSARM version, then create users, give them permission, set up the sections/modules of the application desired and manage geodata.
 
-Requirements 
-=============
+# Requirements 
 
 This is a list of the technical resources and knowledge you will need to have to be able to set up and manage the DiSARM application.
 
