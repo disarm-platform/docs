@@ -25,7 +25,7 @@ Reloading the page often helps, it has the same effect as closing and reopening 
 
 Reloading the page is done by dragging from the top of the screen to the bottom with your finger. Should this not work press the options button of your browser and then click on the circular arrow shown below:
 
-![](./.gitbook/assets/app-image88.png)
+![](.gitbook/assets/app-image88.png)
 
 Exiting the browser and opening it again also helps. For more information check the "reset offline" section of this document.
 
