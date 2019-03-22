@@ -5,7 +5,7 @@
   * [Plan](app-v2/plan.md)
   * [Record](app-v2/record.md)
   * [Monitor](app-v2/monitor.md)
-* [Editor manual (v1)](editor-v1.md)
+* [Editor manual (v1)](editor-v1/README.md)
   * [Instances](editor-v1/instances.md)
   * [Users](editor-v1/users.md)
   * [Permissions](editor-v1/permissions.md)
