@@ -6,27 +6,24 @@ This document is written for the user of the DiSARM application who has the auth
 
 This is a list of the technical resources and knowledge you will need to have to be able to set up and manage the DiSARM application.
 
-#### Required resources 
+## Required resources 
 
 1.  Link to the application editor
-
 2.  Link to the application front end
-
 3.  Geodata file(s)
 
-#### Required skills 
+## Required skills 
 
 1.  Some knowledge of JavaScript programming language
-
 2.  
 
 The items listed above will be discovered below what they serve. The steps below will illustrate how start from the resources listed above to a point where the DiSARM application is ready to be used by multiple users.
 
 The architectural structure of the DiSARM platform is closely related to the three domains. It is made up of the application itself, the editor and the Application Programming Interface (API). the application consists of the GUI the users interact with, the editor is the User Interface the administrator user uses for making changes to the application and the API are the function and procedures making the computations and connecting the application with the database where the data is stored.
 
-### Log Into your DiSARM app editor
+## Log Into your DiSARM app editor
 
-    1.  To login to the disarm editor the user must go to the link that you set is provided by the person who deployed disarm for your DiSARM editor. The login page looks like the one shown in the image below. The user must make sure that the API URL is correct by clicking on "Edit API URL"(is also supplied by the person who deployed DiSARM).
+1.  To login to the disarm editor the user must go to the link that you set is provided by the person who deployed disarm for your DiSARM editor. The login page looks like the one shown in the image below. The user must make sure that the API URL is correct by clicking on "Edit API URL"(is also supplied by the person who deployed DiSARM).
 
 ![](./.gitbook/assets/image89.png)
 
@@ -38,9 +35,9 @@ Once you click the login button has been clicked the screen that comes next is o
 
 ![](./.gitbook/assets/image21.png)
 
-2.  ### Create your DiSARM instance
+### Create your DiSARM instance
 
-    3.  To create a DiSARM instance the user must click the "add new" button as shown below
+3.  To create a DiSARM instance the user must click the "add new" button as shown below
 
 ![](./.gitbook/assets/image3.png)
 

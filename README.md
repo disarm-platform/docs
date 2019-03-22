@@ -1,6 +1,8 @@
 # DiSARM App manuals
 
-This page is for manuals. 
+Currently 3 manuals:
 
-And other docs.
+- app v2
+- editor v1
+- basic deployment and server config
 
