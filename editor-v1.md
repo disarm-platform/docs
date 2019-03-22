@@ -1,4 +1,4 @@
-# Editor manual (v2)
+# Editor manual (v1)
 
 ## Introduction
 
@@ -8,24 +8,23 @@ This document is written for the user of the DiSARM application who has the auth
 
 This is a list of the technical resources and knowledge you will need to have to be able to set up and manage the DiSARM application.
 
-## Required resources 
+## Required resources
 
-1.  Link to the application editor
-2.  Link to the application front end
-3.  Geodata file(s)
+1. Link to the application editor
+2. Link to the application front end
+3. Geodata file(s)
 
-## Required skills 
+## Required skills
 
 1. Some knowledge of JavaScript programming language
 2. 
-
 The items listed above will be discovered below what they serve. The steps below will illustrate how start from the resources listed above to a point where the DiSARM application is ready to be used by multiple users.
 
-The architectural structure of the DiSARM platform is closely related to the three domains. It is made up of the application itself, the editor and the Application Programming Interface (API). the application consists of the GUI the users interact with, the editor is the User Interface the administrator user uses for making changes to the application and the API are the function and procedures making the computations and connecting the application with the database where the data is stored.
+The architectural structure of the DiSARM platform is closely related to the three domains. It is made up of the application itself, the editor and the Application Programming Interface \(API\). the application consists of the GUI the users interact with, the editor is the User Interface the administrator user uses for making changes to the application and the API are the function and procedures making the computations and connecting the application with the database where the data is stored.
 
 ## Log Into your DiSARM app editor
 
-1. To login to the disarm editor the user must go to the link that you set is provided by the person who deployed disarm for your DiSARM editor. The login page looks like the one shown in the image below. The user must make sure that the API URL is correct by clicking on "Edit API URL"(is also supplied by the person who deployed DiSARM).
+1. To login to the disarm editor the user must go to the link that you set is provided by the person who deployed disarm for your DiSARM editor. The login page looks like the one shown in the image below. The user must make sure that the API URL is correct by clicking on "Edit API URL"\(is also supplied by the person who deployed DiSARM\).
 
 ![](.gitbook/assets/editor-image89.png)
 
@@ -39,10 +38,9 @@ Once you click the login button has been clicked the screen that comes next is o
 
 ### Create your DiSARM instance
 
-3.  To create a DiSARM instance the user must click the "add new" button as shown below
+1. To create a DiSARM instance the user must click the "add new" button as shown below
 
-**Create your DiSARM instance**
-   1. To create a DiSARM instance the user must click the "add new" button as shown below
+**Create your DiSARM instance** 1. To create a DiSARM instance the user must click the "add new" button as shown below
 
 ![](.gitbook/assets/editor-image3.png)
 
@@ -71,7 +69,7 @@ Once you click the login button has been clicked the screen that comes next is o
 
 ![](.gitbook/assets/editor-image76.png)
 
-1. The user will then presented with a structured view of the config. In this context structured view means that the configuration file is divided into the sections shown on the left (Spatial Hierarchy, Map Focus, Meta, Monitor, Plan, Record (point), Tasker, Form, Aggregations, Decorators, Validations). By selecting one of the sections you get to edit code that concerns only the selected section.
+1. The user will then presented with a structured view of the config. In this context structured view means that the configuration file is divided into the sections shown on the left \(Spatial Hierarchy, Map Focus, Meta, Monitor, Plan, Record \(point\), Tasker, Form, Aggregations, Decorators, Validations\). By selecting one of the sections you get to edit code that concerns only the selected section.
 
 ![](.gitbook/assets/editor-image120.png)
 
@@ -103,7 +101,7 @@ Once you click the login button has been clicked the screen that comes next is o
 
 ![](.gitbook/assets/editor-image33.png)
 
-1. The message above say the missing property is _id, instance ID is there but the system expects it to be called _id and not instance_id. So the use must change it to _id and click on the save button and then on the "check if valid" one.
+1. The message above say the missing property is \_id, instance ID is there but the system expects it to be called \_id and not instance\_id. So the use must change it to \_id and click on the save button and then on the "check if valid" one.
 
 ![](.gitbook/assets/editor-image54.png)
 
@@ -115,7 +113,7 @@ Once you click the login button has been clicked the screen that comes next is o
 
 ![](.gitbook/assets/editor-image14.png)
 
-1. The next error is shown above on the right in the image. It requires that we add another property: _id. After adding something always click the save button and the "check if valid button". The image shown below has the _id property added and the error message displayed after clicking save and check if valid.
+1. The next error is shown above on the right in the image. It requires that we add another property: \_id. After adding something always click the save button and the "check if valid button". The image shown below has the \_id property added and the error message displayed after clicking save and check if valid.
 
 ![](.gitbook/assets/editor-image104.png)
 
@@ -123,47 +121,47 @@ Once you click the login button has been clicked the screen that comes next is o
 
 ![](.gitbook/assets/editor-image32.png)
 
-1. The next property to add is a property of the data.spatial_heirachy and its called data_version. So this means the config editor needs to have spatial_heirachy and then have the data version. The image below shows the insertion of both properties and then the results of saving and checking the JSON is valid:
+1. The next property to add is a property of the data.spatial\_heirachy and its called data\_version. So this means the config editor needs to have spatial\_heirachy and then have the data version. The image below shows the insertion of both properties and then the results of saving and checking the JSON is valid:
 
 > Note: The version should match the one you have defined in your geodata file.
 >
 > ![](.gitbook/assets/editor-image41.png)
 
-1. The next thing to add is in the same place as the previous step, spatial_heirarchy and it is the levels property. In the image below it is shown that the expected property of levels is an array but the square brackets. Note: The value comes from the levels that you have on your geodata file.
+1. The next thing to add is in the same place as the previous step, spatial\_heirarchy and it is the levels property. In the image below it is shown that the expected property of levels is an array but the square brackets. Note: The value comes from the levels that you have on your geodata file.
 
 ![](.gitbook/assets/editor-image101.png)
 
-1. The next property to add according the validation message is markers under spatial_heirarchy. The image below shows the addition of the of the markers property. Note: Sometimes we have to add commas to at the end of the property lines to keep the rules of writing in JSON. It is for that reason that commas after the data version and levels were put.
+1. The next property to add according the validation message is markers under spatial\_heirarchy. The image below shows the addition of the of the markers property. Note: Sometimes we have to add commas to at the end of the property lines to keep the rules of writing in JSON. It is for that reason that commas after the data version and levels were put.
 
 ![](.gitbook/assets/editor-image15.png)
 
-1. The next property to add are the denominator fields under spatial_heirarchy inside markers, Note that these values come from your geodata file too:
+1. The next property to add are the denominator fields under spatial\_heirarchy inside markers, Note that these values come from your geodata file too:
 
 ![](.gitbook/assets/editor-image47.png)
 
-1. The validation messages requests for the addition of planning_level_name inside markers too. Note that a comma was added at the end of denominator_fields to keep the config file valid JSON:
+1. The validation messages requests for the addition of planning\_level\_name inside markers too. Note that a comma was added at the end of denominator\_fields to keep the config file valid JSON:
 
 ![](.gitbook/assets/editor-image28.png)
 
-1. The next required property is record_location_selection_level_name. The image below shows the addition of record_location_selection_level_name property and the next validation message
+1. The next required property is record\_location\_selection\_level\_name. The image below shows the addition of record\_location\_selection\_level\_name property and the next validation message
 
 ![](.gitbook/assets/editor-image59.png)
 
-Since the image is not clear below the image shows how to add the record_location_selection_level_name
+Since the image is not clear below the image shows how to add the record\_location\_selection\_level\_name
 
 ![](.gitbook/assets/editor-image58.png)
 
 And the validation message is shown in the image below: ![](.gitbook/assets/editor-image124.png)
 
-1. Which means the next to add is to add values for the properties listed above. The validation messages states that we need to first include the geodata_summary summary array inside spatial_heirarchy
+1. Which means the next to add is to add values for the properties listed above. The validation messages states that we need to first include the geodata\_summary summary array inside spatial\_heirarchy
 
-> second; add value for record_location_selection_level_name property which is called locality, and
+> second; add value for record\_location\_selection\_level\_name property which is called locality, and
 >
-> third add inside the denominator field a field from the geodata that will be used as a denominator for calculating spray coverage. Which means it should the number of structures inside each area. In the geodata used in this example the file is called NumStrct field locality inside markers, and inside denominator_fields. Forth and last; We had to also add the property of "name" with "locality" inside the levels array as it is shown in the image below:
+> third add inside the denominator field a field from the geodata that will be used as a denominator for calculating spray coverage. Which means it should the number of structures inside each area. In the geodata used in this example the file is called NumStrct field locality inside markers, and inside denominator\_fields. Forth and last; We had to also add the property of "name" with "locality" inside the levels array as it is shown in the image below:
 
 ![](.gitbook/assets/editor-image24.png)
 
-1. The validation message requires that we add a property called "display_field_name" under the "spatial_heirarchy" property inside the "levels" array. The image below was taken after adding the "display_field_name" property, clicking save and clicking check if valid:
+1. The validation message requires that we add a property called "display\_field\_name" under the "spatial\_heirarchy" property inside the "levels" array. The image below was taken after adding the "display\_field\_name" property, clicking save and clicking check if valid:
 
 > _Note: that the value OBJECTID comes from the geodata file._
 >
@@ -171,11 +169,11 @@ And the validation message is shown in the image below: ![](.gitbook/assets/edit
 
 ![](.gitbook/assets/editor-image88.png)
 
-1. In the same place, the "field_name" property is required, the image below was taken after adding it and checking if config is valid:
+1. In the same place, the "field\_name" property is required, the image below was taken after adding it and checking if config is valid:
 
 ![](.gitbook/assets/editor-image56.png)
 
-1. The next property required is the geodata_summaries. It is the array "geodata_summaries" : \[\], and it is not recognised because we are missing the id of the geodata. The geodata is uploaded on the next section (Section 4) of this document. The geodata is shown on this screen of the geodata section:
+1. The next property required is the geodata\_summaries. It is the array "geodata\_summaries" : \[\], and it is not recognised because we are missing the id of the geodata. The geodata is uploaded on the next section \(Section 4\) of this document. The geodata is shown on this screen of the geodata section:
 
 ![](.gitbook/assets/editor-image20.png)
 
@@ -184,57 +182,57 @@ And the validation message is shown in the image below: ![](.gitbook/assets/edit
 
 ![](.gitbook/assets/editor-image35.png)
 
-1. The validation message requires the addition of the charts propoerty inside irs_monitor which we added above. In the image below charts is added and the next validation message is shown. Note that charts is an array:
+1. The validation message requires the addition of the charts propoerty inside irs\_monitor which we added above. In the image below charts is added and the next validation message is shown. Note that charts is an array:
 
 ![](.gitbook/assets/editor-image70.png)
 
-1. And the validation message shows that we need to add the property of "map" inside irs_monitor. The image below shows the validation message after the addition of the "map" property
+1. And the validation message shows that we need to add the property of "map" inside irs\_monitor. The image below shows the validation message after the addition of the "map" property
 
 ![](.gitbook/assets/editor-image83.png)
 
-1. The next thing to add is the aggregation_names property inside the "map property which we just added in the step before". This is are the names that will be shown below the map for the user to choose which layers they want to display on the map.Note that it is an array.
+1. The next thing to add is the aggregation\_names property inside the "map property which we just added in the step before". This is are the names that will be shown below the map for the user to choose which layers they want to display on the map.Note that it is an array.
 
 ![](.gitbook/assets/editor-image99.png)
 
-1. The next property to add is "bin_by" which is used to differentiating records points from each other when they are shown the map (stated by the value location.selection.id).
+1. The next property to add is "bin\_by" which is used to differentiating records points from each other when they are shown the map \(stated by the value location.selection.id\).
 
 ![](.gitbook/assets/editor-image26.png)
 
-1. The validation message shown in the image above requires the addition of a property called property_layers inside 'map'. We add it in the image below and check for if json is valid, note that it is an array:
+1. The validation message shown in the image above requires the addition of a property called property\_layers inside 'map'. We add it in the image below and check for if json is valid, note that it is an array:
 
 ![](.gitbook/assets/editor-image12.png)
 
-1. With the "property_layers" array added, the next thing required is the response_point_fieldswhich are also inside the "map" property. This is shown on the monitor when you click on a response point so you can choose any piece of data from the data collection form for its value (the value is the one after the ":" and for this example the value is "recorded_on") and it does not have to be only one field.
+1. With the "property\_layers" array added, the next thing required is the response\_point\_fieldswhich are also inside the "map" property. This is shown on the monitor when you click on a response point so you can choose any piece of data from the data collection form for its value \(the value is the one after the ":" and for this example the value is "recorded\_on"\) and it does not have to be only one field.
 
 ![](.gitbook/assets/editor-image27.png)
 
-1. The validation message requires the addition of season_start_dates. Values do not have to be added here but if the user's spraying project requires them they can add as many as they want. The application requires start dates only, the application will set the finishing date to be the day before the next season start date. This should added inside the "irs_monitor" property and four dates are added as the image shows below:
+1. The validation message requires the addition of season\_start\_dates. Values do not have to be added here but if the user's spraying project requires them they can add as many as they want. The application requires start dates only, the application will set the finishing date to be the day before the next season start date. This should added inside the "irs\_monitor" property and four dates are added as the image shows below:
 
 ![](.gitbook/assets/editor-image49.png)
 
-1. The next requirement is of the "table" also inside "irs_monitor". In the image below the "table" is added and we check the validation message to see what is required next.
+1. The next requirement is of the "table" also inside "irs\_monitor". In the image below the "table" is added and we check the validation message to see what is required next.
 
 ![](.gitbook/assets/editor-image79.png)
 
-1. The "aggregation_names" property should be added next and that is what the image below shows. The validation message requires that we add the property inside the "table" property that we just added in the previous step and that is because the aggregation_names will be the headers of the table shown on the monitor.
+1. The "aggregation\_names" property should be added next and that is what the image below shows. The validation message requires that we add the property inside the "table" property that we just added in the previous step and that is because the aggregation\_names will be the headers of the table shown on the monitor.
 
 > For this example the structures spayed and structures sprayed % will be the ones shown in the table. They are all added in the image show below marked out with a red rectangle:
 
 ![](.gitbook/assets/editor-image17.png)
 
-1. The next required property is the "bin_by" on the "table" to do some filtering of the records when they are collected so that spray percentage can be calculated. The image below shows the addition of "bin_by" and the next validation message after the addition:
+1. The next required property is the "bin\_by" on the "table" to do some filtering of the records when they are collected so that spray percentage can be calculated. The image below shows the addition of "bin\_by" and the next validation message after the addition:
 
 ![](.gitbook/assets/editor-image9.png)
 
-1. Inside the same place ("table") the property "propoerty_layers" is the next thing to be added. The layers to be added is a property for the geodata to show you areas and the label that will show on the table and they are all added at the same time in the image below;
+1. Inside the same place \("table"\) the property "propoerty\_layers" is the next thing to be added. The layers to be added is a property for the geodata to show you areas and the label that will show on the table and they are all added at the same time in the image below;
 
 ![](.gitbook/assets/editor-image62.png)
 
-1. The next required property is "table_ output". This property as stated in the validation message goes in the "irs_plan". In the image below the property is added and the next error message is shown.
+1. The next required property is "table\_ output". This property as stated in the validation message goes in the "irs\_plan". In the image below the property is added and the next error message is shown.
 
 ![](.gitbook/assets/editor-image74.png)
 
-1. To solve the bottom two validation messages which are concerned with aggregation the aggregations must be defined. Aggregations are the calculations we do or numbers we collect to get a total e.g (total number of structures sprayed, percentage of sprayed structures). They should be defined end of the "markers" propers as shown in the image below. There are four aggregations defined in our example and they are; structures sprayed, structures sprayed %, bed nets in use and count.
+1. To solve the bottom two validation messages which are concerned with aggregation the aggregations must be defined. Aggregations are the calculations we do or numbers we collect to get a total e.g \(total number of structures sprayed, percentage of sprayed structures\). They should be defined end of the "markers" propers as shown in the image below. There are four aggregations defined in our example and they are; structures sprayed, structures sprayed %, bed nets in use and count.
 
 ![](.gitbook/assets/editor-image108.png)
 
@@ -248,7 +246,7 @@ Another image showing the other end of the form:
 
 And the complete code of just the form is shown below:
 
-```
+```text
 {
   "form": {
     "pages": [
@@ -290,7 +288,7 @@ And the complete code of just the form is shown below:
 }
 ```
 
-1. And once there is a validation message that says there are no problems. The configuration file is still incomplete though because there are still more options that can be added to the disarm application. The table on "irs_plan" applet does not have any items to display. The image below adds the headers for the table and adds the source fields.
+1. And once there is a validation message that says there are no problems. The configuration file is still incomplete though because there are still more options that can be added to the disarm application. The table on "irs\_plan" applet does not have any items to display. The image below adds the headers for the table and adds the source fields.
 
 ![](.gitbook/assets/editor-image8.png)
 
@@ -314,31 +312,31 @@ And the complete code of just the form is shown below:
 
 ![](.gitbook/assets/editor-image98.png)
 
-1. In the image below the "time_series" is set to true to plot the line chart against a stipulated time period:
+1. In the image below the "time\_series" is set to true to plot the line chart against a stipulated time period:
 
 ![](.gitbook/assets/editor-image25.png)
 
-1. To show the records on this chart (line graph) we will need to state a value to group them with, and since it is a line that is based on the dates when records are collected the field to be used is "recorded_on". This field is automatically generated as time stamp and saved when the record is collected. In the image below we add the "bin_by" property just below the "time_series"
+1. To show the records on this chart \(line graph\) we will need to state a value to group them with, and since it is a line that is based on the dates when records are collected the field to be used is "recorded\_on". This field is automatically generated as time stamp and saved when the record is collected. In the image below we add the "bin\_by" property just below the "time\_series"
 
 ![](.gitbook/assets/editor-image107.png)
 
-1. The next thing we add just below the "bin_by" property is the "geographic_level_refactor_this_key_name" property and its value is "location.selection.id".
+1. The next thing we add just below the "bin\_by" property is the "geographic\_level\_refactor\_this\_key\_name" property and its value is "location.selection.id".
 
 ![](.gitbook/assets/editor-image51.png)
 
-1. The next property to add is the "multi_series" and changes the legend on line graph at the bottom.
+1. The next property to add is the "multi\_series" and changes the legend on line graph at the bottom.
 
 ![](.gitbook/assets/editor-image105.png)
 
-1. There is nothing more required but the map property does not seem like it is complete as it missing some values of the properties. There is a couple of empty arrays that need to be filled in. in this example the "aggregation_names" array is filled in first and the values added as shown in the image below are \"structures sprayed %\", \"structures sprayed\":
+1. There is nothing more required but the map property does not seem like it is complete as it missing some values of the properties. There is a couple of empty arrays that need to be filled in. in this example the "aggregation\_names" array is filled in first and the values added as shown in the image below are \"structures sprayed %\", \"structures sprayed\":
 
 ![](.gitbook/assets/editor-image114.png)
 
-1. The "property_layers" property also has an empty array, so we put values that will be used to paint the map with the layers that the user prefers. In this example the values that will be added will be the risk and layer, and the number of structures layer. They are added as shown in the image below:
+1. The "property\_layers" property also has an empty array, so we put values that will be used to paint the map with the layers that the user prefers. In this example the values that will be added will be the risk and layer, and the number of structures layer. They are added as shown in the image below:
 
 ![](.gitbook/assets/editor-image118.png)
 
-1. The "response_point_field" property has an array that is still empty. In the image below we add only one value in that value called \"recorded_on\" to show the date when the record was collected when it is clicked:
+1. The "response\_point\_field" property has an array that is still empty. In the image below we add only one value in that value called \"recorded\_on\" to show the date when the record was collected when it is clicked:
 
 ![](.gitbook/assets/editor-image46.png)
 
@@ -346,15 +344,15 @@ And the complete code of just the form is shown below:
 
 ![](.gitbook/assets/editor-image19.png)
 
-1. The same applies to the table on the dashboard/monitor. It is also of type chart in the code of the application and therefore it should be identified so by adding the "chart_type" property inside table{} as shown below:
+1. The same applies to the table on the dashboard/monitor. It is also of type chart in the code of the application and therefore it should be identified so by adding the "chart\_type" property inside table{} as shown below:
 
 ![](.gitbook/assets/editor-image63.png)
 
-1. The planner module is also missing a tittle which should be added just before the closing brace of "irs_plan" as shown in the image below. The title can be any word you want as long as you will remember that it refers to the planning module.
+1. The planner module is also missing a tittle which should be added just before the closing brace of "irs\_plan" as shown in the image below. The title can be any word you want as long as you will remember that it refers to the planning module.
 
 ![](.gitbook/assets/editor-image2.png)
 
-1. The application will also need the "irs_record_point" property just below the "title" property that we just added. The image below demonstrates the addition and the validation message shows what more is required
+1. The application will also need the "irs\_record\_point" property just below the "title" property that we just added. The image below demonstrates the addition and the validation message shows what more is required
 
 ![](.gitbook/assets/editor-image61.png)
 
@@ -362,7 +360,7 @@ And the complete code of just the form is shown below:
 
 ![](.gitbook/assets/editor-image38.png)
 
-1. "Optional_fields" is the next required property. It is going to be added in the "metadata" brace that was made in the previous step. The "optional_fields" will be an array that will have fields that the users do not have to fill in when collecting data.
+1. "Optional\_fields" is the next required property. It is going to be added in the "metadata" brace that was made in the previous step. The "optional\_fields" will be an array that will have fields that the users do not have to fill in when collecting data.
 
 ![](.gitbook/assets/editor-image64.png)
 
@@ -370,7 +368,7 @@ And the complete code of just the form is shown below:
 
 ![](.gitbook/assets/editor-image111.png)
 
-1. Before moving to deal with the validation message shown above we will insert a field inside the optional_fielda array just below the "show" property that we just added. The optional field will be "team_name"
+1. Before moving to deal with the validation message shown above we will insert a field inside the optional\_fielda array just below the "show" property that we just added. The optional field will be "team\_name"
 
 ![](.gitbook/assets/editor-image71.png)
 
@@ -378,7 +376,7 @@ And the complete code of just the form is shown below:
 
 ![](.gitbook/assets/editor-image110.png)
 
-1. Next thing to add is the list of areas in the "locality" array added above. As stated in the previous step, each area will have an ID, name and category (which is a region in which the area is).
+1. Next thing to add is the list of areas in the "locality" array added above. As stated in the previous step, each area will have an ID, name and category \(which is a region in which the area is\).
 
 ![](.gitbook/assets/editor-image68.png)
 
@@ -406,11 +404,11 @@ And the complete code of just the form is shown below:
 
 ![](.gitbook/assets/editor-image31.png)
 
-1. In the absence of problems in the validation messages the next property to be added will be the "location_name" and the "slug", both inside the instance property. The location of this name is fictional, the administrator user should put the name of the country or area they will be working in.
+1. In the absence of problems in the validation messages the next property to be added will be the "location\_name" and the "slug", both inside the instance property. The location of this name is fictional, the administrator user should put the name of the country or area they will be working in.
 
 ![](.gitbook/assets/editor-image43.png)
 
-1. The next property to add is the "fake_form". This is added at the end of the configuration file. The "fake_form" is used in the debug part of the application for generating the random records. It will be an array of values filling in the data that needs to be filled in when collecting a record.
+1. The next property to add is the "fake\_form". This is added at the end of the configuration file. The "fake\_form" is used in the debug part of the application for generating the random records. It will be an array of values filling in the data that needs to be filled in when collecting a record.
 
 ![](.gitbook/assets/editor-image116.png)
 
@@ -422,11 +420,11 @@ And the complete code of just the form is shown below:
 
 ![](.gitbook/assets/editor-image84.png)
 
-1. After the validations array, a "presenters" property is added. It will have inside it some properties that will be shown when a response point is clicked on the map in the monitor module. These properties will be inside another property called "pop_up" description as shown below:
+1. After the validations array, a "presenters" property is added. It will have inside it some properties that will be shown when a response point is clicked on the map in the monitor module. These properties will be inside another property called "pop\_up" description as shown below:
 
 ![](.gitbook/assets/editor-image77.png)
 
-1. Inside the "popup_description" the fields that will be shown when the response point is clicked will be defined as shown in the image below:
+1. Inside the "popup\_description" the fields that will be shown when the response point is clicked will be defined as shown in the image below:
 
 ![](.gitbook/assets/editor-image50.png)
 
@@ -445,11 +443,11 @@ wergwerg![](.gitbook/assets/editor-image48.png)
 
 ![](.gitbook/assets/editor-image18.png)
 
-1. A form for uploading the geodata. There is a first a space for naming the geodata (shown with a red rectangle below):
+1. A form for uploading the geodata. There is a first a space for naming the geodata \(shown with a red rectangle below\):
 
 ![](.gitbook/assets/editor-image6.png)
 
-1. In this example the geodata is named "locality", then we upload the geodata by dragging the geodataIf the file is the right format to be uploaded (GEOJSON) the "Upload" button will be activated as shown in the image below.
+1. In this example the geodata is named "locality", then we upload the geodata by dragging the geodataIf the file is the right format to be uploaded \(GEOJSON\) the "Upload" button will be activated as shown in the image below.
 
 ![](.gitbook/assets/editor-image4.png)
 
@@ -483,7 +481,7 @@ wergwerg![](.gitbook/assets/editor-image48.png)
 
 ![](.gitbook/assets/editor-image5.png)
 
-1. 1. For this example a user named tom will be added to the system, given a login of "tom005" and the password will be generated by the application. In the "name" field (shown above) the word tom will be inserted.
+1. 1. For this example a user named tom will be added to the system, given a login of "tom005" and the password will be generated by the application. In the "name" field \(shown above\) the word tom will be inserted.
 
 ![](.gitbook/assets/editor-image53.png)
 
@@ -519,7 +517,7 @@ wergwerg![](.gitbook/assets/editor-image48.png)
 
 ### Permissions management
 
-In this section of the application the administrator will be able to give permission to the users of the application. The applications is divided into sections called modules. It collects these modules\(sections) from the configuration file written in section 3 of this document and displays them for the administrator to choose if a user can access that section or not.
+In this section of the application the administrator will be able to give permission to the users of the application. The applications is divided into sections called modules. It collects these modules\(sections\) from the configuration file written in section 3 of this document and displays them for the administrator to choose if a user can access that section or not.
 
 1. To get to the epermissions sections the option to be chosen on the main menu is the "permissions" as shown on the image below:
 
@@ -533,7 +531,7 @@ In this section of the application the administrator will be able to give permis
 >
 > ![](.gitbook/assets/editor-image67.png)
 
-1. As shown in the image there is a table with the columns being first the username, bulk, irs_monitor write, irs_monitor read, irs_plan write, irs_plan read, irs_record_point write, irs_record_point read, debug write, debug read. Next to each of these is all or none option which are used to define if user is given permission or not. The first thing to do though is to select a user that you want to give the permissions to by clicking on the button "add user" on the bottom left.
+1. As shown in the image there is a table with the columns being first the username, bulk, irs\_monitor write, irs\_monitor read, irs\_plan write, irs\_plan read, irs\_record\_point write, irs\_record\_point read, debug write, debug read. Next to each of these is all or none option which are used to define if user is given permission or not. The first thing to do though is to select a user that you want to give the permissions to by clicking on the button "add user" on the bottom left.
 
 ![](.gitbook/assets/editor-image90.png)
 
@@ -559,7 +557,7 @@ In this section of the application the administrator will be able to give permis
 
 ![](.gitbook/assets/editor-image119.png)
 
-1. To remove permissions the text "None" is clicked the permissions are removed instantly. Another method is by clicking on the green tick and they will be removed and once again the ticks will turn into plus signs. Below the permissions are removed for irs_monitor read(by clicking on "None") and irs_monitor write(by clicking on the green tick).
+1. To remove permissions the text "None" is clicked the permissions are removed instantly. Another method is by clicking on the green tick and they will be removed and once again the ticks will turn into plus signs. Below the permissions are removed for irs\_monitor read\(by clicking on "None"\) and irs\_monitor write\(by clicking on the green tick\).
 
 ![](.gitbook/assets/editor-image81.png)
 
@@ -567,8 +565,7 @@ In this section of the application the administrator will be able to give permis
 
 ![](.gitbook/assets/editor-image40.png)
 
-**Test your application**
-   1. To test your application visit the link that you used on the 2nd section of this document to link to your DiSARM application. You should be presented with a login form like the one shown below
+**Test your application** 1. To test your application visit the link that you used on the 2nd section of this document to link to your DiSARM application. You should be presented with a login form like the one shown below
 
 ![](.gitbook/assets/editor-image65.png)
 
@@ -580,7 +577,7 @@ In this section of the application the administrator will be able to give permis
 
 ![](.gitbook/assets/editor-image103.png)
 
-1. After editing the API URL to yours click on login and you should see a display like the one shown below where you can choose the DiSARM instance you want to log into or logout (which takes you back to the login page). In this case the desire is to log into the DiSARM YLAND DEMO test it so that is what will be selected under the text "**Select instance to load**"
+1. After editing the API URL to yours click on login and you should see a display like the one shown below where you can choose the DiSARM instance you want to log into or logout \(which takes you back to the login page\). In this case the desire is to log into the DiSARM YLAND DEMO test it so that is what will be selected under the text "**Select instance to load**"
 
 ![](.gitbook/assets/editor-image80.png)
 
@@ -592,7 +589,7 @@ In this section of the application the administrator will be able to give permis
 
 ![](.gitbook/assets/editor-image7.png)
 
-1. Once clicked the launch application should make the application display the menu options that the user has been given permission to access as shown in the image below. The last step on the permissions section of this document was to remove the permissions for the user on the irs_monitor module. So the user "tom" that is logged in now should not see the irs_monitor module:
+1. Once clicked the launch application should make the application display the menu options that the user has been given permission to access as shown in the image below. The last step on the permissions section of this document was to remove the permissions for the user on the irs\_monitor module. So the user "tom" that is logged in now should not see the irs\_monitor module:
 
 ![](.gitbook/assets/editor-image66.png)
 

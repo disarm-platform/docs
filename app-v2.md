@@ -1,2 +1,0 @@
-# App manual (v2)
-
