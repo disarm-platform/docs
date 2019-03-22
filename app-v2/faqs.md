@@ -11,7 +11,7 @@
 
 Contact the application administrator or your superiors
 
-## Can I edit records after I\'ve synced?
+## Can I edit records after I've synced?
 
 It\'s only possible to edit records *before* you sync. At the moment, after they\'re synced you will need to ask your application administrator if they have the possibility to do so.
 
@@ -25,7 +25,7 @@ Reloading the page often helps, it has the same effect as closing and reopening 
 
 Reloading the page is done by dragging from the top of the screen to the bottom with your finger. Should this not work press the options button of your browser and then click on the circular arrow shown below:
 
-![](./media/app-image88.png)
+![](./.gitbook/assets/app-image88.png)
 
 Exiting the browser and opening it again also helps. For more information check the "reset offline" section of this document.
 
