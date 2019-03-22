@@ -6,5 +6,9 @@
   * [Record](app-v2/record.md)
   * [Monitor](app-v2/monitor.md)
 * [Editor manual (v1)](editor-v1.md)
+  * [Instances](editor-v1/instances.md)
+  * [Users](editor-v1/users.md)
+  * [Permissions](editor-v1/permissions.md)
+  * [Geodata](editor-v1/geodata.md)
+  * [Config](editor-v1/config.md)
 * [Deployment](deployment.md)
-
