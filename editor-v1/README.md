@@ -33,7 +33,7 @@ The architectural structure of the DiSARM platform is closely related to the thr
 
 Once you click the login button has been clicked the screen that comes next is one where the user can select or create a DiSARM instance. The word instance in this case refers to the deployed DiSARM application for an organisation. The concept of Instances can be used to separate data in case of different spray periods/seasons where the data should not be mixed.
 
-![](https://github.com/disarm-platform/manuals/tree/99eadd0399c6909de072e40d62ca5e0140ff741e/editor-v1/.gitbook/assets/editor-image21.png)
+![](../.gitbook/assets/editor-image21.png)
 
 ### Create your DiSARM instance
 
