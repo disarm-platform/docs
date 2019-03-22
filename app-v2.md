@@ -8,7 +8,6 @@ This document is written for the user of the DiSARM application who has the auth
 
 This is a list of the technical resources and knowledge you will need to have to be able to set up and manage the DiSARM application.
 
-<<<<<<< HEAD:app-v2.md
 ## Required resources 
 
 1.  Link to the application editor
@@ -17,31 +16,16 @@ This is a list of the technical resources and knowledge you will need to have to
 
 ## Required skills 
 
-1.  Some knowledge of JavaScript programming language
-2.  
-=======
-#### Required resources
-
-1. Link to the application editor
-2. Link to the application front end
-3. Geodata file\(s\)
-
-#### Required skills
->>>>>>> efe6da72ae6adb4a915de82eaa8941d86f886be5:app-manual-v2.md
-
 1. Some knowledge of JavaScript programming language
 2. 
+
 The items listed above will be discovered below what they serve. The steps below will illustrate how start from the resources listed above to a point where the DiSARM application is ready to be used by multiple users.
 
 The architectural structure of the DiSARM platform is closely related to the three domains. It is made up of the application itself, the editor and the Application Programming Interface \(API\). the application consists of the GUI the users interact with, the editor is the User Interface the administrator user uses for making changes to the application and the API are the function and procedures making the computations and connecting the application with the database where the data is stored.
 
 ## Log Into your DiSARM app editor
 
-<<<<<<< HEAD:app-v2.md
-1.  To login to the disarm editor the user must go to the link that you set is provided by the person who deployed disarm for your DiSARM editor. The login page looks like the one shown in the image below. The user must make sure that the API URL is correct by clicking on "Edit API URL"(is also supplied by the person who deployed DiSARM).
-=======
-1. To login to the disarm editor the user must go to the link that you set is provided by the person who deployed disarm for your DiSARM editor. The login page looks like the one shown in the image below. The user must make sure that the API URL is correct by clicking on "Edit API URL"\(is also supplied by the person who deployed DiSARM\).
->>>>>>> efe6da72ae6adb4a915de82eaa8941d86f886be5:app-manual-v2.md
+1. To login to the disarm editor the user must go to the link that you set is provided by the person who deployed disarm for your DiSARM editor. The login page looks like the one shown in the image below. The user must make sure that the API URL is correct by clicking on "Edit API URL"(is also supplied by the person who deployed DiSARM).
 
 ![](.gitbook/assets/image89.png)
 
@@ -51,15 +35,11 @@ The architectural structure of the DiSARM platform is closely related to the thr
 
 Once you click the login button has been clicked the screen that comes next is one where the user can select or create a DiSARM instance. The word instance in this case refers to the deployed DiSARM application for an organisation. The concept of Instances can be used to separate data in case of different spray periods/seasons where the data should not be mixed.
 
-<<<<<<< HEAD:app-v2.md
 ![](./.gitbook/assets/image21.png)
 
 ### Create your DiSARM instance
 
 3.  To create a DiSARM instance the user must click the "add new" button as shown below
-=======
-![](.gitbook/assets/image21.png)
->>>>>>> efe6da72ae6adb4a915de82eaa8941d86f886be5:app-manual-v2.md
 
 1. **Create your DiSARM instance**
    1. To create a DiSARM instance the user must click the "add new" button as shown below
@@ -268,81 +248,47 @@ Another image showing the other end of the form:
 
 And the complete code of just the form is shown below:
 
-"form":
-
+```
 {
-
-\"pages\": \[
-
-{
-
-\"name\": \"page1\",
-
-\"elements\": \[
-
-{
-
-\"type\": \"text\",
-
-\"name\": \"sprayed\_count\",
-
-\"title\": \"Number structures sprayed with DDT\",
-
-\"isRequired\": true,
-
-\"validators\": \[
-
-{
-
-\"type\": \"numeric\",
-
-\"text\": \"Must be more than zero\",
-
-\"minValue\": 0
-
+  "form": {
+    "pages": [
+      {
+        "name": "page1",
+        "elements": [
+          {
+            "type": "text",
+            "name": "sprayed_count",
+            "title": "Number structures sprayed with DDT",
+            "isRequired": true,
+            "validators": [
+              {
+                "type": "numeric",
+                "text": "Must be more than zero",
+                "minValue": 0
+              }
+            ],
+            "inputType": "number"
+          },
+          {
+            "type": "text",
+            "name": "bednets_count",
+            "title": "Number bednets in use",
+            "isRequired": true,
+            "validators": [
+              {
+                "type": "numeric",
+                "text": "Must be more than zero",
+                "minValue": 0
+              }
+            ],
+            "inputType": "number"
+          }
+        ]
+      }
+    ]
+  }
 }
-
-\],
-
-\"inputType\": \"number\"
-
-},
-
-{
-
-\"type\": \"text\",
-
-\"name\": \"bednets\_count\",
-
-\"title\": \"Number bednets in use\",
-
-\"isRequired\": true,
-
-\"validators\": \[
-
-{
-
-\"type\": \"numeric\",
-
-\"text\": \"Must be more than zero\",
-
-\"minValue\": 0
-
-}
-
-\],
-
-\"inputType\": \"number\"
-
-}
-
-\]
-
-}
-
-\]
-
-}
+```
 
 1. And once there is a validation message that says there are no problems. The configuration file is still incomplete though because there are still more options that can be added to the disarm application. The table on "irs\_plan" applet does not have any items to display. The image below adds the headers for the table and adds the source fields.
 
