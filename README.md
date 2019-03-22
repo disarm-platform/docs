@@ -1,3 +1,4 @@
-# Initial page
+# DiSARM App manuals
 
-Now what?
+This page is for manuals.
+
