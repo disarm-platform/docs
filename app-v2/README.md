@@ -21,35 +21,35 @@ More information on the DiSARM platform can be found at [www.disarm.io](http://w
 
 1.  To access the DiSARM application your application administrator should give you a web address (URL) where your application can be accessed. DiSARM is most compatible with Google Chrome browser
 
-![](.gitbook/assets/app-image73.png)
+![](/.gitbook/assets/app-image73.png)
 
 2.  The application will pop up a message; "offline ready" once it is finished loading. At the bottom there will also be a message: "ADD TO HOME SCREEN". To download the application to your mobile phone click the message.
 
-![](.gitbook/assets/app-image49.png)
+![](/.gitbook/assets/app-image49.png)
 
 3.  A confirmation message will pop up and you should click "ADD" to download the application, or cancel if you want to keep using the Google Chrome whenever you are using DiSARM.
 
-![](.gitbook/assets/app-image103.png)
+![](/.gitbook/assets/app-image103.png)
 
 3.When the application has been added to your homescreen, you will receive a notification saying "DiSARM added on home screen". You may get a different name, depending on what name your application administrator gave the application when they deployed it for your organisation.
 
-![](.gitbook/assets/app-image47.png)
+![](/.gitbook/assets/app-image47.png)
 
 4.  If you do not get the pop "ADD TO HOMESCREEN", you can add the application to your home screen manually by selecting the "Options" button on the top right of your browser.
 
-![](.gitbook/assets/app-image50.png)
+![](/.gitbook/assets/app-image50.png)
 
 5.  Click "Add to Homescreen" to download the DiSARM application and follow the step number 3.
 
-![](.gitbook/assets/app-image45.png)
+![](/.gitbook/assets/app-image45.png)
 
 6.  After clicking "Add," the system will start downloading the DiSARM application to your device. When the download is complete, you will receive a notification on your browser and on the notifications bar at the top of your device.
 
-![](.gitbook/assets/app-image94.png)
+![](/.gitbook/assets/app-image94.png)
 
 7.  A DiSARM icon will show on your device among the other application icons as shown in the image below:
 
-![](.gitbook/assets/app-image22.png)
+![](/.gitbook/assets/app-image22.png)
 
 **NOTE**: If you are on a desktop, the downloaded application is saved in your browser automatically. DiSARM can now run offline on your browser after it has been downloaded.
 
@@ -87,36 +87,36 @@ Browser must be Google Chrome from version from version 40 upwards
 
 2.  Enter the URL for your DiSARM application. This will be provided by the person who sets up the DiSARM application for your organisation.
 
-![](.gitbook/assets/app-image115.png)
+![](/.gitbook/assets/app-image115.png)
 
 3.  Enter your username and password in the login page and click "Login." If you do not have a username and password, contact your superiors.
 
-![](.gitbook/assets/app-image64.png)
+![](/.gitbook/assets/app-image64.png)
 
 1.  The login button becomes red (activated) which means it can be used to log in once login details have been entered in the text fields.
 
-![](.gitbook/assets/app-image95.png)
+![](/.gitbook/assets/app-image95.png)
 
 1.  If the login details are wrong you will be shown a message in red saying "User with this login or password is not found".
 
-![](.gitbook/assets/app-image18.png)
+![](/.gitbook/assets/app-image18.png)
 
 Once you are logged in you will see a menu of the parts or modules of the application that you are allowed to access as shown below:
 
-![](.gitbook/assets/app-image113.jpg)
+![](/.gitbook/assets/app-image113.jpg)
 
 **Reset offline**
 -----------------
 
 1.  In the unlikely event that the application stops working, please reload the application. If it is still not working there is a function to reset it by selecting the "Reset Offline" option under the DiSARM logo.
 
-![](.gitbook/assets/app-image55.png)
+![](/.gitbook/assets/app-image55.png)
 
 **NOTE**: Although you will be resetting the application offline, the application will not delete any data that you have already collected and saved to your device.
 
 2.  You will be presented with a screen informing you "you will not lose any data, click the button labeled "reset offline mode"
 
-![](.gitbook/assets/app-image35.png)
+![](/.gitbook/assets/app-image35.png)
 
 The page shown above can also be reached by editing the URL in the address bar. You have to change it to URL-given-to-access-disarm/reset.html
 
@@ -124,7 +124,7 @@ In other words you add /reset.html. The first character there is a forward slash
 
 3.  You see a message saying stating "offline mode was reset successfully". Click "Restart Application" button to start using the application.
 
-![](.gitbook/assets/app-image9.png)
+![](/.gitbook/assets/app-image9.png)
 
 **NOTE**: The "restart application" button will bring you back to the Login page.
 
@@ -139,7 +139,7 @@ Resetting the application will log you out. Make sure to do it if you are not us
 
 You can dismiss the message by clicking it.
 
-![](.gitbook/assets/app-image27.png)
+![](/.gitbook/assets/app-image27.png)
 
 > **NOTE:** Updates may not be successful due to slow internet connection. If the update is unsuccessful or your browser freezes during the download, try a "forced reload" by pressing Ctrl+Shift+R on Windows (Cmd+Shift+R on Mac). on a mobile phone touch the screen at the top and drag to the bottom. The application will automatically attempt to download the update again. Your data will not be removed as a result of the forced reload. However, **any unsaved forms (incomplete data collection in the record point module) may be deleted.**
 
@@ -162,7 +162,7 @@ You can dismiss the message by clicking it.
 
 Below the list of modules the text text shows your the version number of your application. When clicked it displays the version number of your configuration and some more device information that includes your browser name, version, operating system and your device name.
 
-![](.gitbook/assets/app-image114.jpg)
+![](/.gitbook/assets/app-image114.jpg)
 
  
 
@@ -171,7 +171,7 @@ Below the list of modules the text text shows your the version number of your ap
 
 1.  After logging into the DiSARM application, you can view your modules in the sidebar. These modules are the same as those listed on the User Page and are pre-selected by your application administrator. To open the Sidebar, click the sandwich icon (three small horizontal lines icon) on the top left corner of the screen.
 
-![](.gitbook/assets/app-image46.png)
+![](/.gitbook/assets/app-image46.png)
 >
 > The Side Bar will display the following information:
 
@@ -189,11 +189,11 @@ Below the list of modules the text text shows your the version number of your ap
 
 -   Logout option
 
-![](.gitbook/assets/app-image110.png)
+![](/.gitbook/assets/app-image110.png)
 
 2. Close the Sidebar by clicking anywhere outside of the Side
 
-![](.gitbook/assets/app-image102.png)
+![](/.gitbook/assets/app-image102.png)
 
  
 
@@ -208,21 +208,21 @@ When you are opening the DiSARM app on your device for the first time the geogra
 
 On the user page or on the sidebar select geodata option and you will be brought to the page shown below:
 
-![](.gitbook/assets/app-image1.png)
+![](/.gitbook/assets/app-image1.png)
 
 The button labeled "RETRIEVE" when clicked will load the new geodata into your application so that it will show all the areas on the dashboard, planner and data collector modules.
 
 A red progress bar will be shown to show that it is loading something, wait till it is finished and then you can continue using the application:
 
-![](.gitbook/assets/app-image60.png)
+![](/.gitbook/assets/app-image60.png)
 
 The loading bar is shown below with the red rectangle:
 
-![](.gitbook/assets/app-image75.png)
+![](/.gitbook/assets/app-image75.png)
 
 If the user wants to save the geodata onto their device in their downloads folder, the "DOWNLOAD" button is another option. By clicking the same geodata file that the application administration uploaded on the server will be downloaded to your computer. When clicked it instantly downloads it and you will find it in your downloads folder.
 
-![](.gitbook/assets/app-image71.png)
+![](/.gitbook/assets/app-image71.png)
 
  
 
@@ -231,7 +231,7 @@ If the user wants to save the geodata onto their device in their downloads folde
 
 Open the sidebar by using the sandwich button on the top right corner of the screen and click on the Logout link from the options presented.
 
-![](.gitbook/assets/app-image56.png)
+![](/.gitbook/assets/app-image56.png)
 
 **NOTE**: if you log out while you are offline, you won\'t be able to use DiSARM again until you login (which you can only do if you\'re online).
 
