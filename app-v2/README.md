@@ -1,2 +1,2 @@
-# App manual \(v2\)
+# App manual (v2)
 
