@@ -41,7 +41,7 @@ Once you click the login button has been clicked the screen that comes next is o
 
 3.  To create a DiSARM instance the user must click the "add new" button as shown below
 
-1. **Create your DiSARM instance**
+**Create your DiSARM instance**
    1. To create a DiSARM instance the user must click the "add new" button as shown below
 
 ![](.gitbook/assets/image3.png)
@@ -567,7 +567,7 @@ In this section of the application the administrator will be able to give permis
 
 ![](.gitbook/assets/image40.png)
 
-1. **Test your application**
+**Test your application**
    1. To test your application visit the link that you used on the 2nd section of this document to link to your DiSARM application. You should be presented with a login form like the one shown below
 
 ![](.gitbook/assets/image65.png)
