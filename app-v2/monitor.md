@@ -59,113 +59,112 @@ The image below shows how the controls section looks like when you open it by cl
 
 ![](../.gitbook/assets/app-image96.png)
 
-1. SEASON → The first item on this tab is a selector marked "select season start date". When clicked it pops up a list of season start dates and when the user selects one of these it sets a filter that will make the dashboard display records that were recorded on that date and later on till the date before another season starts. Season start dates are added by the administrator in the configuration file.
+SEASON → The first item on this tab is a selector marked "select season start date". When clicked it pops up a list of season start dates and when the user selects one of these it sets a filter that will make the dashboard display records that were recorded on that date and later on till the date before another season starts. Season start dates are added by the administrator in the configuration file.
 
 ![](../.gitbook/assets/app-image28.png) &gt;
 
-> Clicking on the dropdown in the red rectangle above will get the seasons start dates and you can choose one as shown in the image below:
->
-> ![](../.gitbook/assets/app-image80.png)
+Clicking on the dropdown in the red rectangle above will get the seasons start dates and you can choose one as shown in the image below:
+![](../.gitbook/assets/app-image80.png)
 
-1. PLAN → the plan is a list of areas selected in planner module and set aside as areas where spraying will be done. If there is a plan that has been created in the planner module the user will click on the load plan selector and will be presented with the list of plans. Selecting one will make the dashboard display and aggregate records that are inside the areas selected when creating the plan. Plans are automatically retrieved from the planner module when opening the dashboard, the user only needs to click on the one they would like to load on the map. If there is no plan created the selector will display the text; "No plans loaded - create a Plan and then click 'Load plans' in the menu above'" and it will be in inactive \(not functional\).
+PLAN → the plan is a list of areas selected in planner module and set aside as areas where spraying will be done. If there is a plan that has been created in the planner module the user will click on the load plan selector and will be presented with the list of plans. Selecting one will make the dashboard display and aggregate records that are inside the areas selected when creating the plan. Plans are automatically retrieved from the planner module when opening the dashboard, the user only needs to click on the one they would like to load on the map. If there is no plan created the selector will display the text; "No plans loaded - create a Plan and then click 'Load plans' in the menu above'" and it will be in inactive \(not functional\).
 
 ![](../.gitbook/assets/app-image30.png) &gt;
 
-> When plans have been created the selector will have the text "select plan" and once clicked on it will display the plan names so the user can choose one as shown below;![](../.gitbook/assets/app-image112.png)
+When plans have been created the selector will have the text "select plan" and once clicked on it will display the plan names so the user can choose one as shown below;![](../.gitbook/assets/app-image112.png)
 
-1. FORM FIELDS → The second tab in the Controls is used for filtering according to a type of identifiable piece of information collected. For example, the form field allows you to sort your data by field name, username, recorded\_at and etc. theses form fields come from your records. The application checks all the properties or fields you records include and then lists them in this part to use for filtering. Select how you would like to sort your date by clicking on the drop down menu, select either "equals" or "not equals to", then put the value you want to compare with and lastly click the add filter button.
+FORM FIELDS → The second tab in the Controls is used for filtering according to a type of identifiable piece of information collected. For example, the form field allows you to sort your data by field name, username, recorded\_at and etc. theses form fields come from your records. The application checks all the properties or fields you records include and then lists them in this part to use for filtering. Select how you would like to sort your date by clicking on the drop down menu, select either "equals" or "not equals to", then put the value you want to compare with and lastly click the add filter button.
 
 ![](../.gitbook/assets/app-image104.png) &gt;
 
-> In the example below once the "ADD FILTER" button is clicked only records with the value 3 for the number of bendnets field will be shown.
->
-> ![](../.gitbook/assets/app-image107.png)
->
-> The results are shown in the image below. There are three areas marked in red where the application shows that there are filters that have been applied. This means that the data that is shown is missing as only records where there were three bed nets are showing. If the user decides to download all records with the filters applied they will get the number of records that were left after applying filters \( in this case only records with where the number of bednets was 3\)
->
-> ![](../.gitbook/assets/app-image40.png)
+In the example below once the "ADD FILTER" button is clicked only records with the value 3 for the number of bendnets field will be shown.
 
-1. TEMPORAL FILTER → the temporal filter has two text fields which you can tailor to display records that lie in a specific range of dates.
+![](../.gitbook/assets/app-image107.png)
+
+The results are shown in the image below. There are three areas marked in red where the application shows that there are filters that have been applied. This means that the data that is shown is missing as only records where there were three bed nets are showing. If the user decides to download all records with the filters applied they will get the number of records that were left after applying filters \( in this case only records with where the number of bednets was 3\)
+
+![](../.gitbook/assets/app-image40.png)
+
+TEMPORAL FILTER → the temporal filter has two text fields which you can tailor to display records that lie in a specific range of dates.
 
 ![](../.gitbook/assets/app-image36.png) &gt;
 
-> To navigate around the calender the user can use the arrows to go forward or backwards in the level of what is presented at the top center of the calendar, by default it is by month. If you click on it it goes to years and displays months below, when clicked again it will go to year displaying a decade in each page. Once you select a year it will show you the months and when you chose one it will show you the days and you can choose one.
->
-> ![](../.gitbook/assets/app-image98.png)
->
-> The text fields are labeled "from" and "to". Once there are dates in both from and two the "add filter" button will be activated and when clicked it will make dashboard show records that are in between those dates. The date in the "from" field should be earlier than the "to" filed, so if one of the calendars becomes inactive the user must ensure the dates are arranged well.
->
-> ![](../.gitbook/assets/app-image33.png)
->
-> This time as shown in the picture above the application will say that there are two filters active because there are the two dates, one filter is restricting to show records later than the selected date and the other filter is restring to show records recorded before the selected date. The user can select one date if they want and then click on "add filter" and there will be only one filter showing records before or after the selected date depending on which date field was used. The reset button removes the dates that were previously selected to filter by.
+To navigate around the calender the user can use the arrows to go forward or backwards in the level of what is presented at the top center of the calendar, by default it is by month. If you click on it it goes to years and displays months below, when clicked again it will go to year displaying a decade in each page. Once you select a year it will show you the months and when you chose one it will show you the days and you can choose one.
 
-1. SPATIAL FILTER → the spatial filter is used for showing records that are in a certain geographical area. The application can filter to whichever level your geographic data was collected \(e.g. country, region, district, village/community\).
+![](../.gitbook/assets/app-image98.png)
+
+The text fields are labeled "from" and "to". Once there are dates in both from and two the "add filter" button will be activated and when clicked it will make dashboard show records that are in between those dates. The date in the "from" field should be earlier than the "to" filed, so if one of the calendars becomes inactive the user must ensure the dates are arranged well.
+
+![](../.gitbook/assets/app-image33.png)
+
+This time as shown in the picture above the application will say that there are two filters active because there are the two dates, one filter is restricting to show records later than the selected date and the other filter is restring to show records recorded before the selected date. The user can select one date if they want and then click on "add filter" and there will be only one filter showing records before or after the selected date depending on which date field was used. The reset button removes the dates that were previously selected to filter by.
+
+SPATIAL FILTER → the spatial filter is used for showing records that are in a certain geographical area. The application can filter to whichever level your geographic data was collected \(e.g. country, region, district, village/community\).
 
 ![](../.gitbook/assets/app-image87.png) &gt;
 
-> The spatial filter, as shown above, is found on the fourth tab of the controls section. The user needs to click on the drop downs there\(labelled "select area" and "select sub-area"\) and click on each one to show the list of areas there are.
->
-> ![](../.gitbook/assets/app-image25.png)
->
-> Once clicked the drop down will show a list of areas for the user to choose the one which they want to filter with. There may be more than one drop down in other cases, it depends on how many levels the geodata has and in our example there are only two with the higher level being a region. The image below shows what is displayed after clicking the top drop down to see the regions.
->
-> ![](../.gitbook/assets/app-image42.png)
->
-> The image shown below is what is displayed after choosing an area. The options inside the red rectangle \("Select sub-are" and "ADD FILTER"\) are not active/functional unless the user has selected an area on the top drop down for the higher level areas of the geodata. The "Select subarea" is not active because it shows sub-areas that are inside the area or region which should be selected above. The "ADD FILTER"is only active after selecting an area on top drop down to give the user an option to filter with only that area/region \(by doing so showing all the records in the sub-areas that are in that area\).
->
-> ![](../.gitbook/assets/app-image65.png)
+The spatial filter, as shown above, is found on the fourth tab of the controls section. The user needs to click on the drop downs there\(labelled "select area" and "select sub-area"\) and click on each one to show the list of areas there are.
 
-1. AGGREGATIONS → The fifth tab on the controls is used to change the way the records are displayed by grouping them inside time ranges and location. When you open the tab you will be presented with two sections:spatial aggregation and temporal aggregation.
+![](../.gitbook/assets/app-image25.png)
 
-> Under spatial aggregation depending on your instance setup you will be able to aggregate according to the list of levels your geodata has. In other instances there might be more options. The change will be effected on the table that is below the map on the dashboard. The records are displayed in a grouped format \(aggregated\) according to the button that has been selected among the ones in the spatial aggregation. In our example the option we have are the small areas which in our instance are called sub-areas. The name "locality" comes from the geodata name given by the administrator when setting up the DiSARM application.
->
-> ![](../.gitbook/assets/app-image37.png)
->
-> The table that is being referred to above is shown below and as mentioned it is found below the map on IRS monitor module:
->
+Once clicked the drop down will show a list of areas for the user to choose the one which they want to filter with. There may be more than one drop down in other cases, it depends on how many levels the geodata has and in our example there are only two with the higher level being a region. The image below shows what is displayed after clicking the top drop down to see the regions.
+
+![](../.gitbook/assets/app-image42.png)
+
+The image shown below is what is displayed after choosing an area. The options inside the red rectangle \("Select sub-are" and "ADD FILTER"\) are not active/functional unless the user has selected an area on the top drop down for the higher level areas of the geodata. The "Select subarea" is not active because it shows sub-areas that are inside the area or region which should be selected above. The "ADD FILTER"is only active after selecting an area on top drop down to give the user an option to filter with only that area/region \(by doing so showing all the records in the sub-areas that are in that area\).
+
+![](../.gitbook/assets/app-image65.png)
+
+AGGREGATIONS → The fifth tab on the controls is used to change the way the records are displayed by grouping them inside time ranges and location. When you open the tab you will be presented with two sections:spatial aggregation and temporal aggregation.
+
+Under spatial aggregation depending on your instance setup you will be able to aggregate according to the list of levels your geodata has. In other instances there might be more options. The change will be effected on the table that is below the map on the dashboard. The records are displayed in a grouped format \(aggregated\) according to the button that has been selected among the ones in the spatial aggregation. In our example the option we have are the small areas which in our instance are called sub-areas. The name "locality" comes from the geodata name given by the administrator when setting up the DiSARM application.
+
+![](../.gitbook/assets/app-image37.png)
+
+The table that is being referred to above is shown below and as mentioned it is found below the map on IRS monitor module:
+
 > Note: it is only shown if there are records shown in the map so it will not be there if there are no records retrieved, or if all the records have been filtered and non fitted the required criteria.
 
 ![](../.gitbook/assets/app-image82.png)
 
-> The second section, temporal aggregation, affects the way the graphs are displayed below the table in the dashboard. The bar graph that displays coverage has the bars labelled according to the aggregation selected. They could labeled with week dates, months, quarters of the year or years.
->
-> Graph visualizations aggregated by week are implemented by selecting "week" on temporal aggregation as shown below:
->
-> ![](../.gitbook/assets/app-image14.png)
->
-> And graphs will be displayed in the format shown below:
->
-> ![](../.gitbook/assets/app-image62.png)
->
-> Graph visualizations aggregated by months of the year are implemented by selecting monthly on temporal aggregation as shown below:
->
-> ![](../.gitbook/assets/app-image84.png)
->
-> Graph visualizations aggregated by month:
->
-> ![](../.gitbook/assets/app-image81.png)
->
-> If the user desires the graphs can be aggregated to display progress further aggregated quarterly or yearly.
+The second section, temporal aggregation, affects the way the graphs are displayed below the table in the dashboard. The bar graph that displays coverage has the bars labelled according to the aggregation selected. They could labeled with week dates, months, quarters of the year or years.
 
-1. ADVANCED →The advanced tab will have options that are not used in normal circumstances but make a huge difference in you monitor tab once used. Users should be cautious in this section since any changes made here will impact the results displayed on the monitor page by showing a different number of points than the ones included in coverage calculations.
+Graph visualizations aggregated by week are implemented by selecting "week" on temporal aggregation as shown below:
 
-> On this tab the user is presented with a warning message as shown below on the image and below the warning there is a checkbox labeled "**Include Responses and geodata outside Plan**". This is where the user will choose to ignore the plan created in the planner module and show all the records that were collected including those that are in areas that were not included in the plan. ![](../.gitbook/assets/app-image72.png)
->
-> Once checked a warning message will be shown that: "The checkbox above means you are showing responses outside the plan. This will display responses on the map and include them in aggregation calculations, but note that they will not be included in any coverage calculations. Uncheck to limit responses to the plan."
->
-> So if the user clicks on it, it gets checked and then the dashboard shows all the responses on the map but does not include them in coverage calculations.
->
-> In the example shown below the user has ten records inside the plan, after clicking/checking the checkbox to show records that are outside of the plan the number of records increased by six to be show sixteen records.
->
-> Before showing records outside of the plan:
->
-> ![](../.gitbook/assets/app-image116.png)
->
-> After including records that are outside of the plan
->
-> ![](../.gitbook/assets/app-image83.png)
->
-> The option to select "guess locations" is used to add GPS coordinates for records that are missing the GPS coordinates. Sometimes the application administrator will set the collection of GPS coordinates optional so that if the device does not manage to collect GPS coordinates when offline the user still manages to record that they sprayed somewhere.![](../.gitbook/assets/app-image31.png)height="2.0416666666666665in"}
+![](../.gitbook/assets/app-image14.png)
+
+And graphs will be displayed in the format shown below:
+
+![](../.gitbook/assets/app-image62.png)
+
+Graph visualizations aggregated by months of the year are implemented by selecting monthly on temporal aggregation as shown below:
+
+![](../.gitbook/assets/app-image84.png)
+
+Graph visualizations aggregated by month:
+
+![](../.gitbook/assets/app-image81.png)
+
+If the user desires the graphs can be aggregated to display progress further aggregated quarterly or yearly.
+
+ADVANCED →The advanced tab will have options that are not used in normal circumstances but make a huge difference in you monitor tab once used. Users should be cautious in this section since any changes made here will impact the results displayed on the monitor page by showing a different number of points than the ones included in coverage calculations.
+
+On this tab the user is presented with a warning message as shown below on the image and below the warning there is a checkbox labeled "**Include Responses and geodata outside Plan**". This is where the user will choose to ignore the plan created in the planner module and show all the records that were collected including those that are in areas that were not included in the plan. ![](../.gitbook/assets/app-image72.png)
+
+Once checked a warning message will be shown that: "The checkbox above means you are showing responses outside the plan. This will display responses on the map and include them in aggregation calculations, but note that they will not be included in any coverage calculations. Uncheck to limit responses to the plan."
+
+So if the user clicks on it, it gets checked and then the dashboard shows all the responses on the map but does not include them in coverage calculations.
+
+In the example shown below the user has ten records inside the plan, after clicking/checking the checkbox to show records that are outside of the plan the number of records increased by six to be show sixteen records.
+
+Before showing records outside of the plan:
+
+![](../.gitbook/assets/app-image116.png)
+
+After including records that are outside of the plan
+
+![](../.gitbook/assets/app-image83.png)
+
+The option to select "guess locations" is used to add GPS coordinates for records that are missing the GPS coordinates. Sometimes the application administrator will set the collection of GPS coordinates optional so that if the device does not manage to collect GPS coordinates when offline the user still manages to record that they sprayed somewhere.![](../.gitbook/assets/app-image31.png)height="2.0416666666666665in"}
 
 ## Map
 
