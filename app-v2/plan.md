@@ -2,7 +2,7 @@
 
 The planner is a section that is used for selecting the areas where the spraying activity will be carried out. This module is very useful on the IRS monitor module where you can view the progress of your spraying. It is not mandatory to use this section of the application as the application is built to use all the geodata as the plan if there are no plans created.
 
-> When you visit it you will see a display like the one shown below, only it will have your geodata not the one shown below so the map will be different.
+When you visit it you will see a display like the one shown below, only it will have your geodata not the one shown below so the map will be different.
 
 ![](../.gitbook/assets/app-image92.png)
 
@@ -27,7 +27,8 @@ Once you have clicked it the mouse pointer changes to a small + sign, signifying
 ![](../.gitbook/assets/app-image57.png)
 
 Once you close your polygon the application will instantly add to your plan all the unit areas that are fully inside the polygon with no parts of them outside. As mentioned above they will be painted in a different color to show that they are in the plan too. ![](../.gitbook/assets/app-image23.png)
-2. If the user wants to zoom in or zoom out on the map they can use the + and - icons show on the right of the map. The third icon with up and down icon in the same area of the zoom in and out icons is used for changing the elevation view of the map.
+
+If the user wants to zoom in or zoom out on the map they can use the + and - icons show on the right of the map. The third icon with up and down icon in the same area of the zoom in and out icons is used for changing the elevation view of the map.
 
 ![](../.gitbook/assets/app-image111.png)
 
