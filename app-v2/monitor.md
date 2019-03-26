@@ -14,7 +14,7 @@ The first option "load plans" \(shown in the image below\) is useful when the us
 
 ![](../.gitbook/assets/app-image6.png)
 
-To download responses the user must select "Retrieve responses" and this means is that responses that have been uploaded/synched by different users who were collecting data using the data collector/record collector module. Note: This only bring the records to the monitor module, it does refer to downloading them to the local storage of the user's device.
+To download responses the user must select "Retrieve responses" and this means is that responses that have been uploaded/synced by different users who were collecting data using the data collector/record collector module. Note: This only bring the records to the monitor module, it does refer to downloading them to the local storage of the user's device.
 
 ![](../.gitbook/assets/app-image109.png)
 

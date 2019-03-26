@@ -72,5 +72,5 @@ To sync the records the user should select the first option that is shown on ste
 
 ![](../.gitbook/assets/app-image58.png)
 
-> Note: After synching you will not be able to not be edit the records and you will not be able to export a json file of the records. If you want to get records you will be able to download them from the dashboard/monitor if you have permissions to access it. It is still possible to view records by clicking on them.
+> Note: After syncing you will not be able to not be edit the records and you will not be able to export a json file of the records. If you want to get records you will be able to download them from the dashboard/monitor if you have permissions to access it. It is still possible to view records by clicking on them.
 
