@@ -166,7 +166,7 @@ The validation message requires that we add a property called "display\_field\_n
 
 > Note: that the value OBJECTID comes from the geodata file._
 
-_Remember to add commas to the existing property above when adding another property in the same level below it._
+Remember to add commas to the existing property above when adding another property in the same level below it.
 
 ![](../.gitbook/assets/editor-image88.png)
 
