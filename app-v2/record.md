@@ -1,6 +1,6 @@
 # Record
 
-The DiSARM application has a built in "form builder" that tailors itself based on the data entered by the user. To begin entering data into the DiSARM application:
+To begin entering data into the DiSARM application:
 
 Select the "Data Collection/IRS Record" module from the User Page or Sidebar. When you visit the data collection module for the first time you will be presented with a page that looks like:
 
