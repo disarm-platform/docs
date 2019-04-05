@@ -114,6 +114,14 @@ The image shown below is what is displayed after choosing an area. The options i
 
 ![](../.gitbook/assets/app-image65.png)
 
+Once the user clicks the button labelled "add filter" the appplication will show only records from the area the user has chosen. In the exampe below the user has chosen Nautusben region and Maiorle area and that shows 94 records in that area
+
+![](../.gitbook/assets/app-image065.png)
+
+The user has an option of adding another to view records from the previouse area \(Maiorle inside Natusben region\) and the new area desired by the user. this can be done by repeating the previouse steps of adding a spacial filter i.e. select region, select subarea and click add filter. In the example shown below a area from a different region \(Nondefo region\) has been added and the area name is Porroyug. The number of records displaying now increased to 145   as shown in the image below:
+
+![](../.gitbook/assets/app-image0065.png)
+
 AGGREGATIONS → The fifth tab on the controls is used to change the way the records are displayed by grouping them inside time ranges and location. When you open the tab you will be presented with two sections:spatial aggregation and temporal aggregation.
 
 Under spatial aggregation depending on your instance setup you will be able to aggregate according to the list of levels your geodata has. In other instances there might be more options. The change will be effected on the table that is below the map on the dashboard. The records are displayed in a grouped format \(aggregated\) according to the button that has been selected among the ones in the spatial aggregation. In our example the option we have are the small areas which in our instance are called sub-areas. The name "locality" comes from the geodata name given by the administrator when setting up the DiSARM application.
