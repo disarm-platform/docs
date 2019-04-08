@@ -1,6 +1,5 @@
 # Instances
 
-123 testing!
 **Create your DiSARM instance** 
 To create a DiSARM instance the user must click the "add new" button as shown below
 
