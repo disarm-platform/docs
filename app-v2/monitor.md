@@ -118,7 +118,7 @@ Once the user clicks the button labelled "add filter" the appplication will show
 
 ![](../.gitbook/assets/app-image065.png)
 
-The user has an option of adding another to view records from the previouse area \(Maiorle inside Natusben region\) and the new area desired by the user. this can be done by repeating the previouse steps of adding a spacial filter i.e. select region, select subarea and click add filter. In the example shown below a area from a different region \(Nondefo region\) has been added and the area name is Porroyug. The number of records displaying now increased to 145   as shown in the image below and the user can add more filters following the same steps shown above on this section:
+The user has an option of adding another to view records from the previouse area \(Maiorle inside Natusben region\) and the new area desired by the user. this can be done by repeating the previouse steps of adding a spacial filter i.e. select region, select subarea and click add filter. In the example shown below a area from a different region \(Nondefo region\) has been added and the area name is Porroyug. The number of records displaying now increased to 145   as shown in the image below and the user can add more spatial filters following the same steps shown on this section:
 
 ![](../.gitbook/assets/app-image0065.png)
 
