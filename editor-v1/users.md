@@ -10,6 +10,7 @@ The image below shows the display that comes after clicking on users. The displa
 
 ![](../.gitbook/assets/editor-image45.png)
 
+## Adding new user
 After clicking on "add new" a form is unveiled where the user can add the "name", "login" and "password"
 
 The name does not need to be unique and it can be the real name of the user depending on your organisations rules. It should be inserted in the field marked red below:
