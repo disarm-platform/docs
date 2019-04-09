@@ -1,6 +1,5 @@
 # Users
 
-
 > To create the users who are going to use the application you must access the users part of the application. On this section of the application there is a form to fill in to create each and every user, giving them an ID, name and password. Permissions will be configured in a different part of the application.
 
 To access the users section select the "users" option on the menu at the top of the page:
@@ -50,3 +49,4 @@ When clicked the button will instantly delete the old password and generate a ne
 ![](../.gitbook/assets/editor-image91.png)
 
 The next session discusses how to give permissions to your users that have been created in this section.
+

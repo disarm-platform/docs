@@ -24,27 +24,27 @@ To access the DiSARM application your application administrator should give you 
 
 ![](../.gitbook/assets/app-image49.png)
 
-2. A confirmation message will pop up and you should click "ADD" to download the application, or cancel if you want to keep using the Google Chrome whenever you are using DiSARM.
+1. A confirmation message will pop up and you should click "ADD" to download the application, or cancel if you want to keep using the Google Chrome whenever you are using DiSARM.
 
 ![](../.gitbook/assets/app-image103.png)
 
-3. When the application has been added to your homescreen, you will receive a notification saying "DiSARM added on home screen". You may get a different name, depending on what name your application administrator gave the application when they deployed it for your organisation.
+1. When the application has been added to your homescreen, you will receive a notification saying "DiSARM added on home screen". You may get a different name, depending on what name your application administrator gave the application when they deployed it for your organisation.
 
 ![](../.gitbook/assets/app-image47.png)
 
-4. If you do not get the pop "ADD TO HOMESCREEN", you can add the application to your home screen manually by selecting the "Options" button on the top right of your browser.
+1. If you do not get the pop "ADD TO HOMESCREEN", you can add the application to your home screen manually by selecting the "Options" button on the top right of your browser.
 
 ![](../.gitbook/assets/app-image50.png)
 
-5. Click "Add to Homescreen" to download the DiSARM application and follow the step number 3.
+1. Click "Add to Homescreen" to download the DiSARM application and follow the step number 3.
 
 ![](../.gitbook/assets/app-image45.png)
 
-6. After clicking "Add," the system will start downloading the DiSARM application to your device. When the download is complete, you will receive a notification on your browser and on the notifications bar at the top of your device.
+1. After clicking "Add," the system will start downloading the DiSARM application to your device. When the download is complete, you will receive a notification on your browser and on the notifications bar at the top of your device.
 
 ![](../.gitbook/assets/app-image94.png)
 
-7. A DiSARM icon will show on your device among the other application icons as shown in the image below:
+1. A DiSARM icon will show on your device among the other application icons as shown in the image below:
 
 ![](../.gitbook/assets/app-image22.png)
 
@@ -135,11 +135,12 @@ You can dismiss the message by clicking it.
 ### **User Page**
 
 The first page you will see after clicking the "login"After logging button is the User Page. It lists the sections of the application you are allowed to access pre-selected by your application administrator. These sections are sometimes referred to as modules and a user who has full access will have:
-- IRS Monitor
-- IRS Plan
-- IRS Record
-- Debug
-- Geodata
+
+* IRS Monitor
+* IRS Plan
+* IRS Record
+* Debug
+* Geodata
 
 > Note: Some application modules will have customized names and a higher or smaller number of modules based on the configurations of your application administrator.
 

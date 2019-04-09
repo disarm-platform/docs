@@ -6,7 +6,8 @@ When you first visit it you will be presented with a window that has the map of 
 
 ![](../.gitbook/assets/app-image21.png)
 
-## Options button 
+## Options button
+
 The three dotted button when clicked shows four options. It is shown on the top left corner of the page
 
 ![](../.gitbook/assets/app-image90.png)
@@ -16,6 +17,7 @@ The first option "load plans" \(shown in the image below\) is useful when the us
 ![](../.gitbook/assets/app-image6.png)
 
 ## Retrieving responses
+
 To download responses the user must select "Retrieve responses" and this means is that responses that have been uploaded/synced by different users who were collecting data using the data collector/record collector module. Note: This only bring the records to the monitor module, it does refer to downloading them to the local storage of the user's device.
 
 ![](../.gitbook/assets/app-image109.png)
@@ -60,15 +62,17 @@ The "Controls" drop down menu contains different kinds of tools that can be used
 The image below shows how the controls section looks like when you open it by clicking anywhere on the "Controls" bar \(shown in the previous image\).
 
 ![](../.gitbook/assets/app-image96.png)
+
 ## Seasons
+
 The first item on this tab is a selector marked "select season start date". When clicked it pops up a list of season start dates and when the user selects one of these it sets a filter that will make the dashboard display records that were recorded on that date and later on till the date before another season starts. Season start dates are added by the administrator in the configuration file.
 
 ![](../.gitbook/assets/app-image28.png) &gt;
 
-Clicking on the dropdown in the red rectangle above will get the seasons start dates and you can choose one as shown in the image below:
-![](../.gitbook/assets/app-image80.png)
+Clicking on the dropdown in the red rectangle above will get the seasons start dates and you can choose one as shown in the image below: ![](../.gitbook/assets/app-image80.png)
 
 ## PLAN
+
 The plan is a list of areas selected in planner module and set aside as areas where spraying will be done. If there is a plan that has been created in the planner module the user will click on the load plan selector and will be presented with the list of plans. Selecting one will make the dashboard display and aggregate records that are inside the areas selected when creating the plan. Plans are automatically retrieved from the planner module when opening the dashboard, the user only needs to click on the one they would like to load on the map. If there is no plan created the selector will display the text; "No plans loaded - create a Plan and then click 'Load plans' in the menu above'" and it will be in inactive \(not functional\).
 
 ![](../.gitbook/assets/app-image30.png) &gt;
@@ -76,6 +80,7 @@ The plan is a list of areas selected in planner module and set aside as areas wh
 When plans have been created the selector will have the text "select plan" and once clicked on it will display the plan names so the user can choose one as shown below;![](../.gitbook/assets/app-image112.png)
 
 ## FORM FIELDS
+
 The second tab in the Controls is used for filtering according to a type of identifiable piece of information collected. For example, the form field allows you to sort your data by field name, username, recorded\_at and etc. theses form fields come from your records. The application checks all the properties or fields you records include and then lists them in this part to use for filtering. Select how you would like to sort your date by clicking on the drop down menu, select either "equals" or "not equals to", then put the value you want to compare with and lastly click the add filter button.
 
 ![](../.gitbook/assets/app-image104.png) &gt;
@@ -89,6 +94,7 @@ The results are shown in the image below. There are three areas marked in red wh
 ![](../.gitbook/assets/app-image40.png)
 
 ## TEMPORAL FILTER
+
 The temporal filter has two text fields which you can tailor to display records that lie in a specific range of dates.
 
 ![](../.gitbook/assets/app-image36.png) &gt;
@@ -104,6 +110,7 @@ The text fields are labeled "from" and "to". Once there are dates in both from a
 This time as shown in the picture above the application will say that there are two filters active because there are the two dates, one filter is restricting to show records later than the selected date and the other filter is restring to show records recorded before the selected date. The user can select one date if they want and then click on "add filter" and there will be only one filter showing records before or after the selected date depending on which date field was used. The reset button removes the dates that were previously selected to filter by.
 
 ## SPATIAL FILTER
+
 The spatial filter is used for showing records that are in a certain geographical area. The application can filter to whichever level your geographic data was collected \(e.g. country, region, district, village/community\).
 
 ![](../.gitbook/assets/app-image87.png) &gt;
@@ -124,11 +131,12 @@ Once the user clicks the button labelled "add filter" the appplication will show
 
 ![](../.gitbook/assets/app-image065.png)
 
-The user has an option of adding another to view records from the previouse area \(Maiorle inside Natusben region\) and the new area desired by the user. this can be done by repeating the previouse steps of adding a spacial filter i.e. select region, select subarea and click add filter. In the example shown below a area from a different region \(Nondefo region\) has been added and the area name is Porroyug. The number of records displaying now increased to 145   as shown in the image below and the user can add more spatial filters following the same steps shown on this section:
+The user has an option of adding another to view records from the previouse area \(Maiorle inside Natusben region\) and the new area desired by the user. this can be done by repeating the previouse steps of adding a spacial filter i.e. select region, select subarea and click add filter. In the example shown below a area from a different region \(Nondefo region\) has been added and the area name is Porroyug. The number of records displaying now increased to 145 as shown in the image below and the user can add more spatial filters following the same steps shown on this section:
 
 ![](../.gitbook/assets/app-image0065.png)
 
-## AGGREGATIONS 
+## AGGREGATIONS
+
 The fifth tab on the controls is used to change the way the records are displayed by grouping them inside time ranges and location. When you open the tab you will be presented with two sections:spatial aggregation and temporal aggregation.
 
 Under spatial aggregation depending on your instance setup you will be able to aggregate according to the list of levels your geodata has. In other instances there might be more options. The change will be effected on the table that is below the map on the dashboard. The records are displayed in a grouped format \(aggregated\) according to the button that has been selected among the ones in the spatial aggregation. In our example the option we have are the small areas which in our instance are called sub-areas. The name "locality" comes from the geodata name given by the administrator when setting up the DiSARM application.
@@ -162,6 +170,7 @@ Graph visualizations aggregated by month:
 If the user desires the graphs can be aggregated to display progress further aggregated quarterly or yearly.
 
 ## ADVANCED
+
 The advanced tab will have options that are not used in normal circumstances but make a huge difference in you monitor tab once used. Users should be cautious in this section since any changes made here will impact the results displayed on the monitor page by showing a different number of points than the ones included in coverage calculations.
 
 On this tab the user is presented with a warning message as shown below on the image and below the warning there is a checkbox labeled "**Include Responses and geodata outside Plan**". This is where the user will choose to ignore the plan created in the planner module and show all the records that were collected including those that are in areas that were not included in the plan. ![](../.gitbook/assets/app-image72.png)
@@ -203,6 +212,7 @@ When clicking on a dot, a summary of the record will be shown. The information s
 When a plan is loaded, the map will paint the areas that were selected when making the plan in a different color that stands out. The color depends on the layer that has been selected below the map. There is a selector labeled "show areas by". Between the selector and the map there is a legend bar labeled zero to 100 with its color changing after 10 units.
 
 ## Layers
+
 In the example below the layer selected is "risk", the legend at the bottom shows that the red areas have a higher risk of malaria, while the on the low risk the color is almost blue.
 
 ![](../.gitbook/assets/app-image19.png)

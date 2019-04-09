@@ -28,9 +28,9 @@ Once uploaded the list of geodata will be shown and you will be able to click on
 
 ![](../.gitbook/assets/editor-image69.png)
 
-
 ## List of uploaded geodata
 
 The list of uploaded geodata will show the name and automatically generated geodata ID. The image below shows the summary of the geodata which is shown when the user clicks on the geodata name on the list
 
 ![](../.gitbook/assets/editor-image34.png)
+

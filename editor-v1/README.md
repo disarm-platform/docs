@@ -16,7 +16,7 @@ This is a list of the technical resources and knowledge you will need to have to
 
 ## Required skills
 
-- Some knowledge of JavaScript programming language. 
+* Some knowledge of JavaScript programming language. 
 
 The steps below will illustrate how start from the resources listed above to a point where the DiSARM application is ready to be used by multiple users.
 
@@ -28,11 +28,11 @@ The architectural structure of the DiSARM platform is closely related to the thr
 
 ![](../.gitbook/assets/editor-image89.png)
 
-2. After clicking the edit API URL button a textfield will be shown where there will be the current API URL shown. The user can change that if it is not the one they set in the second step of this document
+1. After clicking the edit API URL button a textfield will be shown where there will be the current API URL shown. The user can change that if it is not the one they set in the second step of this document
 
 ![](../.gitbook/assets/editor-image115.png)
 
-3. Once you click the login button has been clicked the screen that comes next is one where the user can select or create a DiSARM instance. The word instance in this case refers to the deployed DiSARM application for an organisation. The concept of Instances can be used to separate data in case of different spray periods/seasons where the data should not be mixed.
+1. Once you click the login button has been clicked the screen that comes next is one where the user can select or create a DiSARM instance. The word instance in this case refers to the deployed DiSARM application for an organisation. The concept of Instances can be used to separate data in case of different spray periods/seasons where the data should not be mixed.
 
 ![](../.gitbook/assets/editor-image21.png)
 

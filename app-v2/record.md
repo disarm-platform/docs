@@ -11,6 +11,7 @@ To add a new record, click the + sign in the top left corner.
 ![](../.gitbook/assets/app-image99.png)
 
 ## Collecting a record
+
 The meta data page might be configured to be displayed or not displayed by your application administrator, but if it is shown it has fields that are optional. Some of them can be changed and some cannot be changed, this depends on the settings applied by your application administrator. The one shown below displays the username of the logged in user, their user ID, a time stamp or record collection and the team name the user belongs to.
 
 ![](../.gitbook/assets/app-image12.png)
@@ -28,6 +29,7 @@ To set the name of the admin location as provided in the geodata you click on th
 ![](../.gitbook/assets/app-image41.png)
 
 ## Adding a custom location
+
 If the location you are looking for is not shown in the locality dropdown you can add a custom by clicking on the "Enter custom location" checkbox
 
 ![](../.gitbook/assets/app-image54.png)
@@ -57,6 +59,7 @@ When you click it you will be brought back to the main page of the Data Collecti
 ![](../.gitbook/assets/app-image16.png)
 
 ## Editing unsynched records
+
 If you click on a record on the screen shown above you will be able to edit it. You can change any of the fields that you were able to input data into while collecting the record for the first time. So when you select one record you will be taken to the screen shown in step 3 only with the data already filled in in all pages but editable.
 
 Otherwise the next step is to either sync the records or export the so you can have them on your device as a json file. These two options can be displayed by clicking on the three vertical dots button
@@ -64,6 +67,7 @@ Otherwise the next step is to either sync the records or export the so you can h
 ![](../.gitbook/assets/app-image34.png)
 
 ## Synching and exporting records
+
 The option to sync or export the data is not available unless you have records that need to be synced or exported. You can filter through the records using one of the values from form fields from the data collector form. This field is selected configured by your application administrator.
 
 ![](../.gitbook/assets/app-image85.png)
