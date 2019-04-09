@@ -1,6 +1,8 @@
 # Try out DiSARM app
 
-[video]() (when video is available)
+## PLACEHOLDER PAGE ONLY
+
+[video]() (when video is available - will show a placeholder)
 
 _instructions on creating demo data_
 
