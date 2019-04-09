@@ -2,19 +2,19 @@
 
 ## Upload geodata
 
-1. To upload the geodata, select the geodata tab on your configuration editor menu shown in the red rectangle:
+To upload the geodata, select the geodata tab on your configuration editor menu shown in the red rectangle:
 
-    <img src="../.gitbook/assets/editor-image44.png" width="500">
+![](../.gitbook/assets/editor-image44.png)
 
-2. After clicking on "geodata" the screen shown in the image below will be displayed. It shows that there is no geodata uploaded yet. To start uploading click on the "upload geodata" button that is shown with a read rectangle
+After clicking on "geodata" the screen shown in the image below will be displayed. It shows that there is no geodata uploaded yet. To start uploading click on the "upload geodata" button that is shown with a read rectangle
 
-    <img src="../.gitbook/assets/editor-image18.png" width="500">
+![](../.gitbook/assets/editor-image18.png)
 
-3. A form for uploading the geodata. There is a first a space for naming the geodata \(shown with a red rectangle below\):
+A form for uploading the geodata. There is a first a space for naming the geodata \(shown with a red rectangle below\):
 
-<img src="../.gitbook/assets/editor-image6.png" width="500">
+![](../.gitbook/assets/editor-image6.png)
 
-4. In this example the geodata is named "locality", then we upload the geodata by dragging the geodataIf the file is the right format to be uploaded \(GEOJSON\) the "Upload" button will be activated as shown in the image below.
+In this example the geodata is named "locality", then we upload the geodata by dragging the geodataIf the file is the right format to be uploaded \(GEOJSON\) the "Upload" button will be activated as shown in the image below.
 
 ![](../.gitbook/assets/editor-image4.png)
 
