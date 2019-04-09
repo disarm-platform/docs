@@ -1,5 +1,7 @@
 # Try out DiSARM app
 
-[video]()
+[video]() (when video is available)
 
-[link]()
+_instructions on creating demo data_
+
+[link](https://demo-app.disarm.io)
