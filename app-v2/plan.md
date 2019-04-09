@@ -6,6 +6,7 @@ When you visit it you will see a display like the one shown below, only it will 
 
 ![](../.gitbook/assets/app-image92.png)
 
+## Options
 The planner has two buttons on the top left corner, one has a pencil icon while the other has three vertical dots. The pencil icon allows users to edit or create a plan. The user will need to click once on it so that they can select or deselect areas on the map
 
 ![](../.gitbook/assets/app-image38.png)
@@ -14,10 +15,12 @@ Once clicked on it will change color to orange and the user will be able to clic
 
 ![](../.gitbook/assets/app-image53.png)
 
+## Creating plan by clicking areas 
 When areas are selected/clicked they also change color to indicate to the user they are in the plan being created. The user can select as many areas as they want
 
 ![](../.gitbook/assets/app-image108.png)
 
+## Creating plan by drawing a polygon
 The user can also create a plan by drawing a polygon around the area they want to be to in the plan. This can be don by clicking on the small square icon on the right of the map area. If you hover over the icone a tooltip is displayed showing its name \(Polygon too\(p\)\)
 
 ![](../.gitbook/assets/app-image78.png)
@@ -32,6 +35,7 @@ If the user wants to zoom in or zoom out on the map they can use the + and - ico
 
 ![](../.gitbook/assets/app-image111.png)
 
+## Creating plan using the risk slider
 Another way to create a plan is by using the risk slider that is shown below the map. When providing your geodata you can specify the risk of catching malaria of each admin unit/area which will be then used by the DiSARM application to help you select only areas that have a risk with minimum being the point of your choosing on the scale to put in your plan.
 
 ![](../.gitbook/assets/app-image5.png)
@@ -50,6 +54,7 @@ c\) Clear plan → unselects all the areas that you had selected on the map so y
 
 ![](../.gitbook/assets/app-image17.png)
 
+## Saving a plan
 Once you have finished selecting the areas that you want to include in your plan you can choose the save plan option. If it is your first time saving a plan, a pop up message will be shown with a text field to put in the name of your plan.
 
 ![](../.gitbook/assets/app-image10.png)
@@ -63,6 +68,7 @@ The next step will be a list of the plans that have been created in the applicat
 
 ![](../.gitbook/assets/app-image4.png)
 
+## Viewing a plan
 Once a plan has been selected to be viewed, the top shows a campaign summary. The DiSARM platform has algorithms that calculate how long a team will take to complete spraying the selected areas that make up the plan. This is facilitated by other algorithms that get information from the Malaria Atlas Program of how many structures there are in the area and the estimated number of rooms.
 
 ![](../.gitbook/assets/app-image8.png)
