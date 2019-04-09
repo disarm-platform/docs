@@ -1,17 +1,13 @@
 # Permissions
 
-
+## View permissions
 In this section of the application the administrator will be able to give permission to the users of the application. The applications is divided into sections called modules. It collects these modules\(sections\) from the configuration file written in section 3 of this document and displays them for the administrator to choose if a user can access that section or not.
 
-1. To get to the epermissions sections the option to be chosen on the main menu is the "permissions" as shown on the image below:
+1. To get to the permissions sections the option to be chosen on the main menu is the "permissions" as shown on the image below:
 
 ![](../.gitbook/assets/editor-image22.png)
 
 2. The next view will show the collection of all the modules that are defined in the config file. The image below shows how the view looks like:
-
-![](../.gitbook/assets/editor-image72.png)
-
-3. A clearer image which is cut in half:
 
 ![](../.gitbook/assets/editor-image67.png)
 
