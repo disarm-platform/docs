@@ -6,9 +6,11 @@ The API provides access to DiSARM algorithms, functions and models.
 
 The simplest example of a synchronous request with parameters would be something like:
 
-<pre>curl --request 'POST' \
+```
+curl --request 'POST' \
     --data '{"delay_s":0.5}'  \
-    https://faas.srv.disarm.io/function/longrun</pre>
+    https://faas.srv.disarm.io/function/longrun
+```
 
 There are detailed instructions for running the functions in [development](https://github.com/disarm-platform/functions-for-openfaas/wiki/Running-deployed-functions-for-development-and-testing) (e.g. using _curl_) and in [production](https://github.com/disarm-platform/functions-for-openfaas/wiki/Running-deployed-functions-in-production) (e.g. from Python). For more general instructions and background information, see [the project wiki](https://github.com/disarm-platform/functions-for-openfaas/wiki).
 
