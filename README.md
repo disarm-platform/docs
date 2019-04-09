@@ -1,6 +1,6 @@
 # Home
 
-Currently 3 manuals:
+See links for documentation:
 
 * [app (v2)](app-v2/README.md)
 * [editor (v1)](editor-v1/README.md)
