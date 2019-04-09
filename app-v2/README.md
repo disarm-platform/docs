@@ -20,31 +20,33 @@ To access the DiSARM application your application administrator should give you 
 
 ![](../.gitbook/assets/app-image73.png)
 
-1. The application will pop up a message; "offline ready" once it is finished loading. At the bottom there will also be a message: "ADD TO HOME SCREEN". To download the application to your mobile phone click the message.
+## Automatic pop-up
+The application will pop up a message; "offline ready" once it is finished loading. At the bottom there will also be a message: "ADD TO HOME SCREEN". To download the application to your mobile phone click the message.
 
 ![](../.gitbook/assets/app-image49.png)
 
-1. A confirmation message will pop up and you should click "ADD" to download the application, or cancel if you want to keep using the Google Chrome whenever you are using DiSARM.
+A confirmation message will pop up and you should click "ADD" to download the application, or cancel if you want to keep using the Google Chrome whenever you are using DiSARM.
 
 ![](../.gitbook/assets/app-image103.png)
 
-1. When the application has been added to your homescreen, you will receive a notification saying "DiSARM added on home screen". You may get a different name, depending on what name your application administrator gave the application when they deployed it for your organisation.
+When the application has been added to your homescreen, you will receive a notification saying "DiSARM added on home screen". You may get a different name, depending on what name your application administrator gave the application when they deployed it for your organisation.
 
 ![](../.gitbook/assets/app-image47.png)
 
-1. If you do not get the pop "ADD TO HOMESCREEN", you can add the application to your home screen manually by selecting the "Options" button on the top right of your browser.
+## Manual method
+If you do not get the pop "ADD TO HOMESCREEN", you can add the application to your home screen manually by selecting the "Options" button on the top right of your browser.
 
 ![](../.gitbook/assets/app-image50.png)
 
-1. Click "Add to Homescreen" to download the DiSARM application and follow the step number 3.
+Click "Add to Homescreen" to download the DiSARM application and follow the step number 3.
 
 ![](../.gitbook/assets/app-image45.png)
 
-1. After clicking "Add," the system will start downloading the DiSARM application to your device. When the download is complete, you will receive a notification on your browser and on the notifications bar at the top of your device.
+After clicking "Add," the system will start downloading the DiSARM application to your device. When the download is complete, you will receive a notification on your browser and on the notifications bar at the top of your device.
 
 ![](../.gitbook/assets/app-image94.png)
 
-1. A DiSARM icon will show on your device among the other application icons as shown in the image below:
+A DiSARM icon will show on your device among the other application icons as shown in the image below:
 
 ![](../.gitbook/assets/app-image22.png)
 
