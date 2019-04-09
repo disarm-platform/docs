@@ -1,4 +1,4 @@
-# Home
+# Index
 
 See links for documentation:
 
