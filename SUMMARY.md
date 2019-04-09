@@ -1,6 +1,10 @@
 # Table of contents
 
+
 * [Home](README.md)
+## API
+* [API docs](api-docs/README.md)
+## App
 * [App manual \(v2\)](app-v2/README.md)
   * [Plan](app-v2/plan.md)
   * [Record](app-v2/record.md)
@@ -12,5 +16,5 @@
   * [Geodata](editor-v1/geodata.md)
   * [Config](editor-v1/config.md)
 * [Deployment](deployment.md)
-* [API](api-docs/README.md)
+
 
