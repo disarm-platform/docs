@@ -1,7 +1,7 @@
 # Table of contents
 
 
-* [Index](README.md)
+* [Home](README.md)
 * [API docs](api-docs/README.md)
 * [App manual \(v2\)](app-v2/README.md)
   * [Plan](app-v2/plan.md)
