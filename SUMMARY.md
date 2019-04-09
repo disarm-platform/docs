@@ -12,5 +12,5 @@
   * [Geodata](editor-v1/geodata.md)
   * [Config](editor-v1/config.md)
 * [Deployment](deployment.md)
-* [API](api/README.md)
+* [API](api-docs/README.md)
 
