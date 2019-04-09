@@ -2,13 +2,13 @@
 
 ## Upload geodata
 
-To upload the geodata, select the geodata tab on your configuration editor menu shown in the red rectangle:
+1. To upload the geodata, select the geodata tab on your configuration editor menu shown in the red rectangle:
 
-![](../.gitbook/assets/editor-image44.png)
+    ![](../.gitbook/assets/editor-image44.png)
 
-After clicking on "geodata" the screen shown in the image below will be displayed. It shows that there is no geodata uploaded yet. To start uploading click on the "upload geodata" button that is shown with a read rectangle
+2. After clicking on "geodata" the screen shown in the image below will be displayed. It shows that there is no geodata uploaded yet. To start uploading click on the "upload geodata" button that is shown with a read rectangle
 
-![](../.gitbook/assets/editor-image18.png)
+    ![](../.gitbook/assets/editor-image18.png)
 
 A form for uploading the geodata. There is a first a space for naming the geodata \(shown with a red rectangle below\):
 
