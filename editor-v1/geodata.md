@@ -8,9 +8,9 @@
 
 2. After clicking on "geodata" the screen shown in the image below will be displayed. It shows that there is no geodata uploaded yet. To start uploading click on the "upload geodata" button that is shown with a read rectangle
 
-<img src="../.gitbook/assets/editor-image18.png" width="500">
+    <img src="../.gitbook/assets/editor-image18.png" width="500">
 
-A form for uploading the geodata. There is a first a space for naming the geodata \(shown with a red rectangle below\):
+3. A form for uploading the geodata. There is a first a space for naming the geodata \(shown with a red rectangle below\):
 
 ![](../.gitbook/assets/editor-image6.png)
 
