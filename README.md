@@ -1,4 +1,4 @@
-# Index
+# Documentation
 
 See links for documentation:
 
