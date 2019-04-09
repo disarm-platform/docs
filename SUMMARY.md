@@ -2,9 +2,7 @@
 
 
 * [Home](README.md)
-## API
 * [API docs](api-docs/README.md)
-## App
 * [App manual \(v2\)](app-v2/README.md)
   * [Plan](app-v2/plan.md)
   * [Record](app-v2/record.md)
