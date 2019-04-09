@@ -12,9 +12,9 @@
 
 3. A form for uploading the geodata. There is a first a space for naming the geodata \(shown with a red rectangle below\):
 
-![](../.gitbook/assets/editor-image6.png)
+<img src="../.gitbook/assets/editor-image6.png" width="500">
 
-In this example the geodata is named "locality", then we upload the geodata by dragging the geodataIf the file is the right format to be uploaded \(GEOJSON\) the "Upload" button will be activated as shown in the image below.
+4. In this example the geodata is named "locality", then we upload the geodata by dragging the geodataIf the file is the right format to be uploaded \(GEOJSON\) the "Upload" button will be activated as shown in the image below.
 
 ![](../.gitbook/assets/editor-image4.png)
 
