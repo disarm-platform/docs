@@ -26,8 +26,8 @@ A text filed with the API URL will be shown and the user can edit the API URL th
 
 If the login details are wrong you will be shown a message in red saying "User with this login or password is not found".
 
-![](../.gitbook/assets/app-image18.png)
+![](../.gitbook/assets/wrongdetails.png)
 
-Once you are logged in you will see a menu of the parts or modules of the application that you are allowed to access as shown below:
+Once you are logged in you will see welcome test with your username, below it will be a list of instances that you have acess to. to acess one click on it. 
 
-![](../.gitbook/assets/app-image113.jpg)
+![](../.gitbook/assets/instances.png)
