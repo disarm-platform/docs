@@ -1,4 +1,4 @@
-#### How to download DiSARM
+# How to download DiSARM
 
 ### **System requirements**
 
