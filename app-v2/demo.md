@@ -6,13 +6,16 @@ The DiSARM application has version that has been deployed for demonstration pupo
 
 ##Access details to demonstration app
 Link: https://demo-app.disarm.io
+
 User: user
+
 password: m
+
 
 Once logged in the user page will be displayed and this is a menu from where you can start exploring the DiSARM application. For a guide consult the application manual found on the link: https://docs.disarm.io/app-v2 
 
 ##Creating fake data
-Once logged in there is an option to create fake data very quickly on the debug module. The steps are listed below:
+The DiSARM application has an option to create fake data very quickly on the debug module. The steps are listed below:
 1. Visit debug.
 2. click on "Crete fake data".
 3. Enter desired number of areas to get randomly 0, 1, 2 or 3 records from each location also picked randomly from the provided geodata.
