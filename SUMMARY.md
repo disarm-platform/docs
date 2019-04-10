@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Docs home](README.md)
-* [API docs](api-docs.md)
 * [App: user manual (v2)](app-v2/README.md)
   * [Demo](app-v2/demo.md)
   * [Login, download, etc](app-v2/meta.md)
