@@ -6,7 +6,7 @@
   * [Demo](app-v2/demo.md)
   * [Logging in](app-v2/loggingIn.md)
   * [Downloading DiSARM](app-v2/downloadingToMobile.md)
-  * [User page and Side bar] (app-v2/UserPageAndSideBar.md)
+  * [User page and Side bar](app-v2/UserPageAndSideBar.md)
   * [Plan](app-v2/plan.md)
   * [Record](app-v2/record.md)
   * [Monitor](app-v2/monitor.md)
