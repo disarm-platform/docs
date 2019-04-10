@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Docs home](README.md)
+* [App: Demo](app-v2/demo.md)
 * [App: user manual (v2)](app-v2/README.md)
-  * [Demo](app-v2/demo.md)
   * [Login, download, etc](app-v2/meta.md)
   * [Plan](app-v2/plan.md)
   * [Record](app-v2/record.md)
