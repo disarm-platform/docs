@@ -1,9 +1,31 @@
 # Try out DiSARM app
 
-## PLACEHOLDER PAGE ONLY
+##Introduction 
+The DiSARM application has version that has been deployed for demonstration puporses. All the modules of the DiSARM application have been made available to anyone who would like to try out the application. 
+> Note that this version cannot be used for actual spray tracking activities, it is only for demonstration purposes. 
+
+##Access details to demonstration app
+Link: https://demo-app.disarm.io
+User: user
+password: m
+
+Once logged in the user page will be displayed and this is a menu from where you can start exploring the DiSARM application. For a guide consult the application manual found on the link: https://docs.disarm.io/app-v2 
+
+##Creating fake data
+Once logged in there is an option to create fake data very quickly on the debug module. The steps are listed below:
+1. Visit debug.
+2. click on "Crete fake data".
+3. Enter desired number of areas to get randomly 0, 1, 2 or 3 records from each location also picked randomly from the provided geodata.
+4. Visit the IRS Record module.
+5. Click options.
+6. Select synch to upload. 
+7. Then records can then be retrieved and viewed on the IRS Monitor monitor.  
+
+or follow the steps executed in the video below:
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 
 [video]() (when video is available - will show a placeholder)
 
-_instructions on creating demo data_
 
-[link](https://demo-app.disarm.io)
+
