@@ -58,7 +58,7 @@ When you click it you will be brought back to the main page of the Data Collecti
 
 ![](../.gitbook/assets/app-image16.png)
 
-## Editing unsynched records
+## Editing unsynced records
 
 If you click on a record on the screen shown above you will be able to edit it. You can change any of the fields that you were able to input data into while collecting the record for the first time. So when you select one record you will be taken to the screen shown in step 3 only with the data already filled in in all pages but editable.
 
@@ -66,7 +66,7 @@ Otherwise the next step is to either sync the records or export the so you can h
 
 ![](../.gitbook/assets/app-image34.png)
 
-## Synching and exporting records
+## Syncing and exporting records
 
 The option to sync or export the data is not available unless you have records that need to be synced or exported. You can filter through the records using one of the values from form fields from the data collector form. This field is selected configured by your application administrator.
 
