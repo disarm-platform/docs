@@ -17,11 +17,17 @@ Once logged in the user page will be displayed and this is a menu from where you
 ##Creating fake data
 The DiSARM application has an option to create fake data very quickly on the debug module. The steps are listed below:
 1. Visit debug
+
 2. Click on "Crete fake data"
+
 3. Enter desired number of areas to get randomly 0, 1, 2 or 3 records from each location also picked randomly from the provided geodata
+
 4. Visit the IRS Record module
+
 5. Click options
+
 6. Select synch to upload
+
 7. Then records can then be retrieved and viewed on the IRS Monitor monitor  
 
 or follow the steps executed in the video below:
