@@ -23,10 +23,12 @@ Once logged in there is an option to create fake data very quickly on the debug 
 
 or follow the steps executed in the video below:
 
-![Alt Text](../.gitbook/assets/quickrecords.gif)
+![](../.gitbook/assets/quickrecords.gif)
 
 
-[video]() (when video is available - will show a placeholder)
+##Screencast
+The video below is a screencast of the DiSARm application in use. It starts with the process of logging in, using the IRS Planner module to select areas to be sprayed, data collection on the IRS Record module and finaly viewing the data that has been collected on the IRS monitor module. 
+Content coming soon....
 
 
 
