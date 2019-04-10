@@ -22,7 +22,7 @@ The API URL might need to be checked to ensure that it is correct. To edit that 
 
 A text filed with the API URL will be shown and the user can edit the API URL there to ensure it is correct and then click the log in button to log in.
 
-![](../.gitbook/assets/API.png.png)
+![](../.gitbook/assets/API.png)
 
 If the login details are wrong you will be shown a message in red saying "User with this login or password is not found".
 
