@@ -102,15 +102,13 @@ The system requirements listed below are fully supported by the DiSARM applicati
 
 A mobile phone must have at least 20 MB of storage free to open and download the application on the browser.
 
-## How to download DiSARM
-
-### How to download DiSARM to mobile phone/tablet
+## How to download DiSARM to mobile phone/tablet
 
 To access the DiSARM application your application administrator should give you a web address \(URL\) where your application can be accessed. DiSARM is most compatible with Google Chrome browser
 
 ![](../.gitbook/assets/app-image73.png)
 
-#### Automatic pop-up
+### Automatic pop-up
 The application will pop up a message; "offline ready" once it is finished loading. At the bottom there will also be a message: "ADD TO HOME SCREEN". To download the application to your mobile phone click the message.
 
 ![](../.gitbook/assets/app-image49.png)
@@ -123,7 +121,7 @@ When the application has been added to your homescreen, you will receive a notif
 
 ![](../.gitbook/assets/app-image47.png)
 
-#### Manual method
+### Manual method
 If you do not get the pop "ADD TO HOMESCREEN", you can add the application to your home screen manually by selecting the "Options" button on the top right of your browser.
 
 ![](../.gitbook/assets/app-image50.png)
