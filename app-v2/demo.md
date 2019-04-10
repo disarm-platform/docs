@@ -22,7 +22,8 @@ Once logged in there is an option to create fake data very quickly on the debug 
 7. Then records can then be retrieved and viewed on the IRS Monitor monitor.  
 
 or follow the steps executed in the video below:
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
+![Alt Text](../.gitbook/assets/quickrecords.gif)
 
 
 [video]() (when video is available - will show a placeholder)
