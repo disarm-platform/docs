@@ -12,7 +12,9 @@ curl --request 'POST' \
     https://faas.srv.disarm.io/function/longrun
 ```
 
-There are detailed instructions for running the functions in [development](https://github.com/disarm-platform/functions-for-openfaas/wiki/Running-deployed-functions-for-development-and-testing) \(e.g. using _curl_\) and in [production](https://github.com/disarm-platform/functions-for-openfaas/wiki/Running-deployed-functions-in-production) \(e.g. from Python\). For more general instructions and background information, see [the project wiki](https://github.com/disarm-platform/functions-for-openfaas/wiki).
+There are detailed instructions for running the functions in [development](https://github.com/disarm-platform/functions-for-openfaas/wiki/Running-deployed-functions-for-development-and-testing) \(e.g. using [`curl`](https://curl.haxx.se)) and in [production](https://github.com/disarm-platform/functions-for-openfaas/wiki/Running-deployed-functions-in-production) \(e.g. from Python\). For more general instructions and background information, see [the project wiki](https://github.com/disarm-platform/functions-for-openfaas/wiki).
+
+Note: [HTTPie](https://httpie.org) might be a useful alternative command line client for HTTP requests.
 
 ## Algorithm-specific docs
 
