@@ -16,7 +16,7 @@ The first option "load plans" \(shown in the image below\) is useful when the us
 
 ![](../.gitbook/assets/app-image6.png)
 
-## Retrieving responses
+### Retrieving responses
 
 To download responses the user must select "Retrieve responses" and this means is that responses that have been uploaded/synced by different users who were collecting data using the data collector/record collector module. Note: This only bring the records to the monitor module, it does refer to downloading them to the local storage of the user's device.
 
@@ -63,7 +63,7 @@ The image below shows how the controls section looks like when you open it by cl
 
 ![](../.gitbook/assets/app-image96.png)
 
-## Seasons
+### Seasons
 
 The first item on this tab is a selector marked "select season start date". When clicked it pops up a list of season start dates and when the user selects one of these it sets a filter that will make the dashboard display records that were recorded on that date and later on till the date before another season starts. Season start dates are added by the administrator in the configuration file.
 
@@ -71,7 +71,7 @@ The first item on this tab is a selector marked "select season start date". When
 
 Clicking on the dropdown in the red rectangle above will get the seasons start dates and you can choose one as shown in the image below: ![](../.gitbook/assets/app-image80.png)
 
-## PLAN
+### Plan
 
 The plan is a list of areas selected in planner module and set aside as areas where spraying will be done. If there is a plan that has been created in the planner module the user will click on the load plan selector and will be presented with the list of plans. Selecting one will make the dashboard display and aggregate records that are inside the areas selected when creating the plan. Plans are automatically retrieved from the planner module when opening the dashboard, the user only needs to click on the one they would like to load on the map. If there is no plan created the selector will display the text; "No plans loaded - create a Plan and then click 'Load plans' in the menu above'" and it will be in inactive \(not functional\).
 
@@ -79,7 +79,7 @@ The plan is a list of areas selected in planner module and set aside as areas wh
 
 When plans have been created the selector will have the text "select plan" and once clicked on it will display the plan names so the user can choose one as shown below;![](../.gitbook/assets/app-image112.png)
 
-## FORM FIELDS
+### Form fields
 
 The second tab in the Controls is used for filtering according to a type of identifiable piece of information collected. For example, the form field allows you to sort your data by field name, username, recorded\_at and etc. theses form fields come from your records. The application checks all the properties or fields you records include and then lists them in this part to use for filtering. Select how you would like to sort your date by clicking on the drop down menu, select either "equals" or "not equals to", then put the value you want to compare with and lastly click the add filter button.
 
@@ -93,7 +93,7 @@ The results are shown in the image below. There are three areas marked in red wh
 
 ![](../.gitbook/assets/app-image40.png)
 
-## TEMPORAL FILTER
+### Temporal filter
 
 The temporal filter has two text fields which you can tailor to display records that lie in a specific range of dates.
 
@@ -109,7 +109,7 @@ The text fields are labeled "from" and "to". Once there are dates in both from a
 
 This time as shown in the picture above the application will say that there are two filters active because there are the two dates, one filter is restricting to show records later than the selected date and the other filter is restring to show records recorded before the selected date. The user can select one date if they want and then click on "add filter" and there will be only one filter showing records before or after the selected date depending on which date field was used. The reset button removes the dates that were previously selected to filter by.
 
-## SPATIAL FILTER
+### Spatial filter
 
 The spatial filter is used for showing records that are in a certain geographical area. The application can filter to whichever level your geographic data was collected \(e.g. country, region, district, village/community\).
 
@@ -135,7 +135,7 @@ The user has an option of adding another to view records from the previouse area
 
 ![](../.gitbook/assets/app-image0065.png)
 
-## AGGREGATIONS
+### Aggregations
 
 The fifth tab on the controls is used to change the way the records are displayed by grouping them inside time ranges and location. When you open the tab you will be presented with two sections:spatial aggregation and temporal aggregation.
 
@@ -169,7 +169,7 @@ Graph visualizations aggregated by month:
 
 If the user desires the graphs can be aggregated to display progress further aggregated quarterly or yearly.
 
-## ADVANCED
+### Advanced
 
 The advanced tab will have options that are not used in normal circumstances but make a huge difference in you monitor tab once used. Users should be cautious in this section since any changes made here will impact the results displayed on the monitor page by showing a different number of points than the ones included in coverage calculations.
 
@@ -211,7 +211,7 @@ When clicking on a dot, a summary of the record will be shown. The information s
 
 When a plan is loaded, the map will paint the areas that were selected when making the plan in a different color that stands out. The color depends on the layer that has been selected below the map. There is a selector labeled "show areas by". Between the selector and the map there is a legend bar labeled zero to 100 with its color changing after 10 units.
 
-## Layers
+### Layers
 
 In the example below the layer selected is "risk", the legend at the bottom shows that the red areas have a higher risk of malaria, while the on the low risk the color is almost blue.
 
