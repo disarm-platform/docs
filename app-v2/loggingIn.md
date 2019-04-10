@@ -10,11 +10,19 @@ Enter the URL for your DiSARM application. This will be provided by the person w
 
 Enter your username and password in the login page and click "Login." If you do not have a username and password, contact your superiors.
 
-![](../.gitbook/assets/app-image64.png)
+![](../.gitbook/assets/userpass.png)
 
 The login button becomes red \(activated\) which means it can be used to log in once login details have been entered in the text fields.
 
-![](../.gitbook/assets/app-image95.png)
+![](../.gitbook/assets/loginButton.png)
+
+The API URL might need to be checked to ensure that it is correct. To edit that click on the "EDIT API URL BUTTON"
+
+![](../.gitbook/assets/APIbutton.png)
+
+A text filed with the API URL will be shown and the user can edit the API URL there to ensure it is correct and then click the log in button to log in.
+
+![](../.gitbook/assets/API.png.png)
 
 If the login details are wrong you will be shown a message in red saying "User with this login or password is not found".
 
