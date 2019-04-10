@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-### **Reset offline**
+## Reset offline
 
 In the unlikely event that the application stops working, please reload the application. If it is still not working there is a function to reset it by selecting the "Reset Offline" option under the DiSARM logo.
 
@@ -24,7 +24,7 @@ You see a message saying stating "offline mode was reset successfully". Click "R
 
 Resetting the application will log you out. Make sure to do it if you are not using the application offline \(if you have network\) to log back in as it is not possible to log in if you do not have network.
 
-### **Updating**
+## Updating
 
 When the DISARM application is connected to the internet, it will automatically check to see if a new version is available. If a new version is available, it will download automatically and update in the background. You can continue to use the application during the download. Your data will not be affected by the update. When an update is being downloaded, a message stating "Update Downloading" will show at the top right corner of the toolbar.
 

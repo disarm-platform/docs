@@ -82,28 +82,27 @@ Close the Sidebar by clicking anywhere outside of the Side
 
 ![](../.gitbook/assets/sidebarclose.png)
 
-
-## How to download DiSARM
-
-### System requirements
+## System requirements
 
 The system requirements listed below are fully supported by the DiSARM application.
 
-#### Mobile Phones
+### Mobile Phones
 
 - Operating System must be Android or IOS
 - Browser must be Google Chrome from version 40 upwards
 
-#### Computers
+### Computers
 
 - Operating System must be Windows or Mac
 - Browser must be Google Chrome from version from version 40 upwards
 
 > Note: Although other browsers my work, we recommend using google chrome as Chrome is fully supported. Other functions may not work well on other browsers.
 
-#### Memory usage
+### Memory usage
 
 A mobile phone must have at least 20 MB of storage free to open and download the application on the browser.
+
+## How to download DiSARM
 
 ### How to download DiSARM to mobile phone/tablet
 
