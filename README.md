@@ -1,6 +1,6 @@
 # Docs Home
 
-See links for documentation:
+For more information on the project, visit the main project website at <https://www.disarm.io>
 
 ## DiSARM API
 
