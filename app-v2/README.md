@@ -10,7 +10,7 @@ This document has been prepared for the end user of the DiSARM application once 
 
 The Disease Surveillance and Risk Monitoring platform \(DiSARM\) is a spatial intelligence tool, built to enable disease control programs to deliver more effective field campaigns. The platform combines an interface used to pull together, collect and visualize data with a powerful back-end analytics engine to convert raw data into actionable information. The DiSARM platform consists of four modules: data collector, planner, dashboard and administration. The platform can be used for any activity that involves spatial data/heat maps, data collection and data analysing and reformatting into charts and graphs. While the internet is needed to sync your data with the online tools, data input can continue to occur while offline.
 
-The platform is currently being used by malaria programs in four countries in southern Africa to help plan, execute and monitor indoor residual spraying campaigns.\"
+The platform is currently being used by malaria programs in four countries in southern Africa to help plan, execute and monitor indoor residual spraying campaigns.
 
 More information on the DiSARM platform can be found at [www.disarm.io](http://www.disarm.io).
 
