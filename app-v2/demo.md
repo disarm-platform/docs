@@ -1,10 +1,12 @@
 # Try out DiSARM app
 
-![](../.gitbook/assets/home.png)
-
 ## Introduction 
 The DiSARM application has version that has been deployed for demonstration puporses. All the modules of the DiSARM application have been made available to anyone who would like to try out the application. 
+
 > Note that this version cannot be used for actual spray tracking activities, it is only for demonstration purposes. 
+
+![](../.gitbook/assets/home.png)
+
 
 ## Access details to demonstration app
 
