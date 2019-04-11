@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Docs home](README.md)
+* [DiSARM Docs & Demos](README.md)
 * [App: Demo](app-v2/demo.md)
 * [App: User manual (v2)](app-v2/README.md)
   * [Login, download, etc](app-v2/meta.md)
