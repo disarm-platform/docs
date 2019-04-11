@@ -149,8 +149,15 @@ Close the Sidebar by clicking anywhere outside of the Side
 
 ### **Geographic Data**
 
-When you are opening the DiSARM app on your device for the first time the geographic data is also loaded. If it happens that the application administrator loads some new geographic data the application should load the new data automatically. If that does not happen follow the steps below to load the geodata:
+After logging in you will be presented with a page titled geodata. It will have name/s of the uploaded geodata with buttons towards the right of them labeled retrieved. 
 
+![](../.gitbook/assets/geodata.png)
+
+The user will have to retrieve the geodata by clicking on retrieve otherwise the button labeled “launch” will not be activated. When the user clicks on “retrieve”a loading bar will appear and once the geodata have been retrieved a green tick icon will be shown. Then the user can click on launch to launch the application. 
+
+![](../.gitbook/assets/retrieved.png)
+
+Other users may have permissions to see the geodata page where they can even download the geodata to their devices. 
 On the user page or on the sidebar select geodata option and you will be brought to the page shown below:
 
 ![](../.gitbook/assets/app-image1.png)
