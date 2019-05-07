@@ -67,7 +67,7 @@ The image below shows how the controls section looks like when you open it by cl
 
 The first item on this tab is a selector marked "select season start date". When clicked it pops up a list of season start dates and when the user selects one of these it sets a filter that will make the dashboard display records that were recorded on that date and later on till the date before another season starts. Season start dates are added by the administrator in the configuration file.
 
-![](../.gitbook/assets/app-image28.png) &gt;
+![](../.gitbook/assets/app-image28.png)
 
 Clicking on the dropdown in the red rectangle above will get the seasons start dates and you can choose one as shown in the image below: ![](../.gitbook/assets/app-image80.png)
 
@@ -75,7 +75,7 @@ Clicking on the dropdown in the red rectangle above will get the seasons start d
 
 The plan is a list of areas selected in planner module and set aside as areas where spraying will be done. If there is a plan that has been created in the planner module the user will click on the load plan selector and will be presented with the list of plans. Selecting one will make the dashboard display and aggregate records that are inside the areas selected when creating the plan. Plans are automatically retrieved from the planner module when opening the dashboard, the user only needs to click on the one they would like to load on the map. If there is no plan created the selector will display the text; "No plans loaded - create a Plan and then click 'Load plans' in the menu above'" and it will be in inactive \(not functional\).
 
-![](../.gitbook/assets/app-image30.png) &gt;
+![](../.gitbook/assets/app-image30.png)
 
 When plans have been created the selector will have the text "select plan" and once clicked on it will display the plan names so the user can choose one as shown below;![](../.gitbook/assets/app-image112.png)
 
@@ -83,7 +83,7 @@ When plans have been created the selector will have the text "select plan" and o
 
 The second tab in the Controls is used for filtering according to a type of identifiable piece of information collected. For example, the form field allows you to sort your data by field name, username, recorded\_at and etc. theses form fields come from your records. The application checks all the properties or fields you records include and then lists them in this part to use for filtering. Select how you would like to sort your date by clicking on the drop down menu, select either "equals" or "not equals to", then put the value you want to compare with and lastly click the add filter button.
 
-![](../.gitbook/assets/app-image104.png) &gt;
+![](../.gitbook/assets/app-image104.png)
 
 In the example below once the "ADD FILTER" button is clicked only records with the value 3 for the number of bendnets field will be shown.
 
@@ -97,7 +97,7 @@ The results are shown in the image below. There are three areas marked in red wh
 
 The temporal filter has two text fields which you can tailor to display records that lie in a specific range of dates.
 
-![](../.gitbook/assets/app-image36.png) &gt;
+![](../.gitbook/assets/app-image36.png)
 
 To navigate around the calender the user can use the arrows to go forward or backwards in the level of what is presented at the top center of the calendar, by default it is by month. If you click on it it goes to years and displays months below, when clicked again it will go to year displaying a decade in each page. Once you select a year it will show you the months and when you chose one it will show you the days and you can choose one.
 
@@ -113,7 +113,7 @@ This time as shown in the picture above the application will say that there are 
 
 The spatial filter is used for showing records that are in a certain geographical area. The application can filter to whichever level your geographic data was collected \(e.g. country, region, district, village/community\).
 
-![](../.gitbook/assets/app-image87.png) &gt;
+![](../.gitbook/assets/app-image87.png)
 
 The spatial filter, as shown above, is found on the fourth tab of the controls section. The user needs to click on the drop downs there\(labelled "select area" and "select sub-area"\) and click on each one to show the list of areas there are.
 
