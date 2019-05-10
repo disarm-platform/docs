@@ -1,6 +1,6 @@
 # API docs
 
-The API provides access to DiSARM algorithms, functions and models.
+The API provides access to DiSARM algorithms, functions and models. Each algorithm can be accessed headless (i.e. via http request without an interface) or via a simple user interface (UI). See Algorithm-specific docs for a list of each algorithm available and links to the UIs and source code.
 
 ## General instructions
 
