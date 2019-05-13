@@ -9,6 +9,7 @@
   * [Record](app-v2/record.md)
   * [Monitor](app-v2/monitor.md)
   * [FAQs](app-v2/faqs.md)
+  * [DRAFT-sc](app-v2/screencast-draft.md)
 * [App: Editor manual \(v1\)](editor-v1/README.md)
   * [Instances](editor-v1/instances.md)
   * [Users](editor-v1/users.md)
