@@ -32,5 +32,5 @@ This algorithm clusters buildings into groups. The user can specify the minimum 
 
 This function allows users to extract values of a raster using polygons or points.
 
-[Docs](https://github.com/disarm-platform/fn-raster-vector-summary-stats/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-raster-polygon-extractor/) \| [Repo](https://github.com/disarm-platform/fn-raster-vector-summary-stats)
+[Docs](https://github.com/disarm-platform/fn-raster-vector-summary-stats/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-raster-vector-summary-stats/) \| [Repo](https://github.com/disarm-platform/fn-raster-vector-summary-stats)
 
