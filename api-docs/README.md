@@ -15,7 +15,7 @@ curl --request 'POST' \
     https://faas.srv.disarm.io/function/longrun
 ```
 
-There are detailed instructions for running the functions in [development](../api-docs/Running-deployed-functions-for-development-and-testing.md) \(e.g. using [`curl`](https://curl.haxx.se)) and in [production](../api-docs/Running-deployed-functions-in-production) \(e.g. from Python\).
+There are detailed instructions for running the functions in [development](../api-docs/Running-deployed-functions-for-development-and-testing.md) \(e.g. using [`curl`](https://curl.haxx.se)) and in [production](/api-docs/Running-deployed-functions-in-production.md) \(e.g. from Python\).
 
 Note: [HTTPie](https://httpie.org) might be a useful alternative command line client for HTTP requests.
 
