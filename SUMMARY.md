@@ -1,7 +1,7 @@
 # Table of contents
 
 - [Home](README.md)
-- [API docs](api-docs.md)
+- [API docs](api-docs/README.md)
   - [Algorithm specific links](app-docs/Algorithm-specific-links.md)
   - [Copying an existing algorithm](app-docs/Copying-an-existing-algorithm.md)
   - [Creating and deploying a new algorithm on DiSARM OpenFaas](app-docs/Creating-and-deploying-a-new-algorithm-on-DiSARM-OpenFaas.md)

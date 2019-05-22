@@ -1,6 +1,6 @@
 # Running deployed functions in production
 
-The basics of how to call the functions in a live production setting. There are more details on the requests and how to use them for [testing and development](https://github.com/disarm-platform/functions-for-openfaas/wiki/Running-deployed-functions-(development-and-testing)).
+The basics of how to call the functions in a live production setting. There are more details on the requests and how to use them for [testing and development](/api-docs/Running-deployed-functions-for-development-and-testing).
 
 ## Expect the unexpected
 

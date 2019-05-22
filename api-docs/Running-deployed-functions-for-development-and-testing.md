@@ -1,6 +1,6 @@
 # Running deployed functions for development and testing
 
-You run a function by issuing an HTTP request. There are many ways to construct and send the request. In this page, we're going to work through a few different ways and tools to create and send testing requests. Correctly sending and handling requests inside [client applications](https://github.com/disarm-platform/functions-for-openfaas/wiki/Running-(production)) - i.e. the real users of the functions - is a separate topic!
+You run a function by issuing an HTTP request. There are many ways to construct and send the request. In this page, we're going to work through a few different ways and tools to create and send testing requests. Correctly sending and handling requests inside [client applications](/api-docs/Running-deployed-functions-in-production) - i.e. the real users of the functions - is a separate topic!
 
 In general you need a _URL_ and some _parameters_. The _URL_ refers to the function, while the _parameters_ describe the . All the DiSARM functions are designed to take _parameters_ sent as JSON. See [below](#JSON) for info on making and using JSON correctly.
 
