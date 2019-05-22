@@ -4,7 +4,7 @@ For more information on the project, visit the main project website at <https://
 
 ## DiSARM API
 
-The _API_ is the main entry point to the project's modelling and algorithms work. For more detailed documentation, and to access the headless and UI versions of the algorithms, see [here](api-docs.md).
+The _API_ is the main entry point to the project's modelling and algorithms work. For more detailed documentation, and to access the headless and UI versions of the algorithms, see [here](api-docs/).
 
 ## DiSARM App
 
