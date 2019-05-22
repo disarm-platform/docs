@@ -2,7 +2,7 @@
 
 - [Home](README.md)
 - [API docs](api-docs/README.md)
-  - [Algorithm specific links](api-docs/Algorithm-specific-links.md)
+  - [Algorithm specific links](api-docs/algorithm-specific-links.md)
   - [Copying an existing algorithm](api-docs/Copying-an-existing-algorithm.md)
   - [Creating and deploying a new algorithm on DiSARM OpenFaas](api-docs/Creating-and-deploying-a-new-algorithm-on-DiSARM-OpenFaas.md)
   - [Development notes](api-docs/Development-notes.md)
