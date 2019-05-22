@@ -15,27 +15,27 @@ curl --request 'POST' \
     https://faas.srv.disarm.io/function/longrun
 ```
 
-There are detailed instructions for running the functions in [development](/api-docs/Running-deployed-functions-for-development-and-testing) \(e.g. using [`curl`](https://curl.haxx.se)) and in [production](/api-docs/Running-deployed-functions-in-production) \(e.g. from Python\). For more general instructions and background information, see [the project wiki](/api-docs).
+There are detailed instructions for running the functions in [development](../api-docs/Running-deployed-functions-for-development-and-testing) \(e.g. using [`curl`](https://curl.haxx.se)) and in [production](../api-docs/Running-deployed-functions-in-production) \(e.g. from Python\).
 
 Note: [HTTPie](https://httpie.org) might be a useful alternative command line client for HTTP requests.
 
 # Data
 - Datasets [coming]
-- [Structuring JSON](/api-docs/Structuring-JSON)
+- [Structuring JSON](../api-docs/Structuring-JSON)
 
 # Creating, deploying
-- [Creating and deploying a new algorithm on DiSARM OpenFaas](/api-docs/Creating-and-deploying-a-new-algorithm-on-DiSARM-OpenFaas)
-- [Versioning](/api-docs/Versioning-algos)
+- [Creating and deploying a new algorithm on DiSARM OpenFaas](../api-docs/Creating-and-deploying-a-new-algorithm-on-DiSARM-OpenFaas)
+- [Versioning](../api-docs/Versioning-algos)
 
 # Testing, debugging
-- [Troubleshooting functions](/api-docs/Troubleshooting-functions)
-- [Testing local function containers](/api-docs/Testing-a-function-locally)
-- [Running for test/dev](/api-docs/Running-deployed-functions-for-development-and-testing)
+- [Troubleshooting functions](../api-docs/Troubleshooting-functions)
+- [Testing local function containers](../api-docs/Testing-a-function-locally)
+- [Running for test/dev](../api-docs/Running-deployed-functions-for-development-and-testing)
 
 # Using
-- [Running in production](/api-docs/Running-deployed-functions-in-production)
-- [Logging and monitoring](/api-docs/Logging,-monitoring)
+- [Running in production](../api-docs/Running-deployed-functions-in-production)
+- [Logging and monitoring](../api-docs/Logging,-monitoring)
 
 
 # Infrastructure
-- [DiSARM API Infrastructure](/api-docs/DiSARM-API-Infrastructure)
+- [DiSARM API Infrastructure](../api-docs/DiSARM-API-Infrastructure)
