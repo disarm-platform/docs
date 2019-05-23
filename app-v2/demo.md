@@ -36,10 +36,10 @@ or follow the steps executed in the video below:
 
 ## Screencast
 
-The video below is a screencast of the DiSARM application in use. It starts with the process of logging in, using the IRS Planner module to select areas to be sprayed, data collection on the IRS Record module and finaly viewing the data that has been collected on the IRS monitor module. 
+The [video below is a screencast](https://www.youtube.com/watch?v=aOSJMg_omIA&list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ&index=2&t=0s) of the DiSARM application in use. 
 
-[![](../.gitbook/assets/videoicon.jpg)](https://www.youtube.com/watch?v=aOSJMg_omIA&list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ&index=2&t=0s)
+[![](../.gitbook/assets/videoicon.jpg)](https://www.youtube.com/watch?v=aOSJMg_omIA&list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ&index=2&t=10s)
 
-
+There is a [playlist](https://www.youtube.com/playlist?list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ) available of the complete set of DiSARM application and API walkthroughs [here](https://www.youtube.com/playlist?list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ)
 
 
