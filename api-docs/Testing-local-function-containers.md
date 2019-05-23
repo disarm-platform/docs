@@ -18,7 +18,7 @@ Instructions for testing the _container_, not the code. The container includes a
 		2019/03/04 06:54:53 Writing lock-file to: /tmp/.lock
 		```
 3. In the second terminal, send a request
-	- In another terminal send an HTTP request to `localhost:8080` e.g. `curl --request 'POST' 'http://localhost:8081' -d --max-time 60 @fn-dbscan-clusterer/function/test_req.json`
+	- In another terminal send an HTTP request to `localhost:8080` e.g. `curl --request 'POST' 'http://localhost:8080' -d --max-time 60 @fn-dbscan-clusterer/function/test_req.json`
 	- This request should make the first terminal print out `2019/03/04 07:22:58 Forking fprocess.`
 
 4. Assuming it doesn't timeout or crash, your second terminal should contain the successful response, while the first should contain some logging, or at least the error if it crashes.
