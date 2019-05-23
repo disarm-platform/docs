@@ -40,6 +40,6 @@ The [video below is a screencast](https://www.youtube.com/watch?v=aOSJMg_omIA&li
 
 [![](../.gitbook/assets/videoicon.jpg)](https://www.youtube.com/watch?v=aOSJMg_omIA&list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ&index=2&t=10s)
 
-There is a [playlist](https://www.youtube.com/playlist?list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ) available of the complete set of DiSARM application and API walkthroughs [here](https://www.youtube.com/playlist?list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ)
+There is also a [playlist](https://www.youtube.com/playlist?list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ) available of the complete set of DiSARM application and API walkthroughs.
 
 
