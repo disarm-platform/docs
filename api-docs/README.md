@@ -2,6 +2,8 @@
 
 The API provides access to DiSARM algorithms, functions and models. Each algorithm can be accessed headless (i.e. via http request without an interface) or via a simple user interface (UI). See Algorithm-specific docs for a list of each algorithm available and links to the UIs and source code.
 
+There is a [playlist](https://www.youtube.com/playlist?list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ) available of the complete set of DiSARM API and application walkthroughs.
+
 ## Terms
 We can deploy almost any function to the OpenFaas platform, so the following terms are used interchangeably: `functions`, `algorithms`, `models`, etc.
 

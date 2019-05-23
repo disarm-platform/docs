@@ -36,10 +36,6 @@ or follow the steps executed in the video below:
 
 ## Screencast
 
-There's a video below here:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aOSJMg_omIA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 The [video below is a screencast](https://www.youtube.com/watch?v=aOSJMg_omIA&list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ&index=2&t=0s) of the DiSARM application in use. 
 
 [![](../.gitbook/assets/videoicon.jpg)](https://www.youtube.com/watch?v=aOSJMg_omIA&list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ&index=2&t=10s)
