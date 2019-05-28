@@ -16,3 +16,15 @@ This function allows users to extract values of a raster using polygons or point
 
 [Docs](https://github.com/disarm-platform/fn-raster-vector-summary-stats/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-raster-vector-summary-stats/) \| [Repo](https://github.com/disarm-platform/fn-raster-vector-summary-stats)
 
+## Covariate extractor
+
+This function allows users to obtain values of select bioclimatic/environmental layers (bioclim, elevation, distance to water)
+
+[Docs](https://github.com/disarm-platform/fn-covariate-extractor/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-covariate-extractor/) \| [Repo](https://github.com/disarm-platform/fn-covariate-extractor)
+
+## Village finder
+
+This function allows users to obtain estimated locations of settlements from WorldPop data for select countries
+
+[Docs](https://github.com/disarm-platform/fn-village-finder/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-village-finder/) \| [Repo](https://github.com/disarm-platform/fn-village-finder)
+
