@@ -8,23 +8,23 @@ If you bump into any issues on any of the functions, please log an issue on the 
 
 This algorithm clusters buildings into groups. The user can specify the minimum and maximum number of builidngs per cluster, as well as the maximum distance between any two buildings in a cluster. It is also possible to ensure that no clusters intersect lines \(e.g. roads, rivers or admin boundaries\).
 
-[Docs](https://github.com/disarm-platform/fn-dbscan-clusterer/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-dbscan-clusterer) \| [Repo](https://github.com/disarm-platform/fn-dbscan-clusterer)
+[Specs](https://github.com/disarm-platform/fn-dbscan-clusterer/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-dbscan-clusterer) \| [Repo](https://github.com/disarm-platform/fn-dbscan-clusterer)
 
 ## Raster extractor
 
 This function allows users to extract values of a supplied raster using supplied polygons or points.
 
-[Docs](https://github.com/disarm-platform/fn-raster-vector-summary-stats/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-raster-vector-summary-stats/) \| [Repo](https://github.com/disarm-platform/fn-raster-vector-summary-stats)
+[Specs](https://github.com/disarm-platform/fn-raster-vector-summary-stats/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-raster-vector-summary-stats/) \| [Repo](https://github.com/disarm-platform/fn-raster-vector-summary-stats)
 
 ## Covariate extractor
 
 This function allows users to obtain values of select bioclimatic/environmental layers (bioclim, elevation, distance to water) from supplied polygons or points.
 
-[Docs](https://github.com/disarm-platform/fn-covariate-extractor/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-covariate-extractor/) \| [Repo](https://github.com/disarm-platform/fn-covariate-extractor)
+[Specs](https://github.com/disarm-platform/fn-covariate-extractor/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-covariate-extractor/) \| [Repo](https://github.com/disarm-platform/fn-covariate-extractor)
 
 ## Village finder
 
 This function allows users to obtain estimated locations of settlements from WorldPop data for select countries.
 
-[Docs](https://github.com/disarm-platform/fn-village-finder/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-village-finder/) \| [Repo](https://github.com/disarm-platform/fn-village-finder)
+[Specs](https://github.com/disarm-platform/fn-village-finder/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-village-finder/) \| [Repo](https://github.com/disarm-platform/fn-village-finder)
 
