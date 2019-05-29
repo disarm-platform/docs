@@ -1,8 +1,6 @@
 # API docs
 
-The API provides access to DiSARM algorithms, functions and models. Each algorithm can be accessed headless (i.e. via http request without an interface) or via a simple user interface (UI). See Algorithm-specific docs for a list of each algorithm available and links to the UIs and source code.
-
-There is a [playlist](https://www.youtube.com/playlist?list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ) available of the complete set of DiSARM API and application walkthroughs.
+The API provides access to DiSARM algorithms, functions and models. Each algorithm can be accessed headless (i.e. via http request without an interface) or via a simple user interface (UI). See [Algorithm-specific docs](/api-docs/Algorithm-specific-links.md) for a list of each algorithm available and links to the UIs and source code.
 
 ## Terms
 We can deploy almost any function to the OpenFaas platform, so the following terms are used interchangeably: `functions`, `algorithms`, `models`, etc.
@@ -37,7 +35,6 @@ Note: [HTTPie](https://httpie.org) might be a useful alternative command line cl
 # Using
 - [Running in production](/api-docs/Running-deployed-functions-in-production.md)
 - [Logging and monitoring](/api-docs/Logging,-monitoring.md)
-
 
 # Infrastructure
 - [DiSARM API Infrastructure](/api-docs/DiSARM-API-Infrastructure.md)
