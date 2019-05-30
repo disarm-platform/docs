@@ -8,7 +8,7 @@ If you bump into any issues on any of the functions, please log an issue on the 
 
 This algorithm clusters buildings into groups. The user can specify the minimum and maximum number of builidngs per cluster, as well as the maximum distance between any two buildings in a cluster. It is also possible to ensure that no clusters intersect lines \(e.g. roads, rivers or admin boundaries\).
 
-[Specs](https://github.com/disarm-platform/fn-dbscan-clusterer/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-dbscan-clusterer) \| [Repo](https://github.com/disarm-platform/fn-dbscan-clusterer)
+[Specs](https://github.com/disarm-platform/fn-dbscan-clusterer/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-dbscan-clusterer) \| [Algorithm Repo](https://github.com/disarm-platform/fn-dbscan-clusterer) \| [UI Repo](https://github.com/disarm-platform/ui-dbscan-clusterer)
 
 ## Raster extractor
 
