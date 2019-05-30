@@ -1,6 +1,6 @@
 # Docs Home
 
-For more information on the project, visit the main project website at <https://www.disarm.io>
+This site contains documentation on outputs from the DiSARM project, including the DiSARM app and the DiSARM API. For more information on the project, visit the main project website at <https://www.disarm.io>
 
 ## DiSARM API
 
