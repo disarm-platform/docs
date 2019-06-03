@@ -13,6 +13,8 @@ Make sure you can handle any network failures, that you display a message to the
 
 You can send either _synchronous_ or _asynchronous_ requests. The first is simpler, but might fail with long-running requests. The second is more robust, but requires some extra steps to retrieve the result.
 
+## Python
+
 ### Synchronous
 
 Send a request and wait for the response:
@@ -63,4 +65,46 @@ print('Response HTTP Status Code: {status_code}'.format(
     status_code=response.status_code))
 
 
+```
+
+
+## R
+
+### Synchronous
+
+Send a request and wait for the response:
+
+```r
+library(httr)
+library(geojsonio)
+
+    response <-
+      httr::POST(
+        url = "https://faas.srv.disarm.io/async-function/longrun",
+        body = as.json(list(delay_s = 0.5)),
+        content_type_json()
+      )
+      
+paste('Response HTTP Status Code:', response$status_code)
+print('Response HTTP Response Body:', content(response))
+```
+
+
+### Asynchronous
+
+Send a request and wait for the response:
+
+```r
+library(httr)
+library(geojsonio)
+
+    response <-
+      httr::POST(
+        url = "https://faas.srv.disarm.io/async-function/longrun",
+        body = as.json(list(delay_s = 0.5)),
+        content_type_json(),
+        add_headers(.headers = c('X-Callback-Url' = 'https://test-disarm-api.free.beeceptor.com')
+      )
+      
+paste('Response HTTP Status Code:', response$status_code)
 ```
