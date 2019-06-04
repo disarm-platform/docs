@@ -80,13 +80,16 @@ library(geojsonio)
 
     response <-
       httr::POST(
-        url = "https://faas.srv.disarm.io/async-function/longrun",
+        url = "https://faas.srv.disarm.io/function/longrun",
         body = as.json(list(delay_s = 0.5)),
         content_type_json()
       )
-      
-paste('Response HTTP Status Code:', response$status_code)
-print('Response HTTP Response Body:', content(response))
+
+# Get status code      
+response$status_code
+
+# Get contents of the response
+content(response)
 ```
 
 
@@ -100,11 +103,12 @@ library(geojsonio)
 
     response <-
       httr::POST(
-        url = "https://faas.srv.disarm.io/async-function/longrun",
+        url = "https://faas.srv.disarm.io/function/longrun",
         body = as.json(list(delay_s = 0.5)),
         content_type_json(),
-        add_headers(.headers = c('X-Callback-Url' = 'https://test-disarm-api.free.beeceptor.com')
+        add_headers(.headers = c('X-Callback-Url' = 'https://test-disarm-api.free.beeceptor.com'))
       )
       
-paste('Response HTTP Status Code:', response$status_code)
+# Get status code      
+response$status_code
 ```
