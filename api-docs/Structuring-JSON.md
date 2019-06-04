@@ -7,14 +7,14 @@ Users expect to handle JSON as an array of objects, not arrays of values. We'll 
 ```json
 [
   {
-    "lat": 11,
-    "lng": 12,
-    "value": 13
+    "ID": 11,
+    "value_1": 12,
+    "value_2": 13
   },
   {
-    "lat": 21,
-    "lng": 22,
-    "value": 23
+    "ID": 21,
+    "value_1": 22,
+    "value_2": 23
   }
 ]
 ```
@@ -23,19 +23,38 @@ Users expect to handle JSON as an array of objects, not arrays of values. We'll 
 
 ```json
 {
-  "lat": [
+  "ID": [
     11,
     21
   ],
-  "lng": [
+  "value_1": [
     12,
     22
   ],
-  "value": [
+  "value_2": [
     13,
     23
   ]
 }
 ```
 
+Spatial vector data (points and polygons) are handled using GeoJSON. GIS software and some online tools such as [geojson.io](geojson.io) can be used to create GeoJSON from shapefiles. Below is an example of a single point with 1 `country` attribute. 
 
+```
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"country": "DRC"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.203125,
+          -7.01366792756663
+        ]
+      }
+    }
+  ]
+}
+```
