@@ -93,22 +93,3 @@ content(response)
 ```
 
 
-### Asynchronous
-
-Send a request and wait for the response:
-
-```r
-library(httr)
-library(geojsonio)
-
-    response <-
-      httr::POST(
-        url = "https://faas.srv.disarm.io/function/longrun",
-        body = as.json(list(delay_s = 0.5)),
-        content_type_json(),
-        add_headers(.headers = c('X-Callback-Url' = 'https://test-disarm-api.free.beeceptor.com'))
-      )
-      
-# Get status code      
-response$status_code
-```
