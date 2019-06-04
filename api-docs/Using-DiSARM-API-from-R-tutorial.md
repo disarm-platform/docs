@@ -126,4 +126,4 @@ points colored by elevation in leaflet
       addCircleMarkers(data = points_sf, col = col_pal(points_sf$elev_m)) %>% 
       addLegend(pal = col_pal, values =points_sf$elev_m, title = "Elevation (m)")
 
-![](https://raw.githubusercontent.com/HughSt/HughSt.github.io/master/_posts/week1_files/figure-gfm/leaflet1.png)
+![](https://raw.githubusercontent.com/disarm-platform/docs/master/images/elev_m_sazi_points.png)
