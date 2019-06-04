@@ -38,7 +38,7 @@ Users expect to handle JSON as an array of objects, not arrays of values. We'll 
 }
 ```
 
-Spatial vector data (points and polygons) are handled using GeoJSON. GIS software and some online tools such as [geojson.io](geojson.io) can be used to create GeoJSON from shapefiles. Below is an example of a single point with 1 `country` attribute. 
+Spatial vector data (points and polygons) are handled using GeoJSON FeatureCollections. GIS software and some online tools such as [geojson.io](geojson.io) can be used to create GeoJSON from shapefiles. Below is an example of a single point with 1 `country` attribute. 
 
 ```json
 {
