@@ -13,6 +13,7 @@
   - [Structuring JSON](api-docs/Structuring-JSON.md)
   - [Testing local function containers](api-docs/Testing-local-function-containers.md)
   - [Troubleshooting functions](api-docs/Troubleshooting-functions.md)
+  - [Using DiSARM API from R tutorial](api-docs/Using-DiSARM-API-from-R-tutorial.md)
   - [Versioning algos](api-docs/Versioning-algos.md)
 - [App: Demo](app-v2/demo.md)
 - [App: User manual (v2)](app-v2/README.md)
