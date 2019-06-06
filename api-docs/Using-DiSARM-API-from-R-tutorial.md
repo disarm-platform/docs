@@ -3,7 +3,7 @@ Using the DiSARM API from R
 
 The DiSARM API uses JSON as a standard for inputs and outputs, i.e. data
 have to be sent to the DiSARM API as JSON and will be returned as JSON.
-Some functions accept URLs to JSON. In which case, the JSON input can
+Some functions accept URLs to JSON files. In which case, the JSON input can
 contain the URL.
 
 Handling JSON objects in R is most easily done using lists. As an
@@ -50,7 +50,7 @@ input_data_list <- list(
     )
 ```
 
-Now we have created a list of the JSON object we are going to send to
+We have now created a list of the JSON object we are going to send to
 the function, which includes `points` as a `geo_list` class object. This
 replicates the JSON structure of a GeoJSON. Now let’s use the `POST`
 function from the `httr` package to send it to the function.
