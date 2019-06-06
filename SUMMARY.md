@@ -2,6 +2,12 @@
 
 - [Home](README.md)
 - [API docs](api-docs/README.md)
+  - [Structuring data]()
+    - [Structuring JSON](api-docs/structuring-json)
+  - [Creating and deploying functions]()
+    - [Creating and deploying a new algorithm on DiSARM OpenFaas](api-docs/creating-and-deploying-a-new-algorithm-on-disarm-openfaas)
+    - [Versioning algos](api-docs/Versioning-algos.md)
+- [APP docs](app-docs/README.md)
   - [Algorithm specific links](api-docs/Algorithm-specific-links.md)
   - [Copying an existing algorithm](api-docs/Copying-an-existing-algorithm.md)
   - [Creating and deploying a new algorithm on DiSARM OpenFaas](api-docs/Creating-and-deploying-a-new-algorithm-on-DiSARM-OpenFaas.md)
