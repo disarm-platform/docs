@@ -8,10 +8,10 @@ The _API_ is the main entry point to the project's modelling and algorithms work
 
 ## DiSARM App
 
-The _app_ is a user application for the planning and monitoring of field-based campaigns.
+The _app_ is a user application for the planning and monitoring of field-based campaigns. 
 
-* [demo](app-v2/demo.md)
-* [app \(v2\)](app-v2/)
-* [editor \(v1\)](editor-v1/)
-* [basic deployment, server config](deployment.md)
+* [Demo](app-v2/demo.md)
+* [User manual](app-v2/)
+* [Configuration editor manual](editor-v1/)
+* [Deployment manual](deployment.md)
 

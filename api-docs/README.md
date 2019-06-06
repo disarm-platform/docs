@@ -18,23 +18,3 @@ curl --request 'POST' \
 There are detailed instructions for running the functions in [development](/api-docs/Running-deployed-functions-for-development-and-testing.md) \(e.g. using [`curl`](https://curl.haxx.se)) and in [production](/api-docs/Running-deployed-functions-in-production.md) \(e.g. from Python\).
 
 Note: [HTTPie](https://httpie.org) might be a useful alternative command line client for HTTP requests.
-
-# Data
-- Datasets [coming]
-- [Structuring JSON](/api-docs/Structuring-JSON.md)
-
-# Creating, deploying
-- [Creating and deploying a new algorithm on DiSARM OpenFaas](/api-docs/Creating-and-deploying-a-new-algorithm-on-DiSARM-OpenFaas.md)
-- [Versioning](/api-docs/Versioning-algos.md)
-
-# Testing, debugging
-- [Troubleshooting functions](/api-docs/Troubleshooting-functions.md)
-- [Testing local function containers](/api-docs/Testing-a-function-locally.md)
-- [Running for test/dev](/api-docs/Running-deployed-functions-for-development-and-testing.md)
-
-# Using
-- [Running in production](/api-docs/Running-deployed-functions-in-production.md)
-- [Logging and monitoring](/api-docs/Logging,-monitoring.md)
-
-# Infrastructure
-- [DiSARM API Infrastructure](/api-docs/DiSARM-API-Infrastructure.md)
