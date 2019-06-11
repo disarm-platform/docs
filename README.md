@@ -10,8 +10,8 @@ The _API_ is the main entry point to the project's modelling and algorithms work
 
 The _app_ is a user application for the planning and monitoring of field-based campaigns. 
 
-* [Demo](app-v2/demo.md)
-* [User manual](app-v2/)
-* [Configuration editor manual](editor-v1/)
-* [Deployment manual](deployment.md)
+* [Demo](app-docs/v2/demo.md)
+* [User manual](app-docs/v2/)
+* [Configuration editor manual](app-docs/editor-v1/README.md/)
+* [Deployment manual](app-docs/v2/deployment.md)
 
