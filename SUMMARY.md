@@ -2,6 +2,7 @@
 
 - [Home](README.md)
 - [API docs](api-docs/README.md)
+  - [Algorithm specific links](api-docs/Algorithm-specific-links.md)
   - [Handling data]()
     - [Datasets - coming]()
     - [Structuring JSON](api-docs/Structuring-JSON.md)
@@ -13,7 +14,6 @@
     - [Troubleshooting functions](api-docs/Troubleshooting-functions.md)
     - [Running deployed functions for development and testing](api-docs/Running-deployed-functions-for-development-and-testing.md)
   - [Using the API]()
-    - [Algorithm specific links](api-docs/Algorithm-specific-links.md)
     - [Running deployed functions in production](api-docs/Running-deployed-functions-in-production.md)
     - [Logging, monitoring](api-docs/Logging,-monitoring.md)  
     - [Using DiSARM API from R tutorial](api-docs/Using-DiSARM-API-from-R-tutorial.md)   
