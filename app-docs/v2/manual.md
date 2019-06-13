@@ -20,7 +20,7 @@ More information on the DiSARM platform can be found at [www.disarm.io](http://w
 
 To access the DiSARM application your application administrator should give you a web address \(URL\) where your application can be accessed. DiSARM is most compatible with Google Chrome browser
 
-![](.gitbook/assets/app-image73.png)
+![](/.gitbook/assets/app-image73.png)
 
 ## Automatic pop-up
 The application will pop up a message; "offline ready" once it is finished loading. At the bottom there will also be a message: "ADD TO HOME SCREEN". To download the application to your mobile phone click the message.
