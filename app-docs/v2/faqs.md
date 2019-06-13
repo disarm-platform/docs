@@ -4,13 +4,13 @@
 
 In the unlikely event that the application stops working, please reload the application. If it is still not working there is a function to reset it by selecting the "Reset Offline" option under the DiSARM logo.
 
-![](../.gitbook/assets/app-image55.png)
+![](/.gitbook/assets/app-image55.png)
 
 > Note: Although you will be resetting the application offline, the application will not delete any data that you have already collected and saved to your device.
 
 You will be presented with a screen informing you "you will not lose any data, click the button labeled "reset offline mode"
 
-![](../.gitbook/assets/app-image35.png)
+![](/.gitbook/assets/app-image35.png)
 
 The page shown above can also be reached by editing the URL in the address bar. You have to change it to URL-given-to-access-disarm/reset.html
 
@@ -18,7 +18,7 @@ In other words you add /reset.html. The first character there is a forward slash
 
 You see a message saying stating "offline mode was reset successfully". Click "Restart Application" button to start using the application.
 
-![](../.gitbook/assets/app-image9.png)
+![](/.gitbook/assets/app-image9.png)
 
 > Note: The "restart application" button will bring you back to the Login page.
 
@@ -30,7 +30,7 @@ When the DISARM application is connected to the internet, it will automatically 
 
 You can dismiss the message by clicking it.
 
-![](../.gitbook/assets/app-image27.png)
+![](/.gitbook/assets/app-image27.png)
 
 > Note: Updates may not be successful due to slow internet connection. If the update is unsuccessful or your browser freezes during the download, try a "forced reload" by pressing Ctrl+Shift+R on Windows \(Cmd+Shift+R on Mac\). on a mobile phone touch the screen at the top and drag to the bottom. The application will automatically attempt to download the update again. Your data will not be removed as a result of the forced reload. However, **any unsaved forms \(incomplete data collection in the record point module\) may be deleted.**
 

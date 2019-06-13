@@ -5,7 +5,7 @@ The DiSARM application has version that has been deployed for demonstration pupo
 
 > Note that this version cannot be used for actual spray tracking activities, it is only for demonstration purposes. 
 
-![](../.gitbook/assets/home.png)
+![](/.gitbook/assets/home.png)
 
 
 ## Access details to demonstration app
@@ -31,14 +31,14 @@ The DiSARM application has an option to create fake data very quickly on the deb
 
 or follow the steps executed in the video below:
 
-![](../.gitbook/assets/quickrecords.gif)
+![](/.gitbook/assets/quickrecords.gif)
 
 
 ## Screencast
 
 The [video below is a screencast](https://www.youtube.com/watch?v=aOSJMg_omIA&list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ&index=2&t=0s) of the DiSARM application in use. 
 
-[![](../.gitbook/assets/videoicon.jpg)](https://www.youtube.com/watch?v=aOSJMg_omIA&list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ&index=2&t=10s)
+[![](/.gitbook/assets/videoicon.jpg)](https://www.youtube.com/watch?v=aOSJMg_omIA&list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ&index=2&t=10s)
 
 There is also a [playlist](https://www.youtube.com/playlist?list=PLjdoHmpUzEOfHg_WCs9UBFJYdvs1DWKHQ) available of the complete set of DiSARM application and API walkthroughs.
 
