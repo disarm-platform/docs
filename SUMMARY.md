@@ -21,7 +21,7 @@
   - [Development notes](api-docs/Development-notes.md)
 - [App docs](app-docs/v2/README.md)
   - [App: Demo](app-docs/v2/demo.md)
-  - [App: User manual (v2)](app-docs/v2/README.md)
+  - [App: User manual (v2)](app-docs/v2/manual.md)
     - [Login, download, etc](app-docs/v2/meta.md)
     - [Plan](app-docs/v2/plan.md)
     - [Record](app-docs/v2/record.md)
