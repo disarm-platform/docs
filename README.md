@@ -1,6 +1,6 @@
-# Docs Home
+# Home
 
-This site contains documentation on outputs from the DiSARM project, including the DiSARM app and the DiSARM API. For more information on the project, visit the main project website at <https://www.disarm.io>
+This site contains documentation on outputs from the DiSARM project, including the DiSARM app and the DiSARM API. For more information on the project, visit the main project website at [https://www.disarm.io](https://www.disarm.io)
 
 ## DiSARM API
 
@@ -8,10 +8,10 @@ The _API_ is the main entry point to the project's modelling and algorithms work
 
 ## DiSARM App
 
-The _app_ is a user application for the planning and monitoring of field-based campaigns. 
+The _app_ is a user application for the planning and monitoring of field-based campaigns.
 
-* [Demo](app-docs/v2/demo.md)
-* [User manual](app-docs/v2/README.md)
-* [Configuration editor manual](app-docs/editor-v1/README.md/)
-* [Deployment manual](app-docs/v2/deployment.md)
+* [Demo](v2/demo.md)
+* [User manual](v2/)
+* [Configuration editor manual](v2/editor-v1/)
+* [Deployment manual](v2/deployment.md)
 
