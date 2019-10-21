@@ -14,7 +14,7 @@
 2. Change at least these files:
    * `stack.yml`: this describes the Docker image, and the name the function will have when deployed \(don't want to over-write an existing algo\)
    * the `requirements.txt` or `install_packages.R` files \(or similar\): these are for installing dependencies, and without them, the image won't build
-3. Ensure your function runs locally, ideally with some automated testing. 
+3. Ensure your function runs locally, ideally with some automated testing. Refer to the [Testing and debugging functions page](https://docs.disarm.io/api-docs/testing-and-debugging-functions) for more information. 
 
 ## Deploying
 
