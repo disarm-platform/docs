@@ -1,4 +1,4 @@
-# Creating and deploying a new algorithm on DiSARM OpenFaas
+# Creating and deploying a new algorithm to OpenFaas
 
 ## Pre-requisites
 
