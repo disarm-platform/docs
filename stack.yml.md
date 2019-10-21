@@ -1,4 +1,4 @@
-This page covers basic properties of the OpenFaaS YAML stack file 
+This page covers basic properties of the OpenFaaS YAML stack file and any changes that could be made. It covers only the properties required to build and deploy functions.s
 ``` yaml
 provider:
   name: faas
