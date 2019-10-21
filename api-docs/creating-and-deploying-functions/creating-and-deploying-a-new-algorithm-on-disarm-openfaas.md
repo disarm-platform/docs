@@ -2,8 +2,8 @@
 
 ## Pre-requisites
 
-1. OpenFaas CLI installed localled
-2. Docker installed and running locally
+1. [OpenFaas CLI](https://docs.openfaas.com/cli/install/) installed localled
+2. [Docker](https://docs.docker.com/install/) installed and running locally
 3. DiSARM OpenFaas gateway `username` and `password` details
 4. Docker Hub account and login details
 5. A fast internet connection
