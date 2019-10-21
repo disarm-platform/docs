@@ -8,14 +8,6 @@
 4. Docker Hub account and login details
 5. A fast internet connection
 
-## Registering the algorithm
-
-At time of writing, the _registry_ is a [YAML file](https://github.com/disarm-platform/functions-dashboard/blob/master/src/static_info.yaml), but hopefully this will change.
-
-1. If it's a new algorithm, add an entry to the registry. 
-2. If it's an updated version, make a change if any of the fields have changed, including the image version. 
-3. If there's a new use of the algorithm \(a new UI or another team using it\), add it to the registry.
-
 ## Creating a new algorithm
 
 1. Create a local copy of an existing repo, in the correct language for the new algo. There isn't currently a better way to copy the wrapper code and structure.
