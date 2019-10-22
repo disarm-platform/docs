@@ -10,7 +10,7 @@
 
 ## Creating a new algorithm
 
-1. Create a local copy of an existing repo, in the correct language for the new algo. There isn't currently a better way to copy the wrapper code and structure.
+1. Create a local copy of an existing repo (e.g. [Python sample](https://github.com/disarm-platform/faas-template-python-fn) or [R sample](https://github.com/disarm-platform/faas-template-r-fn)), in the correct language for the new algo. There isn't currently a better way to copy the wrapper code and structure.
 2. Change at least these files:
    * `stack.yml`: this describes the Docker image, and the name the function will have when deployed \(don't want to over-write an existing algo\)
    * the `requirements.txt` or `install_packages.R` files \(or similar\): these are for installing dependencies, and without them, the image won't build
