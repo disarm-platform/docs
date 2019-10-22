@@ -8,7 +8,7 @@
     * [Structuring JSON](api-docs/handling-data/structuring-json.md)
   * [Creating and deploying functions](api-docs/creating-and-deploying-functions/README.md)
     * [Creating and deploying a new algorithm on OpenFaas](api-docs/creating-and-deploying-functions/creating-and-deploying-a-new-algorithm-on-openfaas.md)
-    * [Configuring stack.yml](api-docs/creating-and-deploying-functions/stack.yml.md)
+    * [Stack.yml](api-docs/creating-and-deploying-functions/stack.yml.md)
     * [Versioning algos](api-docs/creating-and-deploying-functions/versioning-algos.md)
   * [Testing and debugging functions](api-docs/testing-and-debugging-functions/README.md)
     * [Testing local function containers](api-docs/testing-and-debugging-functions/testing-local-function-containers.md)
