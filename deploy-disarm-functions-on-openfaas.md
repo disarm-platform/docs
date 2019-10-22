@@ -1,12 +1,25 @@
 # Deploying a diasarm function to OpenFaaS
 These guide assumes that you have an OpenFaaS gateway running on the url `<http://faas_url.com>` and the function is in a git repo.
+## Using `faas up`
+### Prerequisites
+1. `faas-cli` is installed.
+2. You have logged in to the gateway.
+3. Yo have logged into docker up.
 
-1. Clone the function repo with `git clone https://github.com/disarm-platform/<function_name>.git`
+### Steps
+1. Clone the repo with `git clone https://github.com/disarm-platform/<function_name>.git`.
+2. `cd` into the folder with `cd <function_name>`.
+3. Edit the `stack.yml` file and change the value of `provider.gateway` to `<http://faas_url.com>`
+4. Deploy the function with `faas up`.
 
-2. Change you working directory to the function folder with `cd <function_name>`
-3. If you don't have `faas-cli` installed, install it with `curl -sSL https://cli.openfaas.com | sh`
+## Using `faas deploy`
+### Prerequisites
+1. `faas-cli` is installed.
+2. You have logged in to the gateway.
+3. The container image exists in docker hub.
 
-4. Login to your OpenFaaS gateway with `faas login --gateway <http://faas_url.com> -u <Your Username> --password <Your password>`
-
-5. Edit the `stack.yml` file and change the value of `provider.gateway` to `<http://faas_url.com>`
-6. Deploy the function with `faas deploy`
+### Steps
+1. Clone the repo with `git clone https://github.com/disarm-platform/<function_name>.git`.
+2. `cd` into the folder with `cd <function_name>`.
+3. Edit the `stack.yml` file and change the value of `provider.gateway` to `<http://faas_url.com>`
+4. Deploy the function with `faas deploy`.
