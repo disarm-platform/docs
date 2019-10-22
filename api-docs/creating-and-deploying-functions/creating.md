@@ -10,6 +10,6 @@
    * the `requirements.txt` or `install_packages.R` files \(or similar\): these are for installing dependencies, and without them, the image won't build
 3. Ensure your function runs locally, ideally with some automated testing. Refer to the [Testing and debugging functions page](/api-docs/testing-and-debugging-functions) for more information. 
 
-Note that the prerequisites for deploying might also be useful during the creation steps. See [here]()
+Note that the prerequisites for deploying might also be useful during the creation steps. See [here](/api-docs/creating-and-deploying-functions/deploying.md)
 
 
