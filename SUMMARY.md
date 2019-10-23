@@ -23,6 +23,7 @@
   * [Development notes](api-docs/development-notes.md)
 * [App docs](app-docs/README.md)
   * [App: Demo](app-docs/demo.md)
+  * [App: Previously-hosted version](app-docs/previously-hosted.md)
   * [App: User manual \(v2\)](app-docs/manual/README.md)
     * [Login, download, etc](app-docs/manual/meta.md)
     * [Plan](app-docs/manual/plan.md)
