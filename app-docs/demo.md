@@ -15,7 +15,7 @@ Link: [https://demo-app.disarm.io](https://demo-app.disarm.io)
 * username: `user`
 * password: `m`
 
-Once logged in the user page will be displayed and this is a menu from where you can start exploring the DiSARM application. For a guide consult the application manual [here](https://github.com/disarm-platform/docs/tree/9243c194dc2bba011d6f92dd9634f7ff8989d8fa/app-app-docs/README.md)
+Once logged in the user page will be displayed and this is a menu from where you can start exploring the DiSARM application. For a guide consult the application manual [here](/app-docs)
 
 ## Creating fake data
 
