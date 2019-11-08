@@ -176,12 +176,12 @@ And then in R
 r <- raster(params$input_raster)
 ```
 
-# Getting GeoJSON out of your function
+## Getting GeoJSON out of your function
 If you want your function to return a GeoJSON, you can use the `geojson_list` function when you return the object. This puts the spatial object into a format which can then be easily returned as JSON to the user. For example, let's write a function that take an input GeoJSON `points` and simply adds a new field called `new_field`:
 
 ```
 function(params) {
-	
+
 	points <- st_read(params$points)
 
 	points$new_field <- "I'm new"
