@@ -1,6 +1,6 @@
 # Home
 
-This site contains documentation on outputs from the DiSARM project, including the DiSARM app and the DiSARM API. For more information on the project, visit the main project website at [https://www.disarm.io](https://www.disarm.io)
+This site contains documentation on outputs from the DiSARM project, including the DiSARM app and the DiSARM API (Application Programming Interface). In addition, it contains documentation and tools to help other algorithm developers deploy their algorithms as an API. Deploying an algorithm as an API allows it to be integrated into user interfaces and data pipelines. For more information on the whole project, visit the main project website at [https://www.disarm.io](https://www.disarm.io)
 
 ## DiSARM API
 
