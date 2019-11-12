@@ -1,28 +1,36 @@
-Every function created for OpenFaas requires a `stack.yml` configuration file. Below we describe any changes that can be made by a user. More information can be found [in the official docs](https://docs.openfaas.com/reference/yaml/)
+Every function created for OpenFaas requires a configuration file in `yaml` format. The default for a new function is to name the configuration file the same as the function name you give (e.g. `new-function.yml`). Naming it `stack.yml` makes it easier for the OpenFaas CLI (`faas` commands) to find it. 
 
-```yml
-provider:
-  name: faas # Don't change
+## Required edits
 
-  gateway: <GATEWAY_URL>
-  # URL of the OpenFaas gateway you want to deploy to. 
-  # Can be over-ridden with the `--gateway` flag when
-  # deploying, e.g. `faas deploy --gateway 
-  # gateway.example.com`
+There are 2 places to edit:
 
-functions:
-# Can contain config for multiple functions
+1. `gateway`: 
+    - edit to be the URL for the OpenFaas instance
+2. `image`: 
+    - need to prefix with a Docker Hub org or repo you can write to
+    - optionally change the `latest` tag to a specific version number
 
-  <FUNCTION_NAME>:
-  # Name of function, set by e.g. `faas new ...`
-    
-    lang: <LANGUAGE>
-    # The template language, e.g. `dockerfile`
+More information on editing the file can be found [in the official docs](https://docs.openfaas.com/reference/yaml/).
 
-    handler: <HANDLER_PATH>
-    # The folder where the function's source code can be found
-    
-    image: <DOCKER_HUB_IMAGE>
-    # The location for the built Docker image, e.g. on DockerHub
+## Example of edited file
+
+For example, create a new function with `faas new --lang python new-function` (see [creating functions](api-docs/creating-and-deploying-functions/creating.md)).
+
+1. Rename `new-function.yml` to `stack.yml`
+1. Edit `stack.yml`:
+    1. `gateway`: change to `https://faas.srv.disarm.io`
+    2. `image`: add Docker Hub org/username `new-function:latest` -> `disarm/new-function:latest`
+
+Your `stack.yml` should then look like
+```yaml
+version: 1.0
+ provider:
+   name: openfaas
+   gateway: https://faas.srv.disarm.io # Changed from `http://127.0.0.1:8080
+ functions:
+   new-function:
+     lang: python
+     handler: ./new-function
+     image: disarm/new-function:0.0.1 # Changed from `new-function:latest`
 ```
 
