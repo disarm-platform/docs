@@ -8,6 +8,7 @@
     * [Structuring JSON](api-docs/handling-data/structuring-json.md)
   * [Creating and deploying functions](api-docs/creating-and-deploying-functions/README.md)
     * [Creating and packaging an algorithm for OpenFaas](api-docs/creating-and-deploying-functions/creating.md)
+    * [Creating and packaging an algorithm in R](api-docs/creating-and-deploying-functions/creating_in_R.md)
     * [Deploying an algorithm](/api-docs/creating-and-deploying-functions/deploying.md)
     * [Editing stack.yml](api-docs/creating-and-deploying-functions/editing-stack-yml.md)
     * [Versioning algos](api-docs/creating-and-deploying-functions/versioning-algos.md)
