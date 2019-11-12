@@ -1,11 +1,11 @@
 ## Creating a new algorithm
 
-You will need:
-- `faas-cli` and Docker installed
+You will need `faas-cli` and Docker installed
 
 New functions are based on templates. OpenFaas comes with some defaults e.g. for python. We've also built two templates for DiSARM, `python-geospatial` and `r-geospatial`. The instructions assume you want to use one of the DiSARM templates.
 
 In your terminal:
+
 1. Create and change into a new folder
 1. Clone the templates with: `faas template pull https://github.com/disarm-platform/faas-templates.git`
 1. Choose a name and create a new function with: `faas new --lang python-geospatial <function-name>`
