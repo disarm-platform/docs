@@ -10,29 +10,22 @@ Both approaches have the following prerequisites:
 3. `faas-cli` is installed ([docs](https://docs.openfaas.com/cli/install/)).
 2. The function code is available in a GitHub repo.
 
-## Containerised version exists
+## Containerised version exists (*tldr:* `faas deploy`)
 
-### Prerequisite
-The container image exists in Docker Hub.
+**Prerequisite**: The container image exists in Docker Hub.
 
-
-### Steps
-*TLDR:* use `faas deploy`
-
+**Steps**:  
 1. Clone the repo with `git clone <repo>`.
 2. `cd` into the folder with `cd <repo>`.
 3. Edit the `stack.yml` file and change the value of `gateway` to `<GATEWAY_URL>` (or override with `--gateway <GATEWAY_URL>` in next step)
 4. Deploy the function with `faas deploy`.
 
 
-## No containerised version
+## No containerised version (*tldr:* `faas up`)
 
-### Prerequisite
-1. You have logged into Docker Hub ([see below](#required-logins))
+**Prerequisite**: You have logged into Docker Hub ([see below](#required-logins))
 
-
-### Steps
-*TLDR:* use `faas up`
+**Steps**: 
 
 1. Clone the repo with `git clone <repo>`.
 2. `cd` into the folder with `cd <repo>`.
