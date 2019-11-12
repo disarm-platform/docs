@@ -1,6 +1,6 @@
 Every function created for OpenFaas requires a `stack.yml` configuration file. Below we describe any changes that can be made by a user. More information can be found [in the official docs](https://docs.openfaas.com/reference/yaml/)
 
-``` yaml
+```yml
 provider:
   name: faas # Don't change
 
