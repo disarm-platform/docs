@@ -6,7 +6,7 @@ If you are not familiar with the basics of creating a function in R, you should 
 
 
 ## Getting data in/out of your function
-When working in R, you can use a range of possibile data formats and classes, including vectors, data frames, sf objects etc. etc. With deployed functions, you are much more restricted. OpenFaas uses something called *standard in* and *standard out*. This essentially means a continuous string of values/characters. Fortunately, JSON can be streamed as standard in/out. If you are not familiar with JSON, it is essentially a text format, which can contain some structure. 
+When working in R, you can use a range of possible data formats and classes, including vectors, data frames, `sf` objects etc. etc. With deployed functions, you are much more restricted. OpenFaas uses something called *standard in* and *standard out*. This essentially means a continuous string of values/characters. Fortunately, JSON can be streamed as standard in/out. If you are not familiar with JSON, it is essentially a text format, which can contain some structure. 
 
 
 For example, let's imagine you are writing a function which allows the user to pass in a vector of values in meters and get back the elevation in feet. The user would therefore have to pass in a JSON object with these values and would receive back a JSON object with the answers. You might therefore specify that the user pass in a JSON object with the field `meters` containing the values they want to convert. An example JSON might look like this:
@@ -17,7 +17,7 @@ For example, let's imagine you are writing a function which allows the user to p
 } 
 ```
 
-This JSON will be read into your function in a list called `params`. i.e. you will be able to access these values inside the function as `params$meters` or more specifically `params[['meters']]`. Let's open up the template R function and make the necessary edits to return elevation in feet.
+This JSON will be read into your function in a `list` called `params`. i.e. you will be able to access these values inside the function as `params$meters` or more specifically `params[['meters']]`. Let's open up the template R function and make the necessary edits to return elevation in feet.
 
 
 ```
@@ -77,7 +77,7 @@ Once you've finished your model, you can test the function. A good way to do thi
 ```
 
 ## Test your function
-Assuming your `test_req.json` is saved in the same folder as your `main.R` file, you can test the function from the command line, e.g.
+Create a `test_req.json` file. You can test the function from the command line, e.g.
 
 ```
 cat test_req.json | Rscript main.R
