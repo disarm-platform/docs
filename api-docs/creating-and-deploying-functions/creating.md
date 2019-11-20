@@ -37,7 +37,9 @@ If not, you'll need to create a new [templated function]() and copy your code an
 
 ### 4. Deploy
 
-Assuming you have a successful build from step 3, this step is simple to initiate: `faas up` .
+You will need a running OpenFaas deployment, which you've logged-into using `faas login`.
+
+Assuming you have a successful build from step 3, the deploy is simple to initiate: `faas up`. If this works, The command should output the URL of the 
 
 ## DiSARM algorithms and *OpenFaas*
 
@@ -47,9 +49,9 @@ We've used 3 parts of OpenFaas:
 
 1. The OpenFaas platform itself: for hosting and running deployed functions
 2. The `watchdog` process handler: gets built into Docker images, to convert incoming HTTP requests into `STDIN` streams 
-3. The `faas-cli` tool: scaffold new functions from templates, then build and deploy (see [below](#faas-cli))
+3. The `faas-cli` tool: scaffold new functions from templates, then build and deploy (see [below](#the-faas-cli))
 
-### `faas-cli`
+### The `faas-cli`
 
 The officials docs are at https://docs.openfaas.com/cli/install/
 
