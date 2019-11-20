@@ -13,3 +13,20 @@ In your terminal:
 
 This creates a basic function. Check the [editing `stack.yml` page](api-docs/creating-and-deploying-functions/editing-stack-yml.md) for instructions on editing this empty function to make it deployable on OpenFaas.
 
+The folders and files created using our `python-geospatial` template will be something like: 
+
+```
+new-function-py
+├── handler.py
+├── preprocess_params.py
+└── requirements.txt
+```
+
+and for `r-geospatial`:
+
+```
+new-function-r
+├── function.R
+├── install_packages.R
+└── preprocess_params.R
+```
