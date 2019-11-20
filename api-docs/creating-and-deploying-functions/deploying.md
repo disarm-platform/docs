@@ -5,21 +5,21 @@ There are two approaches, depending on whether or not a containerised version of
 Both approaches have the following prerequisites:
 
 1. [Docker](https://docs.docker.com/install/) installed and running locally
-1. An OpenFaaS gateway running at `<GATEWAY_URL>`
-2. You have logged in to the OpenFaas gateway ([see below](#required-logins))
-3. `faas-cli` is installed ([docs](https://docs.openfaas.com/cli/install/)).
-2. The function code is available in a GitHub repo.
+2. An OpenFaaS gateway running at `<GATEWAY_URL>`
+3. You have logged in to the OpenFaas gateway ([see below](#required-logins))
+4. `faas-cli` is installed ([docs](https://docs.openfaas.com/cli/install/)).
+5. The function code is available in a GitHub repo.
 
 ## Containerised version exists (*tldr:* `faas deploy`)
 
 **Prerequisite**: The container image exists in Docker Hub.
 
 **Steps**:  
+
 1. Clone the repo with `git clone <repo>`.
 2. `cd` into the folder with `cd <repo>`.
 3. Edit the `stack.yml` file and change the value of `gateway` to `<GATEWAY_URL>` (or override with `--gateway <GATEWAY_URL>` in next step)
 4. Deploy the function with `faas deploy`.
-
 
 ## No containerised version (*tldr:* `faas up`)
 
@@ -32,14 +32,12 @@ Both approaches have the following prerequisites:
 3. Edit the `stack.yml` file and change the value of `gateway` to `<GATEWAY_URL>` (or override with `--gateway <GATEWAY_URL>` in next step)
 4. Deploy the function with `faas up`.
 
-
 ## Extra help
 
 ### Required logins
 
 1. Login to the OpenFaas gateway with `faas login -u <GATEWAY_USER> -p <GATEWAY_PASSWORD> --gateway https://faas.srv.disarm.io`. If this doesn't work, you won't be able to stick the algorithm on the gateway.
-1. Login in Docker Hub with `docker login` - this lets you send the built Docker image somewhere more useful than local machine.
-
+2. Login in Docker Hub with `docker login` - this lets you send the built Docker image somewhere more useful than local machine.
 
 ### Detail on deploy process
 

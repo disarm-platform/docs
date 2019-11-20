@@ -1,7 +1,9 @@
 # Creating a new algorithm
 
 ## Lifecycle of a algorithm
+
 We think about a function having 4 steps, to bring from an idea to a remotely-deployed and accessible service.
+
 1. **Write** an algorithm which solves a problem
 2. **Re-write** the algorithm so it is more robust and reliable
 3. **Package** the algorithm to be accessed remotely by HTTP request and deployed simply via Docker
@@ -37,16 +39,15 @@ If not, you'll need to create a new [templated function]() and copy your code an
 
 Assuming you have a successful build from step 3, this step is simple to initiate: `faas up` .
 
-
-
 ## DiSARM algorithms and *OpenFaas*
 
 We have been developing and testing DiSARM algorithms for deployment on OpenFaas. It is a great platform, and has speeded us up considerably in steps 2, 3 and 4 above. OpenFaas is not the only approach to this, but any function _built_ with OpenFaas should then be much easier to deploy.
 
 We've used 3 parts of OpenFaas:
+
 1. The OpenFaas platform itself: for hosting and running deployed functions
-1. The `watchdog` process handler: gets built into Docker images, to convert incoming HTTP requests into `STDIN` streams 
-1. The `faas-cli` tool: scaffold new functions from templates, then build and deploy (see [below](#faas-cli))
+2. The `watchdog` process handler: gets built into Docker images, to convert incoming HTTP requests into `STDIN` streams 
+3. The `faas-cli` tool: scaffold new functions from templates, then build and deploy (see [below](#faas-cli))
 
 ### `faas-cli`
 
@@ -65,8 +66,6 @@ We've used these commands for *building*. They assume the existence of a `stack.
 
 They can be combined and run at once with `faas up`.
 
-
-
 ## Scaffolding from a template
 
 New functions are based on templates. OpenFaas comes with some defaults e.g. for python. We've also built two templates for DiSARM, `python-geospatial` and `r-geospatial`. The instructions assume you want to use one of the DiSARM templates.
@@ -76,9 +75,9 @@ You will need `faas-cli` and Docker installed.
 In your terminal:
 
 1. Create and change into a new folder
-1. Clone the templates with: `faas template pull https://github.com/disarm-platform/faas-templates.git`
-1. Choose a name and create a new function with: `faas new --lang python-geospatial <function-name>`
-1. Check the template builds with `faas build -f <function-name>`
+2. Clone the templates with: `faas template pull https://github.com/disarm-platform/faas-templates.git`
+3. Choose a name and create a new function with: `faas new --lang python-geospatial <function-name>`
+4. Check the template builds with `faas build -f <function-name>`
 
 This creates a basic function. Check the [editing `stack.yml` page](api-docs/creating-and-deploying-functions/editing-stack-yml.md) for instructions on editing this empty function to make it deployable on OpenFaas.
 
@@ -99,7 +98,6 @@ new-function-r
 ├── install_packages.R
 └── preprocess_params.R
 ```
-
 
 ## Basics of writing a function
 

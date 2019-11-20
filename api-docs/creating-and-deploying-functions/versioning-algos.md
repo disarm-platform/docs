@@ -8,7 +8,6 @@ If you decide to have more than one version of an algorithm deployed at the same
 
 You can version using any approach you want: e.g. `v1`, `v2`, etc, or `0.0.1`, `0.0.2`, etc, or `working-version`, `test-version`, etc. 
 
-
 ## How to version?
 
 You can always decide to make an entire new function and repository, following the instructions as if you are creating from scratch. When the changes are significant, this can be the right approach. For smaller changes, you will need to edit two things in the `stack.yml` file:
@@ -23,7 +22,7 @@ You can add a _tag_ to a Docker image to specify different versions: e.g. `0.0.1
 To do this, edit the `stack.yml` file, and change the `image` entry.
 
 * from: 
-
+  
   ```yaml
   ...
   image: disarm/fn-covariate-extractor:0.0.3
@@ -31,7 +30,7 @@ To do this, edit the `stack.yml` file, and change the `image` entry.
   ```
 
 * to:
-
+  
   ```yaml
   ...
   image: disarm/fn-covariate-extractor:0.0.4
@@ -39,7 +38,6 @@ To do this, edit the `stack.yml` file, and change the `image` entry.
   ```
 
 Do `faas build` then `faas push` to build the image and push it onto Docker Hub (or `faas deploy` to build and push _and_ deploy)
-
 
 ### Changing the function name
 
