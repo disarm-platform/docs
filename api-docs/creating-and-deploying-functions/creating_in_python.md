@@ -19,7 +19,7 @@ For example, let's imagine you are writing a function which allows the user to p
 This JSON will be read into your function in a `dict` called `params`. i.e. you will be able to access these values inside the function as `params['meters']`. Let's open up the template function and make the necessary edits to return elevation in feet.
 
 ```python
-def handler(params): 
+def run_function(params): 
   # run function and catch result
   result = params['meters'] * 3.28
   return result
@@ -28,7 +28,7 @@ def handler(params):
 Notice that in the above example, we are just returning the value in feet. If you want to name your output, or if we were returning multiple objects, these should be packaged in a named `dict`. For example, if we wanted the function to return both the feet and yards:
 
 ```python
-def handler(params):
+def run_function(params):
   # run function and catch result
 
   feet = params['meters'] * 3.28
