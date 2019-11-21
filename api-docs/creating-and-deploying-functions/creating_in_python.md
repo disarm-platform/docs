@@ -1,9 +1,5 @@
 # Creating and packaging an algorithm in Python
 
-\(Based on the R version, which is better\)
-
-To create a function that you can deploy as an API using the DiSARM resources, the most important thing to understand is how to get data in and out of your function.
-
 ## Getting data in and out of your function
 
 When working in Python, you can use a range of possible data formats and classes, including vectors, data frames, `dict` etc. etc. The data coming in and out of the function needs to serialisable to JSON. \(See the [basics of writing containerised functions](basics-of-writing-a-function.md) for more info\)
