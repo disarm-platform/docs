@@ -74,25 +74,29 @@ Once you've finished your model, you can test the function. A good way to do thi
 
 ## Test your function
 
-Create a `test_req.json` file. You can test the function from the command line, e.g.
+For a quick test of a container with few external dependencies \(or ones you're sure you've already got installed\), you can build a temporary version and pass data to it.
+
+Build with `faas build --shrinkwrap`
+
+You can test the function from the command line with a `test_req.json` file
 
 ```bash
 cat test_req.json | Rscript main.R
 ```
 
-You can also just feed the function raw JSON, e.g.
+You can also just feed it raw JSON, e.g.
 
 ```bash
-cat {"meters": [250, 280, 290]} | Rscript main.R
+echo '{"meters": [250, 280, 290]}' | Rscript main.R
 ```
 
 This is a good way to test the error messages, e.g.
 
 ```bash
-cat {"meters": [250, "two hundred", 290]} | Rscript main.R
+echo '{"meters": ["two hundred"]}' | Rscript main.R
 ```
 
-Once you're confident the function is behaving properly, you can build and test the container. See [here](https://docs.disarm.io/api-docs/testing-and-debugging-functions/testing-local-function-containers) for instructions.
+For more realistic tests, you need to build and test the container. See [here](https://docs.disarm.io/api-docs/testing-and-debugging-functions/testing-local-function-containers) for instructions.Test your function
 
 ## Dealing with spatial data
 
