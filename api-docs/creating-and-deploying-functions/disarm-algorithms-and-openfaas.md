@@ -1,6 +1,6 @@
 # DiSARM algorithms and OpenFaas
 
-We have been developing and testing DiSARM algorithms for deployment on OpenFaas. It is a great platform, and has speeded us up considerably in steps 2, 3 and 4 above. OpenFaas is not the only approach to this, but any function _built_ with OpenFaas should then be much easier to deploy.
+We have been developing and testing DiSARM algorithms for deployment on [OpenFaas](https://www.openfaas.com/). It is a great platform, and has speeded us up considerably in steps [2](lifecycle-of-an-algorithm.md#2-re-write), [3](lifecycle-of-an-algorithm.md#3-package) and [4](lifecycle-of-an-algorithm.md#4-deploy) in the [lifecycle](lifecycle-of-an-algorithm.md). OpenFaas is not the only approach to this, but any function _built_ with OpenFaas should then be much easier to deploy.
 
 We've used 3 parts of OpenFaas:
 
@@ -14,7 +14,7 @@ The officials docs are at [https://docs.openfaas.com/cli/install/](https://docs.
 
 We've used these commands for _creating new functions_:
 
-* `faas template pull https://github.com/disarm-platform/faas-templates.git`: retrieves our [custom templates](), and gets ready to create a new function from them
+* `faas template pull https://github.com/disarm-platform/faas-templates.git`: retrieves our [custom templates](scaffolding-from-a-template.md), and gets ready to create a new function from them
 * `faas new --lang r-geospatial new-function-r`: scaffolds a new function from the `r-geospatial` template
 
 We've used these commands for _building_. They assume the existence of a `stack.yml` file.

@@ -11,7 +11,7 @@
     * [DiSARM algorithms and OpenFaas](api-docs/creating-and-deploying-functions/disarm-algorithms-and-openfaas.md)
     * [Scaffolding from a template](api-docs/creating-and-deploying-functions/scaffolding-from-a-template.md)
     * [Editing stack.yml](api-docs/creating-and-deploying-functions/editing-stack-yml.md)
-    * [Basics of writing a function](api-docs/creating-and-deploying-functions/basics-of-writing-a-function.md)
+    * [Basics of writing a containerised function](api-docs/creating-and-deploying-functions/basics-of-writing-a-function.md)
     * [Deploying an algorithm](api-docs/creating-and-deploying-functions/deploying.md)
     * [Versioning algos](api-docs/creating-and-deploying-functions/versioning-algos.md)
     * [Creating and packaging an algorithm in R](api-docs/creating-and-deploying-functions/creating_in_r.md)
