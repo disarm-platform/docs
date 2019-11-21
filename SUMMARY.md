@@ -15,6 +15,7 @@
     * [Deploying an algorithm](api-docs/creating-and-deploying-functions/deploying.md)
     * [Versioning algos](api-docs/creating-and-deploying-functions/versioning-algos.md)
     * [Creating and packaging an algorithm in R](api-docs/creating-and-deploying-functions/creating_in_r.md)
+    * [Creating and packaging an algorithm in Python](api-docs/creating-and-deploying-functions/creating_in_python.md)
   * [Testing and debugging functions](api-docs/testing-and-debugging-functions/README.md)
     * [Testing local function containers](api-docs/testing-and-debugging-functions/testing-local-function-containers.md)
     * [Troubleshooting functions](api-docs/testing-and-debugging-functions/troubleshooting-functions.md)
