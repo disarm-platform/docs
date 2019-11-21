@@ -14,7 +14,7 @@ The officials docs are at [https://docs.openfaas.com/cli/install/](https://docs.
 
 We've used these commands for _creating new functions_:
 
-* `faas template pull https://github.com/disarm-platform/faas-templates.git`: retrieves our [custom templates](scaffolding-from-a-template.md), and gets ready to create a new function from them
+* `faas template pull https://github.com/disarm-platform/faas-templates.git`: retrieves our [custom templates](creating-and-deploying-functions/scaffolding-from-a-template.md), and gets ready to create a new function from them
 * `faas new --lang r-geospatial new-function-r`: scaffolds a new function from the `r-geospatial` template
 
 We've used these commands for _building_. They assume the existence of a `stack.yml` file.
