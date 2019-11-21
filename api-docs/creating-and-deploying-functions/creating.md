@@ -81,7 +81,7 @@ In your terminal:
 3. Choose a name and create a new function with: `faas new --lang python-geospatial <function-name>`
 4. Check the template builds with `faas build -f <function-name>`
 
-This creates a basic function. Check the [editing `stack.yml` page](https://github.com/disarm-platform/docs/tree/29b1a875dfd97b9332cd1eae0ce2ea4999205f52/api-docs/creating-and-deploying-functions/api-docs/creating-and-deploying-functions/editing-stack-yml.md) for instructions on editing this empty function to make it deployable on OpenFaas.
+This creates a basic function. Check [editing `stack.yml`](editing-stack-yml.md) for instructions on editing this empty function to make it deployable on OpenFaas.
 
 The folders and files created using our `python-geospatial` template will be something like:
 
