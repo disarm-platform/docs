@@ -1,6 +1,6 @@
-# Creating a function in Python
+# Creating and packaging an algorithm in Python
 
-(Based on the R version, which is better)
+\(Based on the R version, which is better\)
 
 To create a function that you can deploy as an API using the DiSARM resources, the most important thing to understand is how to get data in and out of your function.
 
@@ -23,10 +23,9 @@ def handler(params):
   # run function and catch result
   result = params['meters'] * 3.28
   return result
-
 ```
 
-Notice that in the above example, we are just returning the vector of values in feet. If you want to name your output, or if we were returning multiple objects, these should be packaged in a named list. For example, if we wanted the function to return both the feet and yards:
+Notice that in the above example, we are just returning the value in feet. If you want to name your output, or if we were returning multiple objects, these should be packaged in a named `dict`. For example, if we wanted the function to return both the feet and yards:
 
 ```python
 def handler(params):
@@ -42,7 +41,7 @@ This will return the following JSON to the user
 
 ```javascript
 {
-    "feet": 820.0,,
+    "feet": 820.0,
     "yards": 2460
 }
 ```
@@ -50,15 +49,10 @@ This will return the following JSON to the user
 Now we have the core function written, we need to write some tests to handle erroneous inputs and to return useful error messages to the user. These tests should live in the `preprocess_params.py` file. Here is an example of two tests and the corresponding error messages. You may be able to think of many more
 
 ```python
-function(params) {
-  # Individual check for each parameter
-  if (is.null(params[['meters']])) {
-    stop('Missing `meters` parameter')
-  }
-  if (!is.numeric(params[['meters']])) {
-    stop('Parameter `number` is not numeric')
-  }
-}
+def preprocess(params: dict):
+  if params['meters'] is None:
+       raise ValueError('Must provide a value for "meters"')
+ 
 ```
 
 If your function requires any packages, you can include these in the `install.packages.r` file. In this case, we don't need any functions beyond those available in base R so we can leave this file untouched.
