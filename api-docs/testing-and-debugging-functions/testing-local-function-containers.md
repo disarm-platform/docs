@@ -11,7 +11,7 @@ Instructions for testing the _container_, not the code. The container includes a
 3. In the first terminal, start the container running:
    * from the previous step, check the built container name \(something like `Image: disarm/fn-covariate-extractor:0.0.2 built.` - take the `disarm/fn-covariate-extractor:0.0.2` part\)
    * Run this command: `docker run -it -p 8080:8080 disarm/fn-covariate-extractor:0.0.2`. This will get it running locally on port 8080 \(you might need to change the second 8080 if there's a conflict on your machine\).
-   * Should print a few lines and then wait. You can kill it by pressing CTRL+C in this terminal 
+   * Should print a few lines and then wait. You can kill it by pressing CTRL+C in this terminal
 
      ```bash
        ❯ docker run -it -p 8080:8080 disarm/fn-covariate-extractor:0.0.2

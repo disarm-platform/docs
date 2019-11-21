@@ -2,7 +2,7 @@
 
 Two parts needed: 1. Edit the `stack.yml` file, to change the `image` entry:
 
-* from: 
+* from:
 
   ```text
   provider:
@@ -30,5 +30,5 @@ Two parts needed: 1. Edit the `stack.yml` file, to change the `image` entry:
 
   1. Create a matching tag in Git \(using SourceTree, Fork, etc - or via command line `git tag v0.0.4`\). This tag needs to be created _after_ you've committed the version 'bump' in step 1.
 
-1. Then remember to push \(including the tags!\)    
+* Then remember to push \(including the tags!\)
 
