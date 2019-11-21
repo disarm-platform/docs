@@ -4,11 +4,13 @@ Every function created for OpenFaas requires a configuration file in `yaml` form
 
 ## Required edits
 
-There are 2 places to edit:
+There are 3 places to edit:
 
 1. `gateway`: 
    * edit to be the URL for the OpenFaas instance
-2. `image`: 
+2. `handler`:
+   * edit to be `./function`, this is required for our template code to work
+3. `image`: 
    * need to prefix with a Docker Hub org or repo you can write to
    * optionally change the `latest` tag to a specific version number
 
@@ -21,7 +23,8 @@ For example, create a new function with `faas new --lang python new-function` \(
 1. Rename `new-function.yml` to `stack.yml`
 2. Edit `stack.yml`:
    1. `gateway`: change to `https://faas.srv.disarm.io`
-   2. `image`: add Docker Hub org/username `new-function:latest` -&gt; `disarm/new-function:latest`
+   2. `handler`: change to `./function`
+   3. `image`: add Docker Hub org/username `new-function:latest` -&gt; `disarm/new-function:latest`
 
 Your `stack.yml` should then look like
 
@@ -33,7 +36,7 @@ version: 1.0
  functions:
    new-function:
      lang: python
-     handler: ./new-function
+     handler: ./function
      image: disarm/new-function:0.0.1 # Changed from `new-function:latest`
 ```
 
