@@ -76,7 +76,7 @@ The Side Bar will display the following information:
 * Help option
 * Return to launcher
 
-![](../../.gitbook/assets/sidebar.png)
+![](../../.gitbook/assets/sidebar%20%281%29.png)
 
 Close the Sidebar by clicking anywhere outside of the Side
 

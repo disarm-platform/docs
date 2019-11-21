@@ -19,7 +19,7 @@ Multiple requests to the same function at the same time are supposed to trigger 
 * There's a default timeout of 5 minutes set on the gateway itself: this is currently the maximum time any one function should be able to run for. 
 * Each function might also have its own set of timeouts \(for reading from client, for writing back to client, and for total execution time\).
 
-  If the function exceeds these timeouts, you'll get 
+  If the function exceeds these timeouts, you'll get
 
 ### Responses
 
