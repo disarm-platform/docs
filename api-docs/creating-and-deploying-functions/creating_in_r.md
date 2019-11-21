@@ -4,7 +4,7 @@ If you are not familiar with the basics of creating a function in R, you should 
 
 ## Getting data in/out of your function
 
-When working in R, you can use a range of possible data formats and classes, including vectors, data frames, `sf` objects etc. etc. With deployed functions, you are much more restricted. OpenFaas uses something called _standard in_ and _standard out_. This essentially means a continuous string of values/characters. Fortunately, JSON can be streamed as standard in/out. If you are not familiar with JSON, it is essentially a text format, which can contain some structure.
+When working in R, you can use a range of possible data formats and classes, including vectors, data frames, `sf` objects etc. etc. With data coming in and out of deployed functions, you are more restricted. OpenFaas uses something called _standard in_ and _standard out_. This essentially means a continuous string of values/characters. Fortunately, JSON can be streamed as standard in/out. If you are not familiar with JSON, it is essentially a text format, which can contain some structure.
 
 For example, let's imagine you are writing a function which allows the user to pass in a vector of values in meters and get back the elevation in feet. The user would therefore have to pass in a JSON object with these values and would receive back a JSON object with the answers. You might therefore specify that the user pass in a JSON object with the field `meters` containing the values they want to convert. An example JSON might look like this:
 

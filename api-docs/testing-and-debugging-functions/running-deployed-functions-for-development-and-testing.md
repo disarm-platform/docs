@@ -88,7 +88,7 @@ JSON is a format for representing/saving/transmitting data. Writing valid JSON i
 ### Watch out for
 
 * **types**: a string of `"1"` is not the same as the numeric value of `1`.
-* **punctuation**: the double-quote marks, square-braces, curly-braces and commas are ALL important
+* **punctuation**: the double-quote marks, square-braces, curly-braces and commas are ALL important!
 * **it's 'all-or-nothing'**: a final missing brace can invalidate the whole JSON, and make it hard for the linter to point you in the right direction
 
 ### Tools
