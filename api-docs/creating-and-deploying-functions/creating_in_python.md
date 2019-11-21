@@ -2,7 +2,7 @@
 
 ## Getting data in and out of your function
 
-When working in Python, you can use a range of possible data formats and classes, including vectors, data frames, `dict` etc. etc. The data coming in and out of the function needs to serialisable to JSON. \(See the [basics of writing containerised functions](basics-of-writing-a-function.md) for more info\)
+When working in Python, you can use a range of possible data formats and classes, including vectors, data frames, `dict` etc. etc. The data coming in and out of the function needs to be serialisable to JSON. \(See the [basics of writing containerised functions](basics-of-writing-a-function.md) for more info\)
 
 For example, let's imagine you are writing a function which allows the user to pass in a value in meters and get back the elevation in feet. The user would therefore have to pass in a JSON object with the value and would receive back a JSON object with the answers. You might therefore specify that the user pass in a JSON object with the field `meters` containing the values they want to convert. An example JSON might look like this:
 
