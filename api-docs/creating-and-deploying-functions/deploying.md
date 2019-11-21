@@ -1,6 +1,6 @@
 # Deploying an algorithm
 
-There are two approaches, depending on whether or not a containerised version of the algorithm has already beeen built and published on Docker Hub.
+There are two approaches, depending on whether or not a containerised version of the algorithm has already been built and published on Docker Hub.
 
 Both approaches have the following prerequisites:
 
