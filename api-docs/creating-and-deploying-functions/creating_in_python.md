@@ -48,7 +48,6 @@ Now we have the core function written, we need to write some tests to handle err
 def preprocess(params: dict):
   if params['meters'] is None:
        raise ValueError('Must provide a value for "meters"')
- 
 ```
 
 If your function requires any packages, you can include these in the `requirements.txt` file, and they will be installed as the image is being built.

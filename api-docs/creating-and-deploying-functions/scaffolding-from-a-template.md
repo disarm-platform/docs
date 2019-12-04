@@ -23,18 +23,16 @@ py-new-function
 │  ├── preprocess_params.py
 │  └── requirements.txt
 └── stack.yml
-
 ```
 
 and for `r-geospatial`:
 
 ```text
-py-new-function
+r-new-function
 ├── function
 │  ├── function.R
 │  ├── install_packages.R
 │  └── preprocess_params.R
 └── stack.yml
-
 ```
 
