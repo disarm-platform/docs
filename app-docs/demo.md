@@ -45,3 +45,7 @@ There is also a [playlist](https://www.youtube.com/playlist?list=PLjdoHmpUzEOfHg
 
 The project previously provided hosted versions of the DiSARM app. These have now been retired. If you arrived here by visiting an app URL, please contact your country programme for more information, including about data backup.
 
+## Note on deployment
+
+The demo server is deployed on Google Cloud, and combines the servers for UI, API and database.
+
