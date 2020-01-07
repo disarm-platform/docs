@@ -112,7 +112,7 @@ curl -X POST https://faas.srv.disarm.io/function/longrun
 Simplest request with single parameter \(also the `echo` example above\)
 
 ```bash
-curl -X POST" "https://faas.srv.disarm.io/function/longrun" \
+curl -X POST https://faas.srv.disarm.io/function/longrun \
     -H 'Content-Type: application/json' \
     -d '{"delay_s": 0.5}'
 ```
