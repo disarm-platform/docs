@@ -54,7 +54,7 @@ We'll use the `longrun` function, which is really only for testing use, and simp
 ### Simplest request
 
 ```bash
-$ http POST https://faas.srv.disarm.io/function/longrun
+http POST https://faas.srv.disarm.io/function/longrun
 ```
 
 ### Simplest request with a single parameter
@@ -62,7 +62,7 @@ $ http POST https://faas.srv.disarm.io/function/longrun
 Adding a parameter to get it to wait only 1 second:
 
 ```bash
-$ http POST https://faas.srv.disarm.io/function/longrun \
+http POST https://faas.srv.disarm.io/function/longrun \
     'Content-Type':'application/json' \
     delay_s:=0.5
 ```
@@ -72,13 +72,13 @@ $ http POST https://faas.srv.disarm.io/function/longrun \
 If you have a valid JSON file which contains a complete request, you can send this
 
 ```bash
-$ cat req.json | http https://faas.srv.disarm.io/function/longrun
+cat req.json | http https://faas.srv.disarm.io/function/longrun
 ```
 
 ### Sending a request using `echo`
 
 ```bash
-$ echo '{"delay_s": 0.5}' | http https://faas.srv.disarm.io/function/longrun
+echo '{"delay_s": 0.5}' | http https://faas.srv.disarm.io/function/longrun
 ```
 
 ## JSON
@@ -106,13 +106,13 @@ For reference \(and these might be out-of-date or not match the examples above\)
 Simplest request:
 
 ```bash
-$ curl -X POST https://faas.srv.disarm.io/function/longrun
+curl -X POST https://faas.srv.disarm.io/function/longrun
 ```
 
 Simplest request with single parameter \(also the `echo` example above\)
 
 ```bash
-$ curl -X POST" "https://faas.srv.disarm.io/function/longrun" \
+curl -X POST" "https://faas.srv.disarm.io/function/longrun" \
     -H 'Content-Type: application/json' \
     -d '{"delay_s": 0.5}'
 ```
