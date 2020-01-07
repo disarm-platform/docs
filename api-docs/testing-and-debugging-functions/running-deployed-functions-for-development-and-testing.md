@@ -54,7 +54,7 @@ We'll use the `longrun` function, which is really only for testing use, and simp
 ### Simplest request
 
 ```bash
-http POST https://faas.srv.disarm.io/function/longrun
+http POST https://faas.srv.disarm.io/function/longrun delay_s:=1
 ```
 
 ### Simplest request with a single parameter
