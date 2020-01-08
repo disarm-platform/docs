@@ -51,12 +51,6 @@ We strongly recommend getting one of the desktop tools. They make it easiest to 
 
 We'll use the `longrun` function, which is really only for testing use, and simply starts counting for a default of 10 seconds \(configurable with a `delay_s` parameter\):
 
-### Simplest request
-
-```bash
-http POST https://faas.srv.disarm.io/function/longrun delay_s:=1
-```
-
 ### Simplest request with a single parameter
 
 Adding a parameter to get it to wait only 1 second:
@@ -102,12 +96,6 @@ JSON is a format for representing/saving/transmitting data. Writing valid JSON i
 ## Examples using `curl`
 
 For reference \(and these might be out-of-date or not match the examples above\)
-
-Simplest request:
-
-```bash
-curl -X POST https://faas.srv.disarm.io/function/longrun
-```
 
 Simplest request with single parameter \(also the `echo` example above\)
 
