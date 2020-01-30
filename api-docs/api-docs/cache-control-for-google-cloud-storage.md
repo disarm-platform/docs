@@ -1,27 +1,18 @@
 # Cache control
 
-Requests made to _Google Cloud Storage_ objects are by default _not cachaeble,_ because the metadata set on each object includes `Cache-Control: private, max-age=0`. To alter this behavior the metadata for each object has to be set to `Cache-Control= public max-age=<amount>.` To avoid needing to manually set this for every new file, a service needs to be added which is reponsible for watching any files added to `gs://ds-faas/` and sets cache headers to enable them to be cached.
+Requests made to _Google Cloud Storage_ objects are by default _not cachaeble,_ because the metadata set on each object includes `Cache-Control: private, max-age=0`. To alter this behavior the metadata for each object has to be set to `Cache-Control= public max-age=<amount>.` To avoid needing to manually set this for every new file, a service needs to be added which is reponsible for watching any files added to the bucket and sets cache headers to enable them to be cached.
 
-## Steps.
+In the below, we're using the `gs://ds-faas/`  bucket.
 
-1. Copy paths of all objects in the cloud storage by running the command:
 
-   ```text
-   gsutil ls "gs://ds-faas/**" | grep -v /$ > files
-   ```
+## Steps
 
-   this stores the file paths in a file called files.
+### 1. Automatically set cache headers for any new files added to bucket
 
-2. To alter the metadata of each of the objects in the cloud staorage run the command:
+We're going to add a Google Cloud Function, which will watch files added to bucket, and update the headers:
 
-   ```text
-   parallel --dry-run -j4 gsutil setmeta -r -h \'Cache-control:public, max-age=10000000\' :::: files
-   ```
-
-3. Add a cloud function, which will watch files added to `gs://ds-faas/`:
-   * Select edit cloud function.
-   * Select the bucket `ds-faas`.
-   * Select `inline editor` under source code.
+   * Create a new _Google Cloud Function_.
+   * Select _Cloud Storage_ trigger, and choose the bucket `ds-faas`.
    * Select the `python 3.7` as the runtime.
    * On the `main.py` tab, add the following code.
 
@@ -58,3 +49,8 @@ Requests made to _Google Cloud Storage_ objects are by default _not cachaeble,_ 
 
 * Then click `deploy` to deploy the function.
 
+
+2. Update any existing files in the bucket:
+
+    1. Copy paths of all file objects in the cloud storage by running the command: `gsutil ls "gs://ds-faas/**" | grep -v /$ > files` (ignore any ending in `/`)
+    2. Update the metadata of each: `parallel --dry-run -j4 gsutil setmeta -r -h \'Cache-control:public, max-age=10000000\' :::: files`
