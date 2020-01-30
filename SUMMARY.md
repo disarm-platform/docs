@@ -2,7 +2,7 @@
 
 * [Home](README.md)
 * [API docs](api-docs/README.md)
-  * [Algorithm specific links](api-docs/algorithm-specific-links.md)
+  * [Algorithm-specific links](api-docs/algorithm-specific-links.md)
   * [Using the API](api-docs/using-the-api/README.md)
     * [Running deployed functions in production](api-docs/using-the-api/running-deployed-functions-in-production.md)
     * [Logging, monitoring](api-docs/using-the-api/logging-monitoring.md)
@@ -26,7 +26,7 @@
     * [Testing local function containers](api-docs/testing-and-debugging-functions/testing-local-function-containers.md)
     * [Troubleshooting functions](api-docs/testing-and-debugging-functions/troubleshooting-functions.md)
     * [Running deployed functions for development and testing](api-docs/testing-and-debugging-functions/running-deployed-functions-for-development-and-testing.md)
-  * [Managing an example API infrastructure](api-docs/managing-api.md)
+  * [Managing an example API infrastructure](api-docs/managing-api/README.md)
 * [App docs](app-docs/README.md)
   * [App: Demo](app-docs/demo.md)
   * [App: Previously-hosted version](app-docs/previously-hosted.md)
