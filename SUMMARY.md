@@ -26,7 +26,7 @@
     * [Testing local function containers](api-docs/testing-and-debugging-functions/testing-local-function-containers.md)
     * [Troubleshooting functions](api-docs/testing-and-debugging-functions/troubleshooting-functions.md)
     * [Running deployed functions for development and testing](api-docs/testing-and-debugging-functions/running-deployed-functions-for-development-and-testing.md)
-  * [Managing an API infrastruction](api-docs/managing-api/README.md)
+  * [Managing an example API infrastructure](api-docs/managing-api.md)
 * [App docs](app-docs/README.md)
   * [App: Demo](app-docs/demo.md)
   * [App: Previously-hosted version](app-docs/previously-hosted.md)
