@@ -1,1 +1,0 @@
-For the time being, some notes on how we're managing the DiSARM API infrastructure. The hosted functions will be retired when the project closes, so these docs are to record what we did, some problems we encountered, and how we solved them.
