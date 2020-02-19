@@ -69,19 +69,19 @@ Build with `faas build --shrinkwrap`
 You can test the function from the command line with a `test_req.json` file
 
 ```bash
-cat test_req.json | python build/new-function/index.py
+cat test_req.json | python build/<FUNCTION_NAME>/index.py
 ```
 
 You can also just feed it raw JSON, e.g.
 
 ```bash
-echo '{"meters": 250}' | python3 build/new-function/index.py
+echo '{"meters": 250}' | python3 build/<FUNCTION_NAME>/index.py
 ```
 
 This is a good way to test the error messages, e.g.
 
 ```bash
-echo '{"meters": "two hundred"}' | python3 build/new-function/index.py
+echo '{"meters": "two hundred"}' | python3 build/<FUNCTION_NAME>/index.py
 ```
 
 For more realistic tests, you need to build and test the container. See [here](https://docs.disarm.io/api-docs/testing-and-debugging-functions/testing-local-function-containers) for instructions.

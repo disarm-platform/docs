@@ -81,19 +81,19 @@ Build with `faas build --shrinkwrap`
 You can test the function from the command line with a `test_req.json` file
 
 ```bash
-cat test_req.json | Rscript main.R
+cat test_req.json | Rscript build/<FUNCTION_NAME>/main.R
 ```
 
 You can also just feed it raw JSON, e.g.
 
 ```bash
-echo '{"meters": [250, 280, 290]}' | Rscript main.R
+echo '{"meters": [250, 280, 290]}' | Rscript build/<FUNCTION_NAME>/main.R
 ```
 
 This is a good way to test the error messages, e.g.
 
 ```bash
-echo '{"meters": ["two hundred"]}' | Rscript main.R
+echo '{"meters": ["two hundred"]}' | Rscript build/<FUNCTION_NAME>/main.R
 ```
 
 For more realistic tests, you need to build and test the container. See [here](https://docs.disarm.io/api-docs/testing-and-debugging-functions/testing-local-function-containers) for instructions.Test your function
