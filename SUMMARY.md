@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Home](README.md)
-* [New file](api/new-file.md)
+* [API](api/README.md)
+  * [New file](api/new-file.md)
 * [API docs](api-docs/README.md)
   * [Algorithm-specific links](api-docs/algorithm-specific-links.md)
   * [Using the API](api-docs/using-the-api/README.md)
