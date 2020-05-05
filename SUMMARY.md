@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Home](README.md)
-* [API docs](api-docs/README.md)
+* [Algorithm \(API\) docs](api-docs/README.md)
+  * [Why deploy an algorithm?](api-docs/why-deploy-an-algorithm.md)
   * [Algorithm-specific links](api-docs/algorithm-specific-links.md)
   * [Using the API](api-docs/using-the-api/README.md)
     * [Running deployed functions in production](api-docs/using-the-api/running-deployed-functions-in-production.md)
@@ -26,9 +27,10 @@
     * [Testing local function containers](api-docs/testing-and-debugging-functions/testing-local-function-containers.md)
     * [Troubleshooting functions](api-docs/testing-and-debugging-functions/troubleshooting-functions.md)
     * [Running deployed functions for development and testing](api-docs/testing-and-debugging-functions/running-deployed-functions-for-development-and-testing.md)
-  * [Managing an example API infrastructure](api-docs/README.md)
+  * [Managing an example API infrastructure](api-docs/api-docs/README.md)
     * [Cache control for data file storage](api-docs/api-docs/cache-control-for-google-cloud-storage.md)
-* [App docs](app-docs/README.md)
+  * [DHIS2 integration example](api-docs/dhis2-integration-example.md)
+* [App \(prototype\) docs](app-docs/README.md)
   * [App: Demo](app-docs/demo.md)
   * [App: Previously-hosted version](app-docs/previously-hosted.md)
   * [App: User manual \(v2\)](app-docs/manual/README.md)

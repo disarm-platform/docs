@@ -29,9 +29,11 @@ You'll need [Docker installed](https://runnable.com/docker/install-docker-on-mac
      ```
 2. Second a request in the **second terminal window**:
    * In another terminal send an HTTP request to `localhost:8080` e.g. 
-   ```bash
-   curl --request 'POST' 'http://localhost:8080' --max-time 60 -d @function/test_req.json
-   ```
+
+     ```bash
+     curl --request 'POST' 'http://localhost:8080' --max-time 60 -d @function/test_req.json
+     ```
+
    * This request should make the first terminal print out something like `2020/03/04 07:22:58 Forking fprocess.`
    * Assuming it doesn't timeout or crash, your second terminal should contain the successful response, while the first should contain some logging, or at least the error if it crashes.
 
