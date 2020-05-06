@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Home](README.md)
-* [Algorithm via API](api-docs/README.md)
-  * [Why deploy an algorithm?](api-docs/why-deploy-an-algorithm.md)
+* [Algorithms via API](api-docs/README.md)
+  * [Why 'deploy' an algorithm?](api-docs/why-deploy-an-algorithm.md)
   * [Algorithm-specific links](api-docs/algorithm-specific-links.md)
   * [Using the API](api-docs/using-the-api/README.md)
     * [Running deployed functions in production](api-docs/using-the-api/running-deployed-functions-in-production.md)
@@ -29,6 +29,7 @@
     * [Running deployed functions for development and testing](api-docs/testing-and-debugging-functions/running-deployed-functions-for-development-and-testing.md)
   * [Managing an example API infrastructure](api-docs/api-docs/README.md)
     * [Cache control for data file storage](api-docs/api-docs/cache-control-for-google-cloud-storage.md)
+  * [Integration](api-docs/integration.md)
   * [DHIS2 integration example](api-docs/dhis2-integration-example.md)
 * [Prototype planning and monitoring app](app-docs/README.md)
   * [App: Demo](app-docs/demo.md)

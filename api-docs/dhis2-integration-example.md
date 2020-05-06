@@ -10,3 +10,21 @@ This is fully-documented here [https://github.com/disarm-platform/dhis2-integrat
 
 ### How does it work?
 
+The integration demo is presented as a simple DHIS2 application. It is installed using the DHIS2 app manager, and available to users within the DHIS2 interface. The application extracts data from a running DHIS2 instance, posts to the DiSARM algorithm service, and updates the DHIS2 instance with the result.
+
+The integration code is run on a remote server, to avoid memory and processing constraints, and to reflect the most likely use-case. However, with small amounts of data \(e.g. hundreds of points, as with our demo data set\), this could be run within the DHIS2 application in the browser itself.
+
+The algorithm is run on DiSARM's API.
+
+The majority of the integration code is concerned with reshaping data. The code to send the data to DiSARM algorithm for processing is only a few lines.
+
+The main steps the integration code runs through are:
+
+1. Extract data from DHIS2 tables
+2. Reshape the extracted data into GeoJSON, e.g. combining `orgUnit` locations with survey values
+3. Send the data to DiSARM algorithm, wait for response
+4. Reshape the algorithm result data back into a format ready for DHIS2
+5. Post the reshaped result back into DHIS2
+
+
+
