@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Home](README.md)
-* [Algorithm \(API\) docs](api-docs/README.md)
+* [Algorithm via API](api-docs/README.md)
   * [Why deploy an algorithm?](api-docs/why-deploy-an-algorithm.md)
   * [Algorithm-specific links](api-docs/algorithm-specific-links.md)
   * [Using the API](api-docs/using-the-api/README.md)
@@ -30,7 +30,7 @@
   * [Managing an example API infrastructure](api-docs/api-docs/README.md)
     * [Cache control for data file storage](api-docs/api-docs/cache-control-for-google-cloud-storage.md)
   * [DHIS2 integration example](api-docs/dhis2-integration-example.md)
-* [App \(prototype\) docs](app-docs/README.md)
+* [Prototype planning and monitoring app](app-docs/README.md)
   * [App: Demo](app-docs/demo.md)
   * [App: Previously-hosted version](app-docs/previously-hosted.md)
   * [App: User manual \(v2\)](app-docs/manual/README.md)
