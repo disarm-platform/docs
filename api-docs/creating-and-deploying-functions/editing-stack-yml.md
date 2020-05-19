@@ -22,7 +22,7 @@ For example, create a new function with `faas new --lang python new-function` \(
 
 1. Rename `new-function.yml` to `stack.yml`
 2. Edit `stack.yml`:
-   1. `gateway`: change to `https://faas.srv.disarm.io`
+   1. `gateway`: change to `https://<OPENFAAS_GATEWAY_URL>`
    2. `handler`: change to `./function`
    3. `image`: add Docker Hub org/username `new-function:latest` -&gt; `disarm/new-function:latest`
 
@@ -32,7 +32,7 @@ Your `stack.yml` should then look like
 version: 1.0
  provider:
    name: openfaas
-   gateway: https://faas.srv.disarm.io # Changed from `http://127.0.0.1:8080
+   gateway: https://<OPENFAAS_GATEWAY_URL> # Changed from `http://127.0.0.1:8080
  functions:
    new-function:
      lang: python

@@ -53,7 +53,7 @@ If you're using a semantic versioning scheme for the code and Docker tags \(e.g.
 version: 1.0
  provider:
    name: openfaas
-   gateway: https://faas.srv.disarm.io # Changed from `http://127.0.0.1:8080
+   gateway: https://<OPENFAAS_GATEWAY_URL> # Changed from `http://127.0.0.1:8080
  functions:
    new-function:
      lang: python

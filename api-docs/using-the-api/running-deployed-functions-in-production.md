@@ -24,7 +24,7 @@ import json
 
 
 response = requests.post(
-    url="https://faas.srv.disarm.io/function/longrun",
+    url="https://<OPENFAAS_GATEWAY_URL>/function/longrun",
     headers={
         "Content-Type": "application/json; charset=utf-8",
     },
@@ -50,7 +50,7 @@ import json
 
 
 response = requests.post(
-    url="https://faas.srv.disarm.io/async-function/longrun",
+    url="https://<OPENFAAS_GATEWAY_URL>/async-function/longrun",
     headers={
         "X-Callback-Url": "https://enng15e09rp2.x.pipedream.net",
         "Content-Type": "application/json; charset=utf-8",
@@ -75,7 +75,7 @@ library(geojsonio)
 
     response <-
       httr::POST(
-        url = "https://faas.srv.disarm.io/function/longrun",
+        url = "https://<OPENFAAS_GATEWAY_URL>/function/longrun",
         body = as.json(list(delay_s = 0.5)),
         content_type_json()
       )

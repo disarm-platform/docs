@@ -45,7 +45,7 @@ library(httr)
 
 response <-
       httr::POST(
-        url = "https://faas.srv.disarm.io/function/fn-covariate-extractor",
+        url = "https://<OPENFAAS_GATEWAY_URL>/function/fn-covariate-extractor",
         body = as.json(input_data_list),
         content_type_json(),
         timeout(90)
