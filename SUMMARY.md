@@ -22,7 +22,6 @@
     * [Creating and packaging an algorithm in R](api-docs/creating-and-deploying-functions/creating_in_r.md)
     * [Creating and packaging an algorithm in Python](api-docs/creating-and-deploying-functions/creating_in_python.md)
     * [Handling data](api-docs/creating-and-deploying-functions/handling-data/README.md)
-      * [Datasets - coming](api-docs/creating-and-deploying-functions/handling-data/datasets-coming.md)
       * [Structuring JSON](api-docs/creating-and-deploying-functions/handling-data/structuring-json.md)
     * [Deploying an algorithm](api-docs/creating-and-deploying-functions/deploying.md)
     * [Versioning algos](api-docs/creating-and-deploying-functions/versioning-algos.md)

@@ -10,3 +10,9 @@ We use three main open source components in the DiSARM API infrastructure:
 
 Configuration is documented and described in the [`disarm-faas-docker`](https://github.com/disarm-platform/disarm-faas-docker) repo, in both the README and [the wiki](https://github.com/disarm-platform/disarm-faas-docker/wiki).
 
+### Dashboard
+
+We have also built a dashboard for monitoring and running the deployed functions, with instructions for installing this. [Full details in the repo](https://github.com/disarm-platform/disarm-api-dashboard/).
+
+![](../../.gitbook/assets/screenshot-2020-05-12-at-15.46.43.png)
+
