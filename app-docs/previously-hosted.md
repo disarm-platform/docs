@@ -5,6 +5,3 @@ The DiSARM project previously hosted live instances of the DiSARM app with the r
 Having served their purpose, these instances are no longer in production use and have been retired.
 
 The data has been exported and shared with relevant countries.
-
-To try a current demo of the app, check the instructions for the [demo](https://github.com/disarm-platform/docs/tree/07610a4daf12e98dc0ad088cbc8060df330bdecb/app-docs.demo.md).
-

@@ -10,8 +10,6 @@ The _API_ is the main entry point to the project's modelling and algorithms work
 
 The _app_ is a user application for the planning and monitoring of field-based campaigns.
 
-* [Demo](app-docs/demo.md)
-* [Previously hosted versions \(e.g. `<COUNTRY>.app.disarm.io`\)](app-docs/previously-hosted.md)
 * [User manual](app-docs/)
 * [Configuration editor manual](app-docs/editor-v1/)
 * [Deployment manual](app-docs/deployment.md)
