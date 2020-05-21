@@ -1,4 +1,4 @@
-# App
+# App: Demo
 
 Please note: all previous live applications and demos have been retired.
 

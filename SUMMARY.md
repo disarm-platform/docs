@@ -2,7 +2,6 @@
 
 * [Home](README.md)
 * [DiSARM API \(Algorithms via API\)](api-docs/README.md)
-  * [Availability of live algorithms API](api-docs/availability-of-live-algorithms-api.md)
   * [Why 'deploy' an algorithm?](api-docs/why-deploy-an-algorithm.md)
   * [Algorithm-specific links](api-docs/algorithm-specific-links.md)
   * [Using the algorithms API](api-docs/using-the-api/README.md)
