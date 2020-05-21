@@ -31,7 +31,7 @@
   * [Managing an example API infrastructure](api-docs/api-docs/README.md)
     * [Cache control for data file storage](api-docs/api-docs/cache-control-for-google-cloud-storage.md)
 * [DiSARM app \(Prototype planning and monitoring app\)](app-docs/README.md)
-  * [App: Demo](app-docs/demo.md)
+  * [App overview](app-docs/demo.md)
   * [App: Previously-hosted version](app-docs/previously-hosted.md)
   * [App: User manual \(v2\)](app-docs/manual/README.md)
     * [Login, download, etc](app-docs/manual/meta.md)

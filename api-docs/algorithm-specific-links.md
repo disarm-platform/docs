@@ -1,8 +1,6 @@
 # Algorithm-specific links
 
-_Please see the note on_ [_Availability of live algorithms API_]()\_\_
-
-Below is a list of algorithms and functions available via the DiSARM API. For each function, there are links to the specifications \(SPECS.md file\), which provides information on the inputs required to run each function, as well as the outputs returned by each function. For each function, we also provide a links to a simple UI to run the function and the function/UI repositories on GitHub.
+Below is a list of algorithms and functions that were created for the DiSARM API. For each function, there are links to the specifications \(SPECS.md file\), which provides information on the inputs required to run each function, as well as the outputs returned by each function. For each function, we also provide a links to a simple UI to run the function and the function/UI repositories on GitHub.
 
 If you bump into any issues on any of the functions, please log an issue on the function repository \(if you know how\) or email [hugh.sturrock@ucsf.edu](mailto:hugh.sturrock@ucsf.edu).
 
