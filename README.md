@@ -4,7 +4,7 @@ This site contains documentation on outputs from the DiSARM project, including t
 
 ## [DiSARM API \(Algorithms via API\)](api-docs/)
 
-The _API_ is the main entry point to the project's modelling and algorithms work. For more detailed documentation, and to access the headless and UI versions of the algorithms, see [here](api-docs/).
+The _API_ is the main entry point to the project's modeling and algorithms work. For more detailed documentation, and to access the headless and UI versions of the algorithms, see [here](api-docs/).
 
 ## [DiSARM app \(Prototype planning and monitoring app\)](app-docs/)
 
