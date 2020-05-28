@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Home](README.md)
-* [DiSARM API \(Algorithms via API\)](api-docs/README.md)
-  * [Why 'deploy' an algorithm?](api-docs/why-deploy-an-algorithm.md)
+* [DiSARM API \(Algorithms-as-service\)](api-docs/README.md)
+  * [Value of algorithms-as-a-service](api-docs/why-deploy-an-algorithm.md)
   * [Algorithm-specific links](api-docs/algorithm-specific-links.md)
   * [Using the algorithms API](api-docs/using-the-api/README.md)
     * [Using user interfaces to access the algorithms](api-docs/using-the-api/using-user-interfaces-to-access-the-algorithms.md)
