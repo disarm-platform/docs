@@ -56,7 +56,7 @@ We'll use the `longrun` function, which is really only for testing use, and simp
 Adding a parameter to get it to wait only 1 second:
 
 ```bash
-http POST https://faas.srv.disarm.io/function/longrun \
+http POST https://<OPENFAAS_GATEWAY_URL>/function/longrun \
     'Content-Type':'application/json' \
     delay_s:=0.5
 ```
@@ -66,13 +66,13 @@ http POST https://faas.srv.disarm.io/function/longrun \
 If you have a valid JSON file which contains a complete request, you can send this
 
 ```bash
-cat req.json | http https://faas.srv.disarm.io/function/longrun
+cat req.json | http https://<OPENFAAS_GATEWAY_URL>/function/longrun
 ```
 
 ### Sending a request using `echo`
 
 ```bash
-echo '{"delay_s": 0.5}' | http https://faas.srv.disarm.io/function/longrun
+echo '{"delay_s": 0.5}' | http https://<OPENFAAS_GATEWAY_URL>/function/longrun
 ```
 
 ## JSON
@@ -100,7 +100,7 @@ For reference \(and these might be out-of-date or not match the examples above\)
 Simplest request with single parameter \(also the `echo` example above\)
 
 ```bash
-curl -X POST https://faas.srv.disarm.io/function/longrun \
+curl -X POST https://<OPENFAAS_GATEWAY_URL>/function/longrun \
     -H 'Content-Type: application/json' \
     -d '{"delay_s": 0.5}'
 ```
@@ -108,7 +108,7 @@ curl -X POST https://faas.srv.disarm.io/function/longrun \
 Use request from a file
 
 ```bash
-curl -X POST https://faas.srv.disarm.io/function/longrun \
+curl -X POST https://<OPENFAAS_GATEWAY_URL>/function/longrun \
     --data-binary '@./req.json'
 ```
 
@@ -121,7 +121,7 @@ The OpenFaas function gateway also lets us send requests _asynchronously_. There
 Using the [Pipedream](https://github.com/disarm-platform/docs/tree/e3c626f9b35aa6fc7c5f181b246477dc542b06fe/api-docs/pipedream.com) service \(see below for alternatives\), we get `https://enkifhiljb74k.x.pipedream.net` as a URL we can use as our 'return address'. Adding that as a header, and changing the endpoint to `/async-function`, the request becomes:
 
 ```bash
-http https://faas.srv.disarm.io/async-function/longrun \
+http https://<OPENFAAS_GATEWAY_URL>/async-function/longrun \
     delay_s:=1 \
     X-Callback-Url:https://enkifhiljb74k.x.pipedream.net
 ```

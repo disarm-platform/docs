@@ -36,7 +36,7 @@ Both approaches have the following prerequisites:
 
 ### Required logins
 
-1. Login to the OpenFaas gateway with `faas login -u <GATEWAY_USER> -p <GATEWAY_PASSWORD> --gateway https://faas.srv.disarm.io`. If this doesn't work, you won't be able to stick the algorithm on the gateway.
+1. Login to the OpenFaas gateway with `faas login -u <GATEWAY_USER> -p <GATEWAY_PASSWORD> --gateway https://<OPENFAAS_GATEWAY_URL>`. If this doesn't work, you won't be able to stick the algorithm on the gateway.
 2. Login in Docker Hub with `docker login` - this lets you send the built Docker image somewhere more useful than local machine.
 
 ### Detail on deploy process

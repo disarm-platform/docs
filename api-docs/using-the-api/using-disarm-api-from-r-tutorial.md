@@ -2,7 +2,7 @@
 
 The DiSARM API uses JSON as a standard for inputs and outputs, i.e. data have to be sent to the DiSARM API as JSON and will be returned as JSON. Some functions accept URLs to JSON files. In which case, the JSON input can contain the URL.
 
-Handling JSON objects in R is most easily done using lists. As an example walkthrough, let’s use the `fn-covariate-extractor` function which allows users to pass in a GeoJSON of points, specify the required biocliatic layers, and receive back the same GeoJSON with values of those layers attached. As specified in the function [SPECS file](https://github.com/disarm-platform/fn-covariate-extractor/blob/master/SPECS.md), the function requires a JSON object with 2 fields:
+Handling JSON objects in R is most easily done using lists. As an example walkthrough, let’s use the `fn-covariate-extractor` function which allows users to pass in a GeoJSON of points, specify the required bioclimatic layers, and receive back the same GeoJSON with values of those layers attached. As specified in the function [SPECS file](https://github.com/disarm-platform/fn-covariate-extractor/blob/master/SPECS.md), the function requires a JSON object with 2 fields:
 
 * `points` {GeoJSON Points FeatureCollection} Points at which to
 
@@ -45,7 +45,7 @@ library(httr)
 
 response <-
       httr::POST(
-        url = "https://faas.srv.disarm.io/function/fn-covariate-extractor",
+        url = "https://<OPENFAAS_GATEWAY_URL>/function/fn-covariate-extractor",
         body = as.json(input_data_list),
         content_type_json(),
         timeout(90)

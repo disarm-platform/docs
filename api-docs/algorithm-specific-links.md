@@ -1,12 +1,12 @@
-# Algorithm specific links
+# Algorithm-specific links
 
-Below is a list of algorithms and functions available via the DiSARM API. For each function, there are links to the specifications \(SPECS.md file\), which provides information on the inputs required to run each function, as well as the outputs returned by each function. For each function, we also provide a links to a simple UI to run the function and the function/UI repositories on GitHub.
+Below is a list of algorithms and functions that were created for the DiSARM API. For each function, there are links to the specifications \(`SPECS.md` file\), which provides information on the inputs required to run each function, as well as the outputs returned by each function. For each function, we also provide a link to a simple UI to run the function as well as links to the function/UI repositories on GitHub.
 
 If you bump into any issues on any of the functions, please log an issue on the function repository \(if you know how\) or email [hugh.sturrock@ucsf.edu](mailto:hugh.sturrock@ucsf.edu).
 
 ## Buildings Clusterer
 
-This algorithm clusters buildings into groups. The user can specify the minimum and maximum number of builidngs per cluster, as well as the maximum distance between any two buildings in a cluster. It is also possible to ensure that no clusters intersect lines \(e.g. roads, rivers or admin boundaries\).
+This algorithm clusters buildings into groups. The user can specify the minimum and maximum number of buildings per cluster, as well as the maximum distance between any two buildings in a cluster. It is also possible to ensure that no clusters intersect lines \(e.g. roads, rivers or admin boundaries\).
 
 [Specs](https://github.com/disarm-platform/fn-dbscan-clusterer/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-dbscan-clusterer) \| [Algorithm Repo](https://github.com/disarm-platform/fn-dbscan-clusterer) \| [UI Repo](https://github.com/disarm-platform/ui-dbscan-clusterer)
 
