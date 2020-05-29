@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Home](README.md)
-* [DiSARM API \(Algorithms via API\)](api-docs/README.md)
-  * [Why 'deploy' an algorithm?](api-docs/why-deploy-an-algorithm.md)
+* [DiSARM API \(Algorithms-as-service\)](api-docs/README.md)
+  * [Value of algorithms-as-a-service](api-docs/why-deploy-an-algorithm.md)
   * [Algorithm-specific links](api-docs/algorithm-specific-links.md)
   * [Using the algorithms API](api-docs/using-the-api/README.md)
     * [Using user interfaces to access the algorithms](api-docs/using-the-api/using-user-interfaces-to-access-the-algorithms.md)
@@ -12,7 +12,6 @@
     * [DHIS2 integration example](api-docs/using-the-api/dhis2-integration-example.md)
   * [DiSARM algorithms and OpenFaas](api-docs/disarm-algorithms-and-openfaas/README.md)
     * [DiSARM API Infrastructure](api-docs/disarm-algorithms-and-openfaas/disarm-api-infrastructure.md)
-    * [Development notes](api-docs/disarm-algorithms-and-openfaas/development-notes.md)
   * [Creating and deploying functions](api-docs/creating-and-deploying-functions/README.md)
     * [Lifecycle of an algorithm](api-docs/creating-and-deploying-functions/lifecycle-of-an-algorithm.md)
     * [Scaffolding from a template](api-docs/creating-and-deploying-functions/scaffolding-from-a-template.md)
@@ -20,8 +19,7 @@
     * [Basics of writing a containerised function](api-docs/creating-and-deploying-functions/basics-of-writing-a-function.md)
     * [Creating and packaging an algorithm in R](api-docs/creating-and-deploying-functions/creating_in_r.md)
     * [Creating and packaging an algorithm in Python](api-docs/creating-and-deploying-functions/creating_in_python.md)
-    * [Handling data](api-docs/creating-and-deploying-functions/handling-data/README.md)
-      * [Structuring JSON](api-docs/creating-and-deploying-functions/handling-data/structuring-json.md)
+    * [Structuring JSON](api-docs/creating-and-deploying-functions/structuring-json.md)
     * [Deploying an algorithm](api-docs/creating-and-deploying-functions/deploying.md)
     * [Versioning algos](api-docs/creating-and-deploying-functions/versioning-algos.md)
   * [Testing and debugging functions](api-docs/testing-and-debugging-functions/README.md)
