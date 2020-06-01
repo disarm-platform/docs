@@ -4,7 +4,7 @@ From survey and routine surveillance data, through to satellite imagery and cell
 
 We believe that the provision of algorithms-as-a-service \(AaaS\) offers an opportunity to address this gap. Such an approach removes barriers to entry, allowing disease programs with limited expertise in data science to apply algorithms to their data and gain otherwise unobtainable insights. 
 
-For a further discussion of the technical and institutional considerations related to the development of AaaS for global health, see our article here.
+For a further discussion of the technical and institutional considerations related to the development of AaaS for global health, see our article here \(coming!\).
 
 
 
