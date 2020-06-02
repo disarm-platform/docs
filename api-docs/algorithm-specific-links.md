@@ -28,3 +28,8 @@ This function allows users to obtain estimated locations of settlements from Wor
 
 [Specs](https://github.com/disarm-platform/fn-village-finder/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ui-village-finder/) \| [Algorithm Repo](https://github.com/disarm-platform/fn-village-finder) \| [UI Repo](https://github.com/disarm-platform/ui-village-finder/)
 
+## Prevalence predictor
+
+This function allows users to predict prevalence of a (binomial) outcome at specific locations given georeferenced set of point prevalence data. Includes an option to obtain optimal locations of further sites to survey. 
+
+[Specs](https://github.com/disarm-platform/fn-prevalence-predictor-mgcv/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ntd-shiny-points/) \| [Algorithm Repo](https://github.com/disarm-platform/fn-prevalence-predictor-mgcv) \| [UI Repo](https://github.com/disarm-platform/ntd-shiny-points)
