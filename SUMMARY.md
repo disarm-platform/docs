@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Home](README.md)
-* [DiSARM API \(Algorithms-as-service\)](api-docs/README.md)
+* [DiSARM API \(Algorithms-as-a-service\)](api-docs/README.md)
   * [Value of algorithms-as-a-service](api-docs/why-deploy-an-algorithm.md)
   * [Algorithm-specific links](api-docs/algorithm-specific-links.md)
   * [Using the algorithms API](api-docs/using-the-api/README.md)

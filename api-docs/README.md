@@ -1,4 +1,4 @@
-# DiSARM API \(Algorithms via API\)
+# DiSARM API \(Algorithms-as-a-service\)
 
 The DiSARM project has developed a number of algorithms to support disease control efforts. Most of these algorithms have been written in a way that allows them to be deployed on servers accessible via an API. This allows them to be used via an HTTP request and therefore provides a mechanism to integrate them into user interfaces and other pipelines.
 
