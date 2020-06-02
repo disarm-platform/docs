@@ -1,22 +1,12 @@
-# API docs
+# DiSARM API \(Algorithms via API\)
 
-The API provides access to DiSARM algorithms, functions and models. Each algorithm can be accessed headless \(i.e. via http request without an interface\) or via a simple user interface \(UI\). See [Algorithm-specific docs](algorithm-specific-links.md) for a list of each algorithm available and links to the UIs and source code.
+The DiSARM project has developed a number of algorithms to support disease control efforts. Most of these algorithms have been written in a way that allows them to be deployed on servers accessible via an API. This allows them to be used via an HTTP request and therefore provides a mechanism to integrate them into user interfaces and other pipelines.
 
-## Terms
+The potential benefits of this approach are substantial, primarily by reducing the barrier to adoption of complex algorithms from requiring very specialised high-level human capital, to requiring more widely-available web-development skills. See [Why deploy an algorithm?](why-deploy-an-algorithm.md) for more.
 
-We can deploy almost any function to the OpenFaas platform, so the following terms are used interchangeably: `functions`, `algorithms`, `models`, etc.
+For the duration of the DiSARM project, we will host our deployed versions on our own servers for demonstration purposes. Each algorithm can be accessed headless \(i.e. via HTTP request without an interface\) or via a simple user interface \(UI\). See [Algorithm-specific docs](algorithm-specific-links.md) for a list of each algorithm available and links to the UIs and source code.
 
-## General instructions
+The algorithms will be taken offline once the project is complete. However, all algorithms can be easily deployed on other servers and we provide documentation on how to do this \(see [Deploying an algorithm](https://docs.disarm.io/api-docs/creating-and-deploying-functions/deploying)\).
 
-The simplest example of a synchronous request with parameters would be something like:
-
-```text
-curl --request 'POST' \
-    --data '{"delay_s":0.5}'  \
-    https://faas.srv.disarm.io/function/longrun
-```
-
-There are detailed instructions for running the functions in [development](testing-and-debugging-functions/running-deployed-functions-for-development-and-testing.md) \(e.g. using [`curl`](https://curl.haxx.se)\) and in [production](using-the-api/running-deployed-functions-in-production.md) \(e.g. from Python\).
-
-Note: [HTTPie](https://httpie.org) might be a useful alternative command line client for HTTP requests.
+If you are interested in deploying your own algorithm, refer to the [Creating and deploying functions](https://docs.disarm.io/api-docs/creating-and-deploying-functions) page which provides documentation on how to structure your function and how to use our scripts/templates to deploy to your own server. Documentation is only provided for deploying algorithms written in Python or R.
 

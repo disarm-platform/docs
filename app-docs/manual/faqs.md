@@ -14,8 +14,6 @@ You will be presented with a screen informing you "you will not lose any data, c
 
 The page shown above can also be reached by editing the URL in the address bar. You have to change it to URL-given-to-access-disarm/reset.html
 
-In other words you add /reset.html. The first character there is a forward slash\(/\). In our public demo application it would be [\[https://demo-app.disarm.io/reset.html\]{.underline}](https://demo-app.disarm.io/reset.html)
-
 You see a message saying stating "offline mode was reset successfully". Click "Restart Application" button to start using the application.
 
 ![](../../.gitbook/assets/app-image9.png)

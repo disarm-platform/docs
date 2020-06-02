@@ -19,7 +19,7 @@ Multiple requests to the same function at the same time are supposed to trigger 
 * There's a default timeout of 5 minutes set on the gateway itself: this is currently the maximum time any one function should be able to run for. 
 * Each function might also have its own set of timeouts \(for reading from client, for writing back to client, and for total execution time\).
 
-  If the function exceeds these timeouts, you'll get 
+  If the function exceeds these timeouts, you'll get
 
 ### Responses
 
@@ -51,18 +51,12 @@ We strongly recommend getting one of the desktop tools. They make it easiest to 
 
 We'll use the `longrun` function, which is really only for testing use, and simply starts counting for a default of 10 seconds \(configurable with a `delay_s` parameter\):
 
-### Simplest request
-
-```bash
-$ http POST https://faas.srv.disarm.io/function/longrun
-```
-
 ### Simplest request with a single parameter
 
 Adding a parameter to get it to wait only 1 second:
 
 ```bash
-$ http POST https://faas.srv.disarm.io/function/longrun \
+http POST https://<OPENFAAS_GATEWAY_URL>/function/longrun \
     'Content-Type':'application/json' \
     delay_s:=0.5
 ```
@@ -72,13 +66,13 @@ $ http POST https://faas.srv.disarm.io/function/longrun \
 If you have a valid JSON file which contains a complete request, you can send this
 
 ```bash
-$ cat req.json | http https://faas.srv.disarm.io/function/longrun
+cat req.json | http https://<OPENFAAS_GATEWAY_URL>/function/longrun
 ```
 
 ### Sending a request using `echo`
 
 ```bash
-$ echo '{"delay_s": 0.5}' | http https://faas.srv.disarm.io/function/longrun
+echo '{"delay_s": 0.5}' | http https://<OPENFAAS_GATEWAY_URL>/function/longrun
 ```
 
 ## JSON
@@ -88,7 +82,7 @@ JSON is a format for representing/saving/transmitting data. Writing valid JSON i
 ### Watch out for
 
 * **types**: a string of `"1"` is not the same as the numeric value of `1`.
-* **punctuation**: the double-quote marks, square-braces, curly-braces and commas are ALL important
+* **punctuation**: the double-quote marks, square-braces, curly-braces and commas are ALL important!
 * **it's 'all-or-nothing'**: a final missing brace can invalidate the whole JSON, and make it hard for the linter to point you in the right direction
 
 ### Tools
@@ -103,16 +97,10 @@ JSON is a format for representing/saving/transmitting data. Writing valid JSON i
 
 For reference \(and these might be out-of-date or not match the examples above\)
 
-Simplest request:
-
-```bash
-$ curl -X POST https://faas.srv.disarm.io/function/longrun
-```
-
 Simplest request with single parameter \(also the `echo` example above\)
 
 ```bash
-$ curl -X POST" "https://faas.srv.disarm.io/function/longrun" \
+curl -X POST https://<OPENFAAS_GATEWAY_URL>/function/longrun \
     -H 'Content-Type: application/json' \
     -d '{"delay_s": 0.5}'
 ```
@@ -120,7 +108,7 @@ $ curl -X POST" "https://faas.srv.disarm.io/function/longrun" \
 Use request from a file
 
 ```bash
-curl -X POST https://faas.srv.disarm.io/function/longrun \
+curl -X POST https://<OPENFAAS_GATEWAY_URL>/function/longrun \
     --data-binary '@./req.json'
 ```
 
@@ -133,7 +121,7 @@ The OpenFaas function gateway also lets us send requests _asynchronously_. There
 Using the [Pipedream](https://github.com/disarm-platform/docs/tree/e3c626f9b35aa6fc7c5f181b246477dc542b06fe/api-docs/pipedream.com) service \(see below for alternatives\), we get `https://enkifhiljb74k.x.pipedream.net` as a URL we can use as our 'return address'. Adding that as a header, and changing the endpoint to `/async-function`, the request becomes:
 
 ```bash
-http https://faas.srv.disarm.io/async-function/longrun \
+http https://<OPENFAAS_GATEWAY_URL>/async-function/longrun \
     delay_s:=1 \
     X-Callback-Url:https://enkifhiljb74k.x.pipedream.net
 ```

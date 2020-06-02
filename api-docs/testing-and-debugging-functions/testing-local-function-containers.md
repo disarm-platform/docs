@@ -6,12 +6,20 @@ Instructions for testing the _container_, not the code. The container includes a
 
 ## Steps
 
-1. Open two terminal windows - side-by-side would be useful.
-2. In first terminal, build the container: `faas build` from the top-level \(where `stack.yml` file exists\). You'll need [Docker installed](https://runnable.com/docker/install-docker-on-macos) locally, as well as the [`faas-cli`](https://docs.openfaas.com/cli/install/).
-3. In the first terminal, start the container running:
-   * from the previous step, check the built container name \(something like `Image: disarm/fn-covariate-extractor:0.0.2 built.` - take the `disarm/fn-covariate-extractor:0.0.2` part\)
-   * Run this command: `docker run -it -p 8080:8080 disarm/fn-covariate-extractor:0.0.2`. This will get it running locally on port 8080 \(you might need to change the second 8080 if there's a conflict on your machine\).
-   * Should print a few lines and then wait. You can kill it by pressing CTRL+C in this terminal 
+This is easiest with two terminal windows side-by-side. You will need to navigate each to the root folder \(where `stack.yml` is found\).
+
+You'll need [Docker installed](https://runnable.com/docker/install-docker-on-macos) locally, as well as the [faas-cli](https://docs.openfaas.com/cli/install/).
+
+1. Start the container in the **first terminal window**:
+   * You'll need the `image` name from `stack.yml`, something like `disarm/fn-covariate-extractor:0.0.2`
+   * Run this command, substituting the `image` name:
+
+     ```bash
+     docker run -it --rm -p 8080:8080 -e read_timeout=600 -e write_timeout=600 -e exec_timeout=600 -e combine_output=false disarm/fn-covariate-extractor:0.0.2
+     ```
+
+   * This will get it running locally on port 8080 \(you might need to change the _first_ `8080` if there's a conflict on your machine\).
+   * Should print a few lines and then wait. You can kill it by pressing CTRL+C in this terminal
 
      ```bash
        ❯ docker run -it -p 8080:8080 disarm/fn-covariate-extractor:0.0.2
@@ -19,29 +27,13 @@ Instructions for testing the _container_, not the code. The container includes a
        2019/03/04 06:54:53 Read/write timeout: 5s, 5s. Port: 8080
        2019/03/04 06:54:53 Writing lock-file to: /tmp/.lock
      ```
-4. In the second terminal, send a request
-   * In another terminal send an HTTP request to `localhost:8080` e.g. `curl --request 'POST' 'http://localhost:8080' -d --max-time 60 @fn-covariate-extractor/function/test_req.json`
-   * This request should make the first terminal print out `2019/03/04 07:22:58 Forking fprocess.`
-5. Assuming it doesn't timeout or crash, your second terminal should contain the successful response, while the first should contain some logging, or at least the error if it crashes.
-6. Make sure you've not
+2. Second a request in the **second terminal window**:
+   * In another terminal send an HTTP request to `localhost:8080` e.g. 
 
-## Editing the `Dockerfile`
+     ```bash
+     curl --request 'POST' 'http://localhost:8080' --max-time 60 -d @function/test_req.json
+     ```
 
-If the function doesn't seem to be running properly, you might need to change the environment settings in the Dockerfile. It's 🧨really important - do not commit any changes to the `Dockerfile`, that will break the deployed version or introduce hard-to-spot bugs!
-
-Add the following lines into the `Dockerfile`, towards the bottom, and the rebuild the image \(see step \#2 above\)
-
-```text
-ENV fprocess="Rscript index.R"
-
-# Add lines below
-ENV write_debug="false" # Writes out STDERR to the log
-ENV combine_output='false' # Splits out the STDERR from STDOUT - important to keep the two separated, to see exactly what gets returned to the user.
-ENV read_timeout=120 # In seconds, how long the function waits to receive input (not relevant on local machine)
-ENV write_timeout=120 # In seconds, how long the function waits to send output (not relevant on local machine)
-ENV exec_timeout=120 # In seconds, how long the function can run in total (incl waiting for input and sending output) before timing-out
-# Add lines above
-
-EXPOSE 8080
-```
+   * This request should make the first terminal print out something like `2020/03/04 07:22:58 Forking fprocess.`
+   * Assuming it doesn't timeout or crash, your second terminal should contain the successful response, while the first should contain some logging, or at least the error if it crashes.
 
