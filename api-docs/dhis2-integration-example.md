@@ -7,6 +7,7 @@ As an example use-case, we predict disease prevalence at locations from a survey
 This is fully-documented here [https://github.com/disarm-platform/dhis2-integration](https://github.com/disarm-platform/dhis2-integration), including example code and scripts. You can also watch [the overview video](https://youtu.be/osnsxEW3F2k).
 
 ![](../.gitbook/assets/screenshot-2020-05-04-at-16.44.41.png)
+Screenshot of DHIS2 showing raw (dummy) cluster level data (left) and predicted prevalence at all clusters (right) generated using the DiSARM API. 
 
 ### How does it work?
 
