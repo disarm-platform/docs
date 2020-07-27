@@ -14,3 +14,4 @@ Our templates combined with OpenFaas abstract away most of this, and you can ass
 * receive a request object / dictionary / list containing parameters
 * need to return something which can be serialised as JSON
 
+The next section will show you how you can get hold of our template code. 
