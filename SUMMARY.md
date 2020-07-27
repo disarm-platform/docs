@@ -3,7 +3,7 @@
 * [Home](README.md)
 * [DiSARM API \(Algorithms-as-a-service\)](api-docs/README.md)
   * [Value of algorithms-as-a-service](api-docs/why-deploy-an-algorithm.md)
-  * [Algorithm-specific links](api-docs/algorithm-specific-links.md)
+  * [Existing DiSARM algorithms](api-docs/algorithm-specific-links.md)
   * [Deploying an algorithm](api-docs/creating-and-deploying-functions/deploying.md)
   * [Using the algorithms API](api-docs/using-the-api/README.md)
     * [Using user interfaces to access the algorithms](api-docs/using-the-api/using-user-interfaces-to-access-the-algorithms.md)
