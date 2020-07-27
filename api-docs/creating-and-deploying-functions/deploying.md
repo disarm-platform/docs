@@ -1,6 +1,6 @@
 # Deploying an algorithm
 
-There are two approaches, depending on whether or not a containerised version of the algorithm has already been built and published on Docker Hub.
+There are two approaches, depending on whether or not a containerised version of the algorithm has already been built and published on Docker Hub. For all existing DiSARM algorithms, the relevant container is currently published on Docker Hub. Once deployed, the algorithms can be called as an API. Refer to the [Using the algorithms API](api-docs/using-the-api/README.md) section for descriptions of different ways to call and use deployed algorithms. 
 
 Both approaches have the following prerequisites:
 
