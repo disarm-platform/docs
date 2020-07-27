@@ -1,8 +1,8 @@
 # Scaffolding from a template
 
-New functions are based on templates. OpenFaas comes with some defaults e.g. for python. We've also built two templates for DiSARM, `python-geospatial` and `r-geospatial`. The instructions assume you want to use one of the DiSARM templates.
+New functions are based on templates. OpenFaas comes with some defaults e.g. for python. We've also built two templates for DiSARM, `python-geospatial` and `r-geospatial`. Both templates include a very simple function which returns `TRUE`. The instructions assume you want to use either the R or Python version of the DiSARM templates.
 
-You will need `faas-cli` and Docker installed.
+You will need [`faas-cli`](https://docs.openfaas.com/cli/install/) and [Docker](https://docs.docker.com/engine/install/) installed.
 
 In your terminal:
 
@@ -11,10 +11,10 @@ In your terminal:
 3. Choose a name and create a new function with: `faas new --lang python-geospatial <function-name>`
 4. Rename `<function-name>.yml` to `stack.yml`
 5. Rename `<function-name>` folder to `function/`
-6. Follow instructions to [edit `stack.yml`](editing-stack-yml.md)\`\`
+6. Follow instructions to [edit `stack.yml`](editing-stack-yml.md)
 7. Check the template builds with `faas build`
 
-The folders and files created using our `python-geospatial` template will be something like:
+Once you've followed the steps above, the folders and files created will look like this if using our `python-geospatial` template:
 
 ```text
 py-new-function
@@ -25,7 +25,7 @@ py-new-function
 └── stack.yml
 ```
 
-and for `r-geospatial`:
+and like this for `r-geospatial`:
 
 ```text
 r-new-function
