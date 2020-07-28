@@ -11,8 +11,47 @@ In your terminal:
 3. Choose a name and create a new function with: `faas new --lang python-geospatial <function-name>`
 4. Rename `<function-name>.yml` to `stack.yml` (makes it easier to deploy later)
 5. Rename `<function-name>` folder to `function/` (makes it easier to deploy later)
-6. Edit the `stack.yml` file. See [here](api-docs/creating-and-deploying-functions/editing-stack-yml.md) for instructions. 
-7. Check the template builds without errors with `faas build`
+6. Edit the `stack.yml` file. Every function created for OpenFaas requires a configuration file in `yaml` format. The default for a new function is to name the configuration file the same as the function name you give \(e.g. `new-function.yml`\). Naming it `stack.yml` makes it easier for the OpenFaas CLI \(`faas` commands\) to find it. To make edits to the file, you can open in any text editor.
+
+	## Required edits
+
+	There are 3 places to edit:
+
+	* `gateway`: 
+	   * edit to be the URL for the OpenFaas instance
+	* `handler`:
+	   * edit to be `./function`, this is required for our template code to work
+	* `image`: 
+	   * need to prefix with a Docker Hub org or repo you can write to
+	   * optionally change the `latest` tag to a specific version number
+
+	More information on editing the file can be found [in the official docs](https://docs.openfaas.com/reference/yaml/).
+
+	## Example of edited file
+
+	For example, create a new function with `faas new --lang python new-function` \(see [creating functions](https://github.com/disarm-platform/docs/tree/29b1a875dfd97b9332cd1eae0ce2ea4999205f52/api-docs/creating-and-deploying-functions/api-docs/creating-and-deploying-functions/creating.md)\).
+
+	* Rename `new-function.yml` to `stack.yml`
+	* Edit `stack.yml`:
+	   * `gateway`: change to `https://<OPENFAAS_GATEWAY_URL>`
+	   * `handler`: change to `./function`
+	   * `image`: add Docker Hub org/username `new-function:latest` -&gt; `disarm/new-function:latest`
+
+	Your `stack.yml` should then look like
+
+	```yaml
+	version: 1.0
+	 provider:
+	   name: openfaas
+	   gateway: https://<OPENFAAS_GATEWAY_URL> # Changed from `http://127.0.0.1:8080
+	 functions:
+	   new-function:
+	     lang: python
+	     handler: ./function
+	     image: disarm/new-function:0.0.1 # Changed from `new-function:latest`
+	```
+
+7. Once you've edited the stack.yml file, check the template builds without errors with `faas build`
 
 Once you've followed the steps above, the folders and files created will look like this if using our `python-geospatial` template:
 
