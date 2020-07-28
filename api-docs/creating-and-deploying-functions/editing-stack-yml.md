@@ -1,6 +1,6 @@
 # Editing stack.yml
 
-Every function created for OpenFaas requires a configuration file in `yaml` format. The default for a new function is to name the configuration file the same as the function name you give \(e.g. `new-function.yml`\). Naming it `stack.yml` makes it easier for the OpenFaas CLI \(`faas` commands\) to find it.
+Every function created for OpenFaas requires a configuration file in `yaml` format. The default for a new function is to name the configuration file the same as the function name you give \(e.g. `new-function.yml`\). Naming it `stack.yml` makes it easier for the OpenFaas CLI \(`faas` commands\) to find it. To make edits to the file, you can open in any text editor.
 
 ## Required edits
 
