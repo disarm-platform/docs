@@ -16,6 +16,7 @@
   * [Creating and deploying functions](api-docs/creating-and-deploying-functions/README.md)
     * [Lifecycle of an algorithm](api-docs/creating-and-deploying-functions/lifecycle-of-an-algorithm.md)
     * [Scaffolding from a template](api-docs/creating-and-deploying-functions/scaffolding-from-a-template.md)
+    * [Editing stack.yml](api-docs/creating-and-deploying-functions/editing-stack-yml.md)
     * [Basics of writing a containerised function](api-docs/creating-and-deploying-functions/basics-of-writing-a-function.md)
     * [Creating and packaging an algorithm in R](api-docs/creating-and-deploying-functions/creating_in_r.md)
     * [Creating and packaging an algorithm in Python](api-docs/creating-and-deploying-functions/creating_in_python.md)
