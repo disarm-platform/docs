@@ -63,4 +63,4 @@ r-new-function
 └── stack.yml
 ```
 
-Now you have all the files/folders ready for the next step - you simply have to insert your own algorithm and associated scripts/data and away you go! Read through the basics of writing a containerised function to better understand how to get data in/out of your algorithm.
+The python script `handler.py` and its analogue `function.R` are the scripts that contains the function. The default function in the template is very simple. This is the file you will need to edit to include your own function. The next sections walk you through how to do this. The `preprocess_params` script is where you can insert code to run checks on your incoming data before it is sent to the function. This is useful as it allows errors to be caught before calling the function itself. The `requirements.txt` and `install_packages.R` scripts should contain the libraries your function requires. If you have other scripts, such as those containing utility functions, you can include them in the `function` folder alongside these other files and source them from the highest level, e.g. `source('function/utils.R')`.

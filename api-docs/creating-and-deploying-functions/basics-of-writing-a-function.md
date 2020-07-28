@@ -1,6 +1,6 @@
 # Basics of writing a containerised function
 
-Regardless of the language and dependencies, all functions need to use the same basic approach.
+Once you've obtained the templates and made the necessary edits, you are ready to write and insert your own function. Regardless of the language and dependencies, all functions need to use the same basic approach.
 
 * They exist in a _stateless_ container - it has no memory of previous inputs, downloads, results, etc. Imagine it runs fresh, from scratch, every time. There are implications here for required data, etc. But the benefits are that you have a predictable, reproducible and scalable way to respond to requests.
 * They will receive and produce JSON, a human-readable text format for describing data.
@@ -14,4 +14,4 @@ Our templates combined with OpenFaas abstract away most of this, and you can ass
 * receive a request object / dictionary / list containing parameters
 * need to return something which can be serialised as JSON
 
-The next section will show you how you can get hold of our template code. 
+The next section will walk you through examples of how to write and package a function in either [R](api-docs/creating-and-deploying-functions/creating_in_r.md) or [Python](api-docs/creating-and-deploying-functions/creating_in_python.md). 
