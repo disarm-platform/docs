@@ -64,7 +64,9 @@ Once you've finished your model, you can test the function. A good way to do thi
 
 For a quick test of a container with few external dependencies \(or ones you're sure you've already got installed\), you can build a temporary version and pass data to it.
 
-Build with `faas build --shrinkwrap`
+Build with `faas build --shrinkwrap`. This builds a temporary container and generates a new folder in your function folder called `build` which contains all the necessary files required for deployment, including `index.py` which is the highest level script that receives data, passes to `preprocess_params.py` and then on to `handler.py`. It also catches and returns any errors to users.
+
+You can test the function from the command line with a `test_req.json` file passed into `index.py`:
 
 You can test the function from the command line with a `test_req.json` file
 
@@ -84,5 +86,5 @@ This is a good way to test the error messages, e.g.
 echo '{"meters": "two hundred"}' | python3 build/<FUNCTION_NAME>/index.py
 ```
 
-For more realistic tests, you need to build and test the container. See [here](https://docs.disarm.io/api-docs/testing-and-debugging-functions/testing-local-function-containers) for instructions.
+This allows you to test the function itself. For more realistic tests, you need to build and test the container. See [here](https://docs.disarm.io/api-docs/testing-and-debugging-functions/testing-local-function-containers) for instructions.
 
