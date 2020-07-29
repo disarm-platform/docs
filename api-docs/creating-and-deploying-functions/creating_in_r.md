@@ -48,7 +48,7 @@ This will return the following JSON to the user
 }
 ```
 
-Now we have the core function written, we need to write some tests to handle erroneous inputs and to return useful error messages to the user. These tests should live in the `preprocess_params.r` file. Here is an example of two tests and the corresponding error messages. You may be able to think of many more
+Now we have the core function written, we need to write some tests to handle erroneous inputs and to return useful error messages to the user. These tests should live in the `preprocess_params.r` file. Here is an example of two tests and the corresponding error messages. Make sure you `return(params)`. You may be able to think of many more
 
 ```r
 function(params) {
@@ -59,6 +59,7 @@ function(params) {
   if (!is.numeric(params[['meters']])) {
     stop('Parameter `number` is not numeric')
   }
+  return(params)
 }
 ```
 
