@@ -7,8 +7,9 @@ You will need [`faas-cli`](https://docs.openfaas.com/cli/install/) and [Docker](
 In your terminal:
 
 1. Create and change into a new folder
-2. Clone the templates with: `faas template pull https://github.com/disarm-platform/faas-templates.git`
-3. Choose a name and create a new function with: `faas new --lang python-geospatial <function-name>`
+2. Clone the templates with: 
+`faas template pull https://github.com/disarm-platform/faas-templates.git`
+3. Choose a name and create a new function with: `faas new --lang python-geospatial <function-name>`. Swap `python-geospatial` for `r-geospatial` if you want to write an algorithm in R. 
 4. Rename `<function-name>.yml` to `stack.yml` (makes it easier to deploy later)
 5. Rename `<function-name>` folder to `function/` (makes it easier to deploy later)
 6. Edit the `stack.yml` file. Every function created for OpenFaas requires a configuration file in `yaml` format. The default for a new function is to name the configuration file the same as the function name you give \(e.g. `new-function.yml`\). Naming it `stack.yml` makes it easier for the OpenFaas CLI \(`faas` commands\) to find it. To make edits to the file, you can open in any text editor.
