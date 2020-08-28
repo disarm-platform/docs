@@ -11,5 +11,7 @@ From the developer's perspective, the basic procedure is to:
 3. wait for the processing to complete
 4. receive the _response_, and do something with this 
 
-We describe the detail of an integration example in [DHIS2 integration example](../dhis2-integration-example.md).
+The following sections describe how to build, start and run a containerized algorithm on your local machine. It is also possible to run several containerized algorithms which requires a different approach. See the section [Managing an example API infrastructure](https://docs.disarm.io/api-docs/api-docs) for details on how the DiSARM project did this using OpenFaas.
+
+We also describe the detail of an integration example in [DHIS2 integration example](../dhis2-integration-example.md).
 
