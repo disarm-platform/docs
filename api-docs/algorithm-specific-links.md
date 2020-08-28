@@ -1,8 +1,8 @@
-# Algorithm-specific links
+# Existing DiSARM algorithms
 
 Below is a list of algorithms and functions that were created for the DiSARM API. For each function, there are links to the specifications \(`SPECS.md` file\), which provides information on the inputs required to run each function, as well as the outputs returned by each function. For each function, we also provide a link to a simple UI to run the function as well as links to the function/UI repositories on GitHub.
 
-To use these algorithms, you will need to deploy these to your own API. Jump to the section on [Deploying an algorithm](creating-and-deploying-functions/deploying.md). If you want to deploy your own function, refer to the [Creating and deploying functions](creating-and-deploying-functions/README.md) section. 
+To use these algorithms, you will need run them in their container. The simplest way to do this is on your local machine \(see running algorithms for more information\). Alternatively, you can deploy the container on a remote server and call the algorithm using an HTTP request. The section 'Managing and example infrastructure' provides an overview of the approach taken by the DiSARM project using OpenFaas. If you want to create your own containerized function, refer to the [Creating and deploying functions](creating-and-deploying-functions/) section.
 
 If you bump into any issues on any of the functions, please log an issue on the function repository \(if you know how\) or email [hugh.sturrock@ucsf.edu](mailto:hugh.sturrock@ucsf.edu).
 
@@ -32,6 +32,7 @@ This function allows users to obtain estimated locations of settlements from Wor
 
 ## Prevalence predictor
 
-This function allows users to predict prevalence of a (binomial) outcome at specific locations given georeferenced set of point prevalence data. Includes an option to obtain optimal locations of further sites to survey. 
+This function allows users to predict prevalence of a \(binomial\) outcome at specific locations given georeferenced set of point prevalence data. Includes an option to obtain optimal locations of further sites to survey.
 
 [Specs](https://github.com/disarm-platform/fn-prevalence-predictor-mgcv/blob/master/SPECS.md) \| [UI](https://disarm.shinyapps.io/ntd-shiny-points/) \| [Algorithm Repo](https://github.com/disarm-platform/fn-prevalence-predictor-mgcv) \| [UI Repo](https://github.com/disarm-platform/ntd-shiny-points)
+

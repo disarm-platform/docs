@@ -4,7 +4,7 @@ If you are not familiar with the basics of creating a function in R, you should 
 
 ## Getting data in/out of your function
 
-When working in R, you can use a range of possible data formats and classes, including vectors, data frames, `sf` objects etc. etc. With data coming in and out of deployed functions, you are more restricted. As mentioned in the [previous section](api-docs/creating-and-deploying-functions/basics-of-writing-a-function.md) OpenFaas uses something called _standard in_ and _standard out_. This essentially means a continuous string of values/characters. Fortunately, JSON can be streamed as standard in/out. If you are not familiar with JSON, it is essentially a text format, which can contain some structure.
+When working in R, you can use a range of possible data formats and classes, including vectors, data frames, `sf` objects etc. etc. With data coming in and out of deployed functions, you are more restricted. As mentioned in the [previous section](https://github.com/disarm-platform/docs/tree/3ace86f012a25fccd03d001a06441b6dd3b723a6/api-docs/creating-and-deploying-functions/api-docs/creating-and-deploying-functions/basics-of-writing-a-function.md) OpenFaas uses something called _standard in_ and _standard out_. This essentially means a continuous string of values/characters. Fortunately, JSON can be streamed as standard in/out. If you are not familiar with JSON, it is essentially a text format, which can contain some structure.
 
 For example, let's imagine you are writing a function which allows the user to pass in a vector of values in meters and get back the elevation in feet. The user would therefore have to pass in a JSON object with these values and would receive back a JSON object with the answers. You might therefore specify that the user pass in a JSON object with the field `meters` containing the values they want to convert. An example JSON might look like this:
 
@@ -14,7 +14,7 @@ For example, let's imagine you are writing a function which allows the user to p
 }
 ```
 
-This JSON will be read into your function (`function.R`) in a `list` called `params`. i.e. you will be able to access these values inside the function as `params$meters` or more specifically `params[['meters']]`. Let's open up the template R function `function.R` and make the necessary edits to return elevation in feet.
+This JSON will be read into your function \(`function.R`\) in a `list` called `params`. i.e. you will be able to access these values inside the function as `params$meters` or more specifically `params[['meters']]`. Let's open up the template R function `function.R` and make the necessary edits to return elevation in feet.
 
 ```r
 function(params) {
@@ -75,29 +75,7 @@ Once you've finished your model, you can test the function. A good way to do thi
 
 ## Test your function
 
-For a quick test of a container with few external dependencies \(or ones you're sure you've already got installed\), you can build a temporary version and pass data to it.
-
-Build with `faas build --shrinkwrap`. This builds a temporary container and generates a new folder in your function folder called `build` which contains all the necessary files required for deployment, including `main.R` which is the highest level script that receives data, passes to `preprocess_params.R` and then on to `function.R`. It also catches and returns any errors to users.
-
-You can test the function from the command line with a `test_req.json` file passed into `main.R`:
-
-```bash
-cat test_req.json | Rscript build/<FUNCTION_NAME>/main.R
-```
-
-You can also just feed it raw JSON, e.g.
-
-```bash
-echo '{"meters": [250, 280, 290]}' | Rscript build/<FUNCTION_NAME>/main.R
-```
-
-This is a good way to test the error messages, e.g.
-
-```bash
-echo '{"meters": ["two hundred"]}' | Rscript build/<FUNCTION_NAME>/main.R
-```
-
-This allows you to test the function itself. For more realistic tests, you need to build and test the container. See [here](https://docs.disarm.io/api-docs/testing-and-debugging-functions/testing-local-function-containers) for instructions.
+The best way to test your function is to test it running in the container. This then mimics the environment others will interact with when running your function. To do this, follow the steps outlined in building, starting and running containerized algorithms in the 'Running algorithms' section.
 
 ## Dealing with spatial data
 

@@ -1,22 +1,18 @@
-# Running deployed functions in production
+# Running containerized algorithms
 
-The basics of how to call the functions in a live production setting. There are more details on the requests and how to use them for [testing and development](../testing-and-debugging-functions/running-deployed-functions-for-development-and-testing.md).
+## Running using a curl request
 
-## Expect the unexpected
+Once you have a container running and listening on port 8080, you can interact with it. The simplest way to do this is using a `curl` request from the command line. To do this, you will need to open a **second terminal window** and send an HTTP request to `localhost:8080` e.g. 
 
-> Expect that any network request will fail
+* ```bash
+  curl --request 'POST' 'http://localhost:8080' --max-time 60 -d @function/test_req.json
+  ```
+* This request should make the first terminal print out something like `2020/03/04 07:22:58 Forking fprocess.`
+* Assuming it doesn't timeout or crash, your second terminal should contain the successful response, while the first should contain some logging, or at least the error if it crashes.
 
-Make sure you can handle any network failures, that you display a message to the user, etc.
+## Running using code
 
-## Sending requests
-
-You can send either _synchronous_ or _asynchronous_ requests. The first is simpler, but might fail with long-running requests. The second is more robust, but requires some extra steps to retrieve the result.
-
-## Python
-
-### Synchronous
-
-Send a request and wait for the response:
+Containerized algorithms can also be run from a script. For example, assuming you have started the container with an algorithm that requires a JSON with a single numeric field called `input_value` , in Python the code would be:
 
 ```python
 import requests
@@ -24,12 +20,12 @@ import json
 
 
 response = requests.post(
-    url="https://<OPENFAAS_GATEWAY_URL>/function/longrun",
+    url="http://localhost:8080",
     headers={
         "Content-Type": "application/json; charset=utf-8",
     },
     data=json.dumps({
-        "delay_s": 0.5
+        "input_value": 0.5
     })
 )
 print('Response HTTP Status Code: {status_code}'.format(
@@ -38,36 +34,7 @@ print('Response HTTP Response Body: {content}'.format(
   content=response.content))
 ```
 
-### Asynchronous
-
-You'll need an endpoint to receive the eventual result - this needs to be publicly available and able to receive `POST` requests.
-
-Send a request and ask for the result to be posted to `https://enng15e09rp2.x.pipedream.net`:
-
-```python
-import requests
-import json
-
-
-response = requests.post(
-    url="https://<OPENFAAS_GATEWAY_URL>/async-function/longrun",
-    headers={
-        "X-Callback-Url": "https://enng15e09rp2.x.pipedream.net",
-        "Content-Type": "application/json; charset=utf-8",
-    },
-    data=json.dumps({
-        "delay_s": 0.5
-    })
-)
-print('Response HTTP Status Code: {status_code}'.format(
-    status_code=response.status_code))
-```
-
-## R
-
-### Synchronous
-
-Send a request and wait for the response:
+Similarly, in R, the code would be:
 
 ```r
 library(httr)
@@ -75,8 +42,8 @@ library(geojsonio)
 
     response <-
       httr::POST(
-        url = "https://<OPENFAAS_GATEWAY_URL>/function/longrun",
-        body = as.json(list(delay_s = 0.5)),
+        url = "http://localhost:8080",
+        body = as.json(list(input_value = 0.5)),
         content_type_json()
       )
 
