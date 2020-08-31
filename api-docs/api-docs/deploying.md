@@ -5,7 +5,7 @@ There are two approaches, depending on whether or not a containerised version of
 Both approaches have the following prerequisites:
 
 1. [Docker](https://docs.docker.com/install/) installed and running locally
-2. An OpenFaaS gateway running at `<GATEWAY_URL>`
+2. An OpenFaaS gateway running at `<GATEWAY_URL>`. See [here](https://github.com/disarm-platform/config-faas-cluster) for details on how we set up an OpenFaas cluster. 
 3. You have logged in to the OpenFaas gateway \([see below](deploying.md#required-logins)\)
 4. `faas-cli` is installed \([docs](https://docs.openfaas.com/cli/install/)\).
 5. The function code is available in a GitHub repo.
