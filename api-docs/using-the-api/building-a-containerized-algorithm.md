@@ -1,9 +1,5 @@
 # Building a containerized algorithm
 
-Stuff about faas build. Can mention faas build shrinkwrap as a tip, but isn;t really testing container
-
-
-
 The simplest way to use a containerized algorithm, such as the existing DiSARM algorithms, is to run the container on your local machine and interact with it through port 8080. To do this you need to:  
 
 1. Make sure [docker](https://docs.docker.com/get-docker/) is installed on your machine
