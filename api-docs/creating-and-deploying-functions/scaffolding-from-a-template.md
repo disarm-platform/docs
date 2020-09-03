@@ -1,6 +1,6 @@
 # Scaffolding from a template
 
-New functions are based on templates. OpenFaas comes with some defaults e.g. for python. We've also built two templates for DiSARM, `python-geospatial` and `r-geospatial`. Both templates include a very simple function which returns `TRUE`. The instructions assume you want to use either the R or Python version of the DiSARM templates.
+New functions are based on templates. OpenFaaS comes with some defaults e.g. for python. We've also built two templates for DiSARM, `python-geospatial` and `r-geospatial`. Both templates include a very simple function which returns `TRUE`. The instructions assume you want to use either the R or Python version of the DiSARM templates.
 
 You will need [`faas-cli`](https://docs.openfaas.com/cli/install/) and [Docker](https://docs.docker.com/engine/install/) installed.
 
@@ -14,9 +14,9 @@ In your terminal:
 3. Choose a name and create a new function with: `faas new --lang python-geospatial <function-name>`. Swap `python-geospatial` for `r-geospatial` if you want to write an algorithm in R. 
 4. Rename `<function-name>.yml` to `stack.yml` \(makes it easier to deploy later\)
 5. Rename `<function-name>` folder to `function/` \(makes it easier to deploy later\)
-6. If you are planning to deploy your algorithm to OpenFaas, you will beed to edit the `stack.yml` file \(if running the container locally, you can ignore this step\). Every function created for OpenFaas requires a configuration file in `yaml` format. The default for a new function is to name the configuration file the same as the function name you give \(e.g. `new-function.yml`\). Naming it `stack.yml` makes it easier for the OpenFaas CLI \(`faas` commands\) to find it. To make edits to the file, you can open in any text editor. There are 3 places to edit:
+6. If you are planning to deploy your algorithm to OpenFaaS, you will beed to edit the `stack.yml` file \(if running the container locally, you can ignore this step\). Every function created for OpenFaaS requires a configuration file in `yaml` format. The default for a new function is to name the configuration file the same as the function name you give \(e.g. `new-function.yml`\). Naming it `stack.yml` makes it easier for the OpenFaaS CLI \(`faas` commands\) to find it. To make edits to the file, you can open in any text editor. There are 3 places to edit:
    * `gateway`: 
-     * edit to be the URL for the OpenFaas instance. The current gateway `http://127.0.0.1:8080` will....
+     * edit to be the URL for the OpenFaaS instance. The current gateway `http://127.0.0.1:8080` will....
    * `handler`:
      * edit to be `./function`, this is required for our template code to work
    * `image`:
@@ -39,7 +39,7 @@ In your terminal:
         handler: ./function
         image: <DOCKER_HUB_ORG>/new-function:0.0.1 # Changed from `new-function:latest`
      ```
-7. Once you've edited the stack.yml file, check the template builds without errors with `faas build`. This could take a few minutes if its the first time you've built. Depending on your , you should end up with a message something like
+7. Once you've edited the `stack.yml` file, check the template builds without errors with `faas build`. This could take a few minutes if its the first time you've built. Depending on your , you should end up with a message something like
 
    ```text
    Successfully built 5ba3a0a4e4ec

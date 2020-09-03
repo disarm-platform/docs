@@ -17,7 +17,7 @@
     * [Structuring JSON](api-docs/creating-and-deploying-functions/structuring-json.md)
     * [Versioning algos](api-docs/creating-and-deploying-functions/versioning-algos.md)
   * [Managing an example API infrastructure](api-docs/api-docs/README.md)
-    * [DiSARM algorithms and OpenFaas](api-docs/api-docs/disarm-algorithms-and-openfaas/README.md)
+    * [DiSARM algorithms and OpenFaaS](api-docs/api-docs/disarm-algorithms-and-openfaas/README.md)
       * [DiSARM API Infrastructure](api-docs/api-docs/disarm-algorithms-and-openfaas/disarm-api-infrastructure.md)
     * [Deploying an algorithm](api-docs/api-docs/deploying.md)
     * [Testing and debugging functions](api-docs/api-docs/testing-and-debugging-functions/README.md)

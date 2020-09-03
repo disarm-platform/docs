@@ -1,6 +1,6 @@
 # Running deployed functions in production
 
-This page provides an overview of the basics of how to call the functions in a live production setting. There are more details on the requests and how to use them for [testing and development](../testing-and-debugging-functions/running-deployed-functions-for-development-and-testing.md).
+This page provides an overview of the basics of how to call the functions in a live production setting. It assumes the functions are deployed using OpenFaaS, and are available through its gateway. There are more details on the requests and how to use them for [testing and development](../testing-and-debugging-functions/running-deployed-functions-for-development-and-testing.md).
 
 ## Expect the unexpected
 

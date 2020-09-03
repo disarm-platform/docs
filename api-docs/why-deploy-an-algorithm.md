@@ -6,3 +6,7 @@ We believe that the provision of algorithms-as-a-service \(AaaS\) offers an oppo
 
 For a further discussion of the technical and institutional considerations related to the development of AaaS for global health, see our \(draft\) article [here](https://www.dropbox.com/s/3tv197hjvzpo8t4/AaaS%20for%20global%20health_v7.docx?dl=1).
 
+#### Note on OpenFaaS
+
+The DiSARM team used an open source project called [OpenFaaS](https://www.openfaas.com/), which aims to make it simple to deploy functions to the cloud. It includes everything needed to package and deploy algorithms and functions. We found that we were able to use the [`faas-cli`](https://docs.openfaas.com/cli/install/) command-line application, along with the [watchdog](https://docs.openfaas.com/architecture/watchdog/), to package algorithms as standalone containers, which we could then run as standard Docker containers. The [documentation](https://docs.openfaas.com/) is excellent.
+

@@ -2,12 +2,10 @@
 
 ## Running using a curl request
 
-Once you have a container running and listening on port 8080, you can interact with it. The simplest way to do this is using a `curl` request from the command line. To do this, you will need to open a **second terminal window** and send an HTTP request to `localhost:8080` e.g. 
+Once you have a container running and listening on port 8080, you can interact with it. The simplest way to do this is using a `curl` request from the command line. To do this, you will need to open a **second terminal window.** 
 
-* ```bash
-  curl --request 'POST' 'http://localhost:8080' --max-time 60 -d @function/test_req.json
-  ```
-* This request should make the first terminal print out something like `2020/03/04 07:22:58 Forking fprocess.`
+* You can then send an HTTP request to `localhost:8080` e.g. `curl --request 'POST' 'http://localhost:8080' --max-time 60 -d @function/test_req.json` \(assuming you have a file `test_req.json` in a folder called `function`\)
+* This request should make the _first_ terminal print out something like `2020/03/04 07:22:58 Forking fprocess.`
 * Assuming it doesn't timeout or crash, your second terminal should contain the successful response, while the first should contain some logging, or at least the error if it crashes.
 
 ## Running using code
@@ -40,12 +38,12 @@ Similarly, in R, the code would be:
 library(httr)
 library(geojsonio)
 
-    response <-
-      httr::POST(
-        url = "http://localhost:8080",
-        body = as.json(list(input_value = 0.5)),
-        content_type_json()
-      )
+response <-
+  httr::POST(
+    url = "http://localhost:8080",
+    body = as.json(list(input_value = 0.5)),
+    content_type_json()
+  )
 
 # Get status code      
 response$status_code

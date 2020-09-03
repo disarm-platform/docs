@@ -114,7 +114,7 @@ curl -X POST https://<OPENFAAS_GATEWAY_URL>/function/longrun \
 
 ## Advanced requests \(async\)
 
-The OpenFaas function gateway also lets us send requests _asynchronously_. There are 3 differences with the _synchronous_ approach used so far: 1. The endpoint used is different: `/async-function` instead of `/function` 2. You must provide a 'return address': this is sent as an additional `X-Callback-Url` header 3. The initial request will return `202 - Accepted` response very quickly, but no further information - you'll need to check the 'return address' you provided to see if there's a response.
+The OpenFaaS function gateway also lets us send requests _asynchronously_. There are 3 differences with the _synchronous_ approach used so far: 1. The endpoint used is different: `/async-function` instead of `/function` 2. You must provide a 'return address': this is sent as an additional `X-Callback-Url` header 3. The initial request will return `202 - Accepted` response very quickly, but no further information - you'll need to check the 'return address' you provided to see if there's a response.
 
 ### Async example
 

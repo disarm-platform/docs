@@ -1,10 +1,10 @@
-# DiSARM algorithms and OpenFaas
+# DiSARM algorithms and OpenFaaS
 
-We have been developing and testing DiSARM algorithms for deployment on [OpenFaas](https://www.openfaas.com/). It is a great platform, and has sped us up considerably in steps [2](../../creating-and-deploying-functions/lifecycle-of-an-algorithm.md#2-re-write), [3](../../creating-and-deploying-functions/lifecycle-of-an-algorithm.md#3-package) and [4](../../creating-and-deploying-functions/lifecycle-of-an-algorithm.md#4-deploy) in the [lifecycle](../../creating-and-deploying-functions/lifecycle-of-an-algorithm.md). OpenFaas is not the only approach to this, but any function _built_ with OpenFaas should then be much easier to deploy.
+We have been developing and testing DiSARM algorithms for deployment on [OpenFaaS](https://www.openfaas.com/). It is a great platform, and has sped us up considerably in steps [2](../../creating-and-deploying-functions/lifecycle-of-an-algorithm.md#2-re-write), [3](../../creating-and-deploying-functions/lifecycle-of-an-algorithm.md#3-package) and [4](../../creating-and-deploying-functions/lifecycle-of-an-algorithm.md#4-deploy) in the [lifecycle](../../creating-and-deploying-functions/lifecycle-of-an-algorithm.md). OpenFaaS is not the only approach to this, but any function _built_ with OpenFaaS should then be much easier to deploy.
 
-We've used 3 parts of OpenFaas:
+We've used 3 parts of OpenFaaS:
 
-1. The OpenFaas platform itself: for hosting and running deployed functions
+1. The OpenFaaS platform itself: for hosting and running deployed functions
 2. The `watchdog` process handler: gets built into Docker images, to convert incoming HTTP requests into `STDIN` streams 
 3. The `faas-cli` tool: scaffold new functions from templates, then build and deploy \(see [below](./)\)
 

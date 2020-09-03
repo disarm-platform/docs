@@ -2,9 +2,9 @@
 
 ## Why version?
 
-If you are actively developing an algorithm, you might find you want more than one version available. Before going further, it's worth checking that a new version is really needed: versions can be useful, but they add mental overhead in both use and maintenance. Be aware that running multiple versions of an algorithm might also result in slower server performance, depending on the way the OpenFaas server is configured. It can also be confusing for users to know which version to access. When possible, aim to keep a single version of an algorithm live, and make sure that any changes you make to it are 'backwards-compatible'
+If you are actively developing an algorithm, you might find you want more than one version available. Before going further, it's worth checking that a new version is really needed: versions can be useful, but they add mental overhead in both use and maintenance. Be aware that running multiple versions of an algorithm might also result in slower server performance, depending on the way the OpenFaaS server is configured. It can also be confusing for users to know which version to access. When possible, aim to keep a single version of an algorithm live, and make sure that any changes you make to it are 'backwards-compatible'
 
-If you decide to have more than one version of an algorithm deployed at the same time, it is important to differentiate them in both the Docker image which is built and pushed to Docker Hub, _and_ also the way the function is deployed to OpenFaas, so they are accessed with different URLs.
+If you decide to have more than one version of an algorithm deployed at the same time, it is important to differentiate them in both the Docker image which is built and pushed to Docker Hub, _and_ also the way the function is deployed to OpenFaaS, so they are accessed with different URLs.
 
 ## Pick a versioning scheme
 
@@ -15,7 +15,7 @@ You can version using any approach you want: e.g. `v1`, `v2`, etc, or `0.0.1`, `
 You can always decide to make an entire new function and repository, following the instructions as if you are creating from scratch. When the changes are significant, this can be the right approach. For smaller changes, you will need to edit two things in the `stack.yml` file:
 
 1. The _tag_ of the Docker image, so it is stored remotely with a version number.
-2. The _name_ of the function as it is deployed to OpenFaas, so that multiple versions of an algorithm can be accessed through OpenFaas.
+2. The _name_ of the function as it is deployed to OpenFaaS, so that multiple versions of an algorithm can be accessed through OpenFaaS.
 
 ### Tagging the Docker image
 
@@ -43,7 +43,7 @@ Do `faas build` then `faas push` to build the image and push it onto Docker Hub 
 
 ### Changing the function name
 
-Edit the `stack.yml` file. Look for the entry under the `functions:` header: this is the name used to deploy to OpenFaas, and also what determines the URL to access the function once it is deployed.
+Edit the `stack.yml` file. Look for the entry under the `functions:` header: this is the name used to deploy to OpenFaaS, and also what determines the URL to access the function once it is deployed.
 
 To version the function this way, you just edit the name. Note that the name needs to produce a valid URL. For adding version numbers we've found that _underscores_ can be useful: for example, changing `new-function` to `new-function_v1`.
 
