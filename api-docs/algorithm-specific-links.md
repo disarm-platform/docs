@@ -1,6 +1,6 @@
 # Existing DiSARM algorithms
 
-Below is a list of algorithms and functions that were created for the DiSARM API. For each function, there are links to the specifications \(`SPECS.md` file\), which provides information on the inputs required to run each function, as well as the outputs returned by each function. For each function, we also provide a link to a simple UI to run the function as well as links to the function/UI repositories on GitHub. The UIs will be available until November 26th 2020. 
+Below is a list of algorithms and functions that were created for the DiSARM API. For each function, there are links to the specifications \(`SPECS.md` file\), which provides information on the inputs required to run each function, as well as the outputs returned by each function. For each function, we also provide a link to a simple UI to run the function as well as links to the function/UI repositories on GitHub. The UIs and deployed algorithms will be available until November 26th 2020. 
 
 To use these algorithms, you will need run them as a container. The simplest way to do this is on your local machine \(see [Running algorithms](using-the-api/) for more information\). Alternatively, you can deploy the container on a remote server and call the algorithm using an HTTP request. The section 'Managing and example infrastructure' provides an overview of the approach taken by the DiSARM project using OpenFaaS. If you want to create your own containerized function, refer to the [Creating and deploying functions](creating-and-deploying-functions/) section.
 
