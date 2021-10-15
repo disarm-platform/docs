@@ -4,7 +4,7 @@ Below is a list of algorithms and functions that were created for the DiSARM API
 
 To use these algorithms, you will need run them as a container. The simplest way to do this is on your local machine \(see [Running algorithms](using-the-api/) for more information\). Alternatively, you can deploy the container on a remote server and call the algorithm using an HTTP request. The section 'Managing and example infrastructure' provides an overview of the approach taken by the DiSARM project using OpenFaaS. If you want to create your own containerized function, refer to the [Creating and deploying functions](creating-and-deploying-functions/) section.
 
-Alternatively, hosted versions of these algorithms are available via [Locational](https://www.locational.io/docs/disarm-algorithms.html) who provide access via their API and/or algorithm running interface.
+Alternatively, hosted versions of these algorithms are available via [Locational](https://www.locational.io/docs/disarm-algorithms.html).
 
 ## Buildings Clusterer
 
